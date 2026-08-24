@@ -6,8 +6,34 @@ import type {
   Documento,
   Emenda,
   FiltrosEmenda,
+  ResumoAgrupado,
+  ResumoDashboard,
   ResultadoPaginado,
 } from "@/types";
+
+type GrupoMongo = {
+  _id: string | number | null;
+  quantidade: number;
+  valorEmCentavos: number;
+};
+
+type GrupoVereadorMongo = Omit<GrupoMongo, "_id"> & {
+  _id: ObjectId;
+};
+
+type ResumoMongo = {
+  geral: Array<{
+    totalEmendas: number;
+    valorTotalEmCentavos: number;
+    emendasAprovadas: number;
+    emendasRejeitadas: number;
+    aguardandoProtocolo: number;
+  }>;
+  porAssunto: GrupoMongo[];
+  porOrgaoExecutor: GrupoMongo[];
+  porPeriodoExecucao: GrupoMongo[];
+  porVereador: GrupoVereadorMongo[];
+};
 
 type EmendaMongo = Omit<
   Emenda,
@@ -39,6 +65,13 @@ function objectIdValido(id: string): ObjectId | null {
 
 function escaparRegex(valor: string): string {
   return valor.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function mapearGrupo(grupos: GrupoMongo[]): ResumoAgrupado[] {
+  return grupos.map(({ _id, ...grupo }) => ({
+    nome: _id === null || _id === "" ? "Não informado" : String(_id),
+    ...grupo,
+  }));
 }
 
 export class MongoEmendasRepository implements EmendasRepository {
@@ -124,6 +157,95 @@ export class MongoEmendasRepository implements EmendasRepository {
     const colecao = await this.colecao();
     const emenda = await colecao.findOne({ _id });
     return emenda ? paraDominio(emenda) : null;
+  }
+
+  async obterResumo(): Promise<ResumoDashboard> {
+    const colecao = await this.colecao();
+    const [resultado] = await colecao
+      .aggregate<ResumoMongo>([
+        {
+          $facet: {
+            geral: [
+              {
+                $group: {
+                  _id: null,
+                  totalEmendas: { $sum: 1 },
+                  valorTotalEmCentavos: { $sum: "$valorEmCentavos" },
+                  emendasAprovadas: {
+                    $sum: { $cond: [{ $eq: ["$aprovada", true] }, 1, 0] },
+                  },
+                  emendasRejeitadas: {
+                    $sum: { $cond: [{ $eq: ["$aprovada", false] }, 1, 0] },
+                  },
+                  aguardandoProtocolo: {
+                    $sum: { $cond: [{ $eq: ["$dataProtocolo", null] }, 1, 0] },
+                  },
+                },
+              },
+            ],
+            porAssunto: [
+              {
+                $group: {
+                  _id: "$assunto",
+                  quantidade: { $sum: 1 },
+                  valorEmCentavos: { $sum: "$valorEmCentavos" },
+                },
+              },
+              { $sort: { valorEmCentavos: -1 } },
+            ],
+            porOrgaoExecutor: [
+              {
+                $group: {
+                  _id: "$orgaoExecutor",
+                  quantidade: { $sum: 1 },
+                  valorEmCentavos: { $sum: "$valorEmCentavos" },
+                },
+              },
+              { $sort: { valorEmCentavos: -1 } },
+            ],
+            porPeriodoExecucao: [
+              {
+                $group: {
+                  _id: "$periodoExecucao",
+                  quantidade: { $sum: 1 },
+                  valorEmCentavos: { $sum: "$valorEmCentavos" },
+                },
+              },
+              { $sort: { _id: 1 } },
+            ],
+            porVereador: [
+              {
+                $group: {
+                  _id: "$vereadorId",
+                  quantidade: { $sum: 1 },
+                  valorEmCentavos: { $sum: "$valorEmCentavos" },
+                },
+              },
+              { $sort: { valorEmCentavos: -1 } },
+            ],
+          },
+        },
+      ])
+      .toArray();
+
+    const geral = resultado?.geral[0] ?? {
+      totalEmendas: 0,
+      valorTotalEmCentavos: 0,
+      emendasAprovadas: 0,
+      emendasRejeitadas: 0,
+      aguardandoProtocolo: 0,
+    };
+
+    return {
+      ...geral,
+      porAssunto: mapearGrupo(resultado?.porAssunto ?? []),
+      porOrgaoExecutor: mapearGrupo(resultado?.porOrgaoExecutor ?? []),
+      porPeriodoExecucao: mapearGrupo(resultado?.porPeriodoExecucao ?? []),
+      porVereador: (resultado?.porVereador ?? []).map(({ _id, ...grupo }) => ({
+        vereadorId: _id.toHexString(),
+        ...grupo,
+      })),
+    };
   }
 
   private resultadoVazio(

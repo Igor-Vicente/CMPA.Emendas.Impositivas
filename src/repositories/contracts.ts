@@ -1,6 +1,7 @@
 import type {
   Emenda,
   FiltrosEmenda,
+  ResumoDashboard,
   ResultadoPaginado,
   Vereador,
 } from "@/types";
@@ -13,4 +14,5 @@ export interface VereadoresRepository {
 export interface EmendasRepository {
   listar(filtros?: FiltrosEmenda): Promise<ResultadoPaginado<Emenda>>;
   buscarPorId(id: string): Promise<Emenda | null>;
+  obterResumo(): Promise<ResumoDashboard>;
 }

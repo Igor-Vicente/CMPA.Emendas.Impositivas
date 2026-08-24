@@ -51,6 +51,28 @@ export type ResultadoPaginado<T> = {
   totalPaginas: number;
 };
 
+export type ResumoAgrupado = {
+  nome: string;
+  quantidade: number;
+  valorEmCentavos: number;
+};
+
+export type ResumoPorVereador = Omit<ResumoAgrupado, "nome"> & {
+  vereadorId: string;
+};
+
+export type ResumoDashboard = {
+  totalEmendas: number;
+  valorTotalEmCentavos: number;
+  emendasAprovadas: number;
+  emendasRejeitadas: number;
+  aguardandoProtocolo: number;
+  porAssunto: ResumoAgrupado[];
+  porOrgaoExecutor: ResumoAgrupado[];
+  porPeriodoExecucao: ResumoAgrupado[];
+  porVereador: ResumoPorVereador[];
+};
+
 export type FiltrosEmenda = Paginacao & {
   titulo?: string;
   vereadorId?: string;
