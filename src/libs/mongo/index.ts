@@ -5,7 +5,7 @@ declare global {
 }
 
 const uri = process.env.MONGODB_URI;
-const databaseName = process.env.MONGODB_DB ?? "emendas_impositivas";
+const databaseName = process.env.MONGODB_DB ?? "camara";
 const options = {};
 
 let client: MongoClient;

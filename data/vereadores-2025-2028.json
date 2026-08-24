@@ -1,0 +1,74 @@
+[
+  {
+    "_id": { "$oid": "6a8c8c4b36fe828771931944" },
+    "nome": "Adriano Monteiro Chagas",
+    "imagemUrl": "https://sapl.pousoalto.mg.leg.br/media/sapl/public/parlamentar/157/camara_1_26DzIIV.jpg",
+    "biografiaUrl": "https://sapl.pousoalto.mg.leg.br/parlamentar/157",
+    "criadoEm": { "$date": "2026-08-24T00:00:00.000Z" },
+    "atualizadoEm": { "$date": "2026-08-24T00:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6a8c8c4b36fe828771931945" },
+    "nome": "Cláudio Ferreira dos Passos",
+    "imagemUrl": "https://sapl.pousoalto.mg.leg.br/media/sapl/public/parlamentar/152/camara_6.jpg",
+    "biografiaUrl": "https://sapl.pousoalto.mg.leg.br/parlamentar/152",
+    "criadoEm": { "$date": "2026-08-24T00:00:00.000Z" },
+    "atualizadoEm": { "$date": "2026-08-24T00:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6a8c8c4b36fe828771931946" },
+    "nome": "Cláudio José Viana",
+    "imagemUrl": "https://sapl.pousoalto.mg.leg.br/media/sapl/public/parlamentar/145/camara_3_eE1X82s.jpg",
+    "biografiaUrl": "https://sapl.pousoalto.mg.leg.br/parlamentar/145",
+    "criadoEm": { "$date": "2026-08-24T00:00:00.000Z" },
+    "atualizadoEm": { "$date": "2026-08-24T00:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6a8c8c4b36fe828771931947" },
+    "nome": "Janette Fátima Russano Mancilha Neri",
+    "imagemUrl": "https://sapl.pousoalto.mg.leg.br/media/sapl/public/parlamentar/159/vereadora_janette.jpg",
+    "biografiaUrl": "https://sapl.pousoalto.mg.leg.br/parlamentar/159",
+    "criadoEm": { "$date": "2026-08-24T00:00:00.000Z" },
+    "atualizadoEm": { "$date": "2026-08-24T00:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6a8c8c4b36fe828771931948" },
+    "nome": "José Passos Teixeira",
+    "imagemUrl": "https://sapl.pousoalto.mg.leg.br/media/sapl/public/parlamentar/2/camara_8.jpg",
+    "biografiaUrl": "https://sapl.pousoalto.mg.leg.br/parlamentar/2",
+    "criadoEm": { "$date": "2026-08-24T00:00:00.000Z" },
+    "atualizadoEm": { "$date": "2026-08-24T00:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6a8c8c4b36fe828771931949" },
+    "nome": "Luis Fernando Canela Rabelo",
+    "imagemUrl": "https://sapl.pousoalto.mg.leg.br/media/sapl/public/parlamentar/158/camara_2.jpg",
+    "biografiaUrl": "https://sapl.pousoalto.mg.leg.br/parlamentar/158",
+    "criadoEm": { "$date": "2026-08-24T00:00:00.000Z" },
+    "atualizadoEm": { "$date": "2026-08-24T00:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6a8c8c4b36fe82877193194a" },
+    "nome": "Maria Joana Pires Ribeiro",
+    "imagemUrl": "https://sapl.pousoalto.mg.leg.br/media/sapl/public/parlamentar/156/camara_7.jpg",
+    "biografiaUrl": "https://sapl.pousoalto.mg.leg.br/parlamentar/156",
+    "criadoEm": { "$date": "2026-08-24T00:00:00.000Z" },
+    "atualizadoEm": { "$date": "2026-08-24T00:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6a8c8c4b36fe82877193194b" },
+    "nome": "Paulo Sérgio da Silva",
+    "imagemUrl": "https://sapl.pousoalto.mg.leg.br/media/sapl/public/parlamentar/3/camara_5.jpg",
+    "biografiaUrl": "https://sapl.pousoalto.mg.leg.br/parlamentar/3",
+    "criadoEm": { "$date": "2026-08-24T00:00:00.000Z" },
+    "atualizadoEm": { "$date": "2026-08-24T00:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6a8c8c4b36fe82877193194c" },
+    "nome": "Wilson Arantes de Oliveira",
+    "imagemUrl": "https://sapl.pousoalto.mg.leg.br/media/sapl/public/parlamentar/151/camara_9.jpg",
+    "biografiaUrl": "https://sapl.pousoalto.mg.leg.br/parlamentar/151",
+    "criadoEm": { "$date": "2026-08-24T00:00:00.000Z" },
+    "atualizadoEm": { "$date": "2026-08-24T00:00:00.000Z" }
+  }
+]

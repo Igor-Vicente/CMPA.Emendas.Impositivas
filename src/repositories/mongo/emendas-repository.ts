@@ -3,8 +3,6 @@ import { ObjectId, type Filter, type WithId } from "mongodb";
 import { getDatabase } from "@/libs/mongo";
 import type { EmendasRepository } from "@/repositories/contracts";
 import type {
-  AtualizarEmendaInput,
-  CriarEmendaInput,
   Documento,
   Emenda,
   FiltrosEmenda,
@@ -46,7 +44,7 @@ function escaparRegex(valor: string): string {
 export class MongoEmendasRepository implements EmendasRepository {
   private async colecao() {
     const db = await getDatabase();
-    return db.collection<EmendaMongo>("emendas");
+    return db.collection<EmendaMongo>("emendas_impositivas");
   }
 
   async listar(
@@ -58,6 +56,10 @@ export class MongoEmendasRepository implements EmendasRepository {
       Math.max(1, Math.trunc(filtros.itensPorPagina ?? 20)),
     );
     const query: Filter<EmendaMongo> = {};
+
+    if (filtros.titulo) {
+      query.titulo = { $regex: escaparRegex(filtros.titulo), $options: "i" };
+    }
 
     if (filtros.vereadorId) {
       const vereadorId = objectIdValido(filtros.vereadorId);
@@ -122,61 +124,6 @@ export class MongoEmendasRepository implements EmendasRepository {
     const colecao = await this.colecao();
     const emenda = await colecao.findOne({ _id });
     return emenda ? paraDominio(emenda) : null;
-  }
-
-  async criar(dados: CriarEmendaInput): Promise<Emenda> {
-    const vereadorId = objectIdValido(dados.vereadorId);
-    if (!vereadorId) throw new Error("O ID do vereador é inválido.");
-
-    const colecao = await this.colecao();
-    const agora = new Date();
-    const emenda: EmendaMongo = {
-      ...dados,
-      vereadorId,
-      criadoEm: agora,
-      atualizadoEm: agora,
-    };
-    const resultado = await colecao.insertOne(emenda);
-    return paraDominio({ ...emenda, _id: resultado.insertedId });
-  }
-
-  async atualizar(
-    id: string,
-    dados: AtualizarEmendaInput,
-  ): Promise<Emenda | null> {
-    const _id = objectIdValido(id);
-    if (!_id) return null;
-
-    const vereadorId = dados.vereadorId
-      ? objectIdValido(dados.vereadorId)
-      : undefined;
-    if (dados.vereadorId && !vereadorId) {
-      throw new Error("O ID do vereador é inválido.");
-    }
-
-    const { vereadorId: vereadorIdOriginal, ...campos } = dados;
-    void vereadorIdOriginal;
-    const alteracoes: Partial<EmendaMongo> = {
-      ...campos,
-      ...(vereadorId ? { vereadorId } : {}),
-      atualizadoEm: new Date(),
-    };
-    const colecao = await this.colecao();
-    const emenda = await colecao.findOneAndUpdate(
-      { _id },
-      { $set: alteracoes },
-      { returnDocument: "after" },
-    );
-    return emenda ? paraDominio(emenda) : null;
-  }
-
-  async remover(id: string): Promise<boolean> {
-    const _id = objectIdValido(id);
-    if (!_id) return false;
-
-    const colecao = await this.colecao();
-    const resultado = await colecao.deleteOne({ _id });
-    return resultado.deletedCount === 1;
   }
 
   private resultadoVazio(

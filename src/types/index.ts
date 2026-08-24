@@ -17,6 +17,7 @@ export type Vereador = EntidadeBase & {
 };
 
 export type Emenda = EntidadeBase & {
+  titulo: string;
   vereadorId: string;
   valorEmCentavos: number;
   finalidade: string;
@@ -27,7 +28,7 @@ export type Emenda = EntidadeBase & {
   periodoExecucao: number;
   planoDeTrabalho: Documento[];
   pareceresJuridicos: Documento[];
-  dataProtocolo: Date;
+  dataProtocolo: Date | null;
   tramitacaoLegislativa: string;
   votacao: string;
   resultadoDeliberacao: string;
@@ -36,20 +37,6 @@ export type Emenda = EntidadeBase & {
   relatoriosExecutivo: Documento[];
   detalhesRelatorioExecutivo: string;
 };
-
-export type CriarVereadorInput = Omit<
-  Vereador,
-  "id" | "criadoEm" | "atualizadoEm"
->;
-
-export type AtualizarVereadorInput = Partial<CriarVereadorInput>;
-
-export type CriarEmendaInput = Omit<
-  Emenda,
-  "id" | "criadoEm" | "atualizadoEm"
->;
-
-export type AtualizarEmendaInput = Partial<CriarEmendaInput>;
 
 export type Paginacao = {
   pagina?: number;
@@ -65,6 +52,7 @@ export type ResultadoPaginado<T> = {
 };
 
 export type FiltrosEmenda = Paginacao & {
+  titulo?: string;
   vereadorId?: string;
   assunto?: string;
   beneficiarioFinal?: string;
