@@ -67,6 +67,7 @@ export type ResumoDashboard = {
   emendasAprovadas: number;
   emendasRejeitadas: number;
   aguardandoProtocolo: number;
+  entidadesBeneficiadas: number;
   porAssunto: ResumoAgrupado[];
   porOrgaoExecutor: ResumoAgrupado[];
   porPeriodoExecucao: ResumoAgrupado[];

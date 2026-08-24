@@ -28,6 +28,7 @@ type ResumoMongo = {
     emendasAprovadas: number;
     emendasRejeitadas: number;
     aguardandoProtocolo: number;
+    beneficiarios: string[];
   }>;
   porAssunto: GrupoMongo[];
   porOrgaoExecutor: GrupoMongo[];
@@ -180,6 +181,7 @@ export class MongoEmendasRepository implements EmendasRepository {
                   aguardandoProtocolo: {
                     $sum: { $cond: [{ $eq: ["$dataProtocolo", null] }, 1, 0] },
                   },
+                  beneficiarios: { $addToSet: "$beneficiarioFinal" },
                 },
               },
             ],
@@ -234,10 +236,16 @@ export class MongoEmendasRepository implements EmendasRepository {
       emendasAprovadas: 0,
       emendasRejeitadas: 0,
       aguardandoProtocolo: 0,
+      beneficiarios: [],
     };
 
+    const { beneficiarios, ...totais } = geral;
+
     return {
-      ...geral,
+      ...totais,
+      entidadesBeneficiadas: beneficiarios.filter(
+        (beneficiario) => beneficiario.trim() !== "",
+      ).length,
       porAssunto: mapearGrupo(resultado?.porAssunto ?? []),
       porOrgaoExecutor: mapearGrupo(resultado?.porOrgaoExecutor ?? []),
       porPeriodoExecucao: mapearGrupo(resultado?.porPeriodoExecucao ?? []),
