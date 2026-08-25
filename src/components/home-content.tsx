@@ -136,7 +136,7 @@ export function HomeContent({ resumo, emendas, vereadores }: HomeContentProps) {
                 <tbody className="divide-y divide-slate-100">
                   {emendas.map((emenda) => (
                     <tr key={emenda.id} className="transition hover:bg-slate-50/80">
-                      <td className="max-w-[320px] px-5 py-4"><p className="font-semibold text-slate-800">{emenda.titulo}</p><p className="mt-1 truncate text-xs text-slate-500">{emenda.beneficiarioFinal}</p></td>
+                      <td className="max-w-[320px] px-5 py-4"><Link href={`/emendas/${emenda.id}`} className="font-semibold text-slate-800 hover:text-[#19689b] hover:underline">{emenda.titulo}</Link><p className="mt-1 truncate text-xs text-slate-500">{emenda.beneficiarioFinal}</p></td>
                       <td className="px-5 py-4 text-sm text-slate-600">{vereadoresPorId.get(emenda.vereadorId)?.nome ?? "Não identificado"}</td>
                       <td className="px-5 py-4"><span className="rounded-full bg-[#edf5f8] px-2.5 py-1 text-xs font-medium text-[#19689b]">{emenda.assunto}</span></td>
                       <td className="px-5 py-4 text-sm text-slate-600">{formatarData(emenda.dataProtocolo)}</td>

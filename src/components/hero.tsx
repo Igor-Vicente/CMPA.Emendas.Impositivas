@@ -16,7 +16,7 @@ export function Hero() {
             Transparência legislativa
           </p>
           <h1 className="mt-4 text-4xl font-semibold tracking-[-0.04em] sm:text-5xl lg:text-6xl">
-            Emendas Parlamentares
+            Emendas Impositivas
           </h1>
           <p className="mt-5 max-w-2xl text-base leading-7 text-slate-200 sm:text-lg">
             Consulte os recursos indicados pelos vereadores e acompanhe a

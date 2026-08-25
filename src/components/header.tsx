@@ -25,9 +25,6 @@ export function Header() {
           <Link className="rounded-lg px-4 py-2 text-slate-200 transition hover:bg-white/10 hover:text-white" href="/vereadores">
             Vereadores
           </Link>
-          <Link className="rounded-lg px-4 py-2 text-slate-200 transition hover:bg-white/10 hover:text-white" href="/#sobre">
-            Sobre
-          </Link>
         </nav>
       </div>
     </header>
