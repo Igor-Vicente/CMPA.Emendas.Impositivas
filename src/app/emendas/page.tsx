@@ -17,7 +17,7 @@ export default async function EmendasPage({ searchParams }: Props) {
   const busca = primeiro(params.busca)?.trim();
   const pagina = Math.max(1, Number(primeiro(params.pagina)) || 1);
   const [resultado, vereadores] = await Promise.all([
-    emendasRepository.listar({ titulo: busca, pagina, itensPorPagina: 12 }),
+    emendasRepository.listar({ busca, pagina, itensPorPagina: 12 }),
     vereadoresRepository.listar(),
   ]);
   const vereadoresPorId = new Map(vereadores.map((item) => [item.id, item.nome]));
@@ -31,7 +31,7 @@ export default async function EmendasPage({ searchParams }: Props) {
         <p className="mt-2 text-sm text-slate-500">Consulte os registros da legislatura atual.</p>
 
         <form className="mt-7 flex max-w-2xl gap-3 rounded-2xl border border-slate-200 bg-white p-2">
-          <input name="busca" defaultValue={busca} placeholder="Buscar pelo título da emenda" className="h-11 min-w-0 flex-1 rounded-xl px-4 text-sm outline-none focus:ring-2 focus:ring-[#d5e8f1]" />
+          <input name="busca" defaultValue={busca} placeholder="Buscar por título, justificativa ou assunto" className="h-11 min-w-0 flex-1 rounded-xl px-4 text-sm outline-none focus:ring-2 focus:ring-[#d5e8f1]" />
           <button className="rounded-xl bg-[#19689b] px-5 text-sm font-semibold text-white hover:bg-[#12577f]">Buscar</button>
         </form>
 

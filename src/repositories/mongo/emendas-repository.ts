@@ -91,6 +91,15 @@ export class MongoEmendasRepository implements EmendasRepository {
     );
     const query: Filter<EmendaMongo> = {};
 
+    if (filtros.busca) {
+      const busca = { $regex: escaparRegex(filtros.busca), $options: "i" };
+      query.$or = [
+        { titulo: busca },
+        { justificativa: busca },
+        { assunto: busca },
+      ];
+    }
+
     if (filtros.titulo) {
       query.titulo = { $regex: escaparRegex(filtros.titulo), $options: "i" };
     }

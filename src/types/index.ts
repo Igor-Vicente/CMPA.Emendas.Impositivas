@@ -75,6 +75,7 @@ export type ResumoDashboard = {
 };
 
 export type FiltrosEmenda = Paginacao & {
+  busca?: string;
   titulo?: string;
   vereadorId?: string;
   assunto?: string;
