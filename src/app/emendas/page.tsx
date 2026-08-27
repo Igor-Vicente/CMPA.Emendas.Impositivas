@@ -40,7 +40,7 @@ export default async function EmendasPage({ searchParams }: Props) {
             <table className="w-full min-w-[760px] text-left">
               <thead className="bg-slate-50 text-xs font-semibold uppercase tracking-[0.1em] text-slate-500"><tr><th className="px-5 py-4">Emenda</th><th className="px-5 py-4">Vereador</th><th className="px-5 py-4">Área</th><th className="px-5 py-4">Protocolo</th><th className="px-5 py-4 text-right">Valor</th></tr></thead>
               <tbody className="divide-y divide-slate-100">
-                {resultado.itens.map((emenda) => <tr key={emenda.id} className="hover:bg-slate-50"><td className="max-w-[330px] px-5 py-4"><Link href={`/emendas/${emenda.id}`} className="font-semibold text-slate-800 hover:text-[#19689b] hover:underline">{emenda.titulo}</Link><p className="mt-1 truncate text-xs text-slate-500">{emenda.beneficiarioFinal}</p></td><td className="px-5 py-4 text-sm text-slate-600">{vereadoresPorId.get(emenda.vereadorId) ?? "Não identificado"}</td><td className="px-5 py-4 text-sm text-[#19689b]">{emenda.assunto}</td><td className="px-5 py-4 text-sm text-slate-600">{formatarData(emenda.dataProtocolo)}</td><td className="px-5 py-4 text-right text-sm font-semibold">{formatarMoeda(emenda.valorEmCentavos)}</td></tr>)}
+                {resultado.itens.map((emenda) => <tr key={emenda.id} className="hover:bg-slate-50"><td className="max-w-[330px] px-5 py-4"><Link href={`/emendas/${emenda.id}`} className="font-semibold text-slate-800 hover:text-[#19689b] hover:underline">{emenda.titulo}</Link><p className="mt-1 truncate text-xs text-slate-500">{emenda.finalidade}</p></td><td className="px-5 py-4 text-sm text-slate-600">{vereadoresPorId.get(emenda.vereadorId) ?? "Não identificado"}</td><td className="px-5 py-4 text-sm text-[#19689b]">{emenda.assunto}</td><td className="px-5 py-4 text-sm text-slate-600">{formatarData(emenda.dataProtocolo)}</td><td className="px-5 py-4 text-right text-sm font-semibold">{formatarMoeda(emenda.valorEmCentavos)}</td></tr>)}
               </tbody>
             </table>
           </div>
@@ -62,7 +62,7 @@ export default async function EmendasPage({ searchParams }: Props) {
                   {emenda.titulo}
                 </Link>
                 <p className="mt-1 text-xs leading-5 text-slate-500">
-                  {emenda.beneficiarioFinal}
+                  {emenda.finalidade}
                 </p>
                 <dl className="mt-4 grid grid-cols-2 gap-3 border-t border-slate-100 pt-3 text-xs">
                   <div className="min-w-0">
