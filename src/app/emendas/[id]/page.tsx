@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import type { ReactNode } from "react";
 
 import { Header } from "@/components/header";
 import { formatarData, formatarMoeda } from "@/lib/formatters";
@@ -32,6 +33,36 @@ function Texto({ titulo, conteudo }: { titulo: string; conteudo: string }) {
       </p>
     </section>
   );
+}
+
+function TextoComLinks({ conteudo }: { conteudo: string }) {
+  const padraoLink = /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g;
+  const partes: ReactNode[] = [];
+  let inicio = 0;
+
+  for (const correspondencia of conteudo.matchAll(padraoLink)) {
+    const indice = correspondencia.index;
+
+    if (indice > inicio) partes.push(conteudo.slice(inicio, indice));
+
+    partes.push(
+      <a
+        key={`${indice}-${correspondencia[2]}`}
+        href={correspondencia[2]}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="font-medium text-[#19689b] underline decoration-[#9cc6dc] underline-offset-2 hover:text-[#12334d]"
+      >
+        {correspondencia[1]}
+      </a>,
+    );
+
+    inicio = indice + correspondencia[0].length;
+  }
+
+  if (inicio < conteudo.length) partes.push(conteudo.slice(inicio));
+
+  return partes;
 }
 
 function Documentos({ titulo, itens }: { titulo: string; itens: Documento[] }) {
@@ -143,7 +174,13 @@ export default async function EmendaPage({ params }: Props) {
           <dl className="mt-5 grid gap-5 sm:grid-cols-2">
             <div>
               <dt className="text-xs font-semibold uppercase tracking-[0.1em] text-slate-500">Tramitação</dt>
-              <dd className="mt-2 whitespace-pre-line text-sm leading-6 text-slate-700">{emenda.tramitacaoLegislativa || "Não informada."}</dd>
+              <dd className="mt-2 whitespace-pre-line text-sm leading-6 text-slate-700">
+                {emenda.tramitacaoLegislativa ? (
+                  <TextoComLinks conteudo={emenda.tramitacaoLegislativa} />
+                ) : (
+                  "Não informada."
+                )}
+              </dd>
             </div>
             <div>
               <dt className="text-xs font-semibold uppercase tracking-[0.1em] text-slate-500">Votação</dt>
