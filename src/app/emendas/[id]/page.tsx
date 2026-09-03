@@ -4,7 +4,8 @@ import type { ReactNode } from "react";
 
 import { Header } from "@/components/header";
 import { formatarData, formatarMoeda } from "@/lib/formatters";
-import { emendasRepository, vereadoresRepository } from "@/repositories";
+import { comLegislatura } from "@/lib/legislaturas";
+import { emendasRepository, legislaturasRepository, vereadoresRepository } from "@/repositories";
 import type { Documento } from "@/types";
 
 export const dynamic = "force-dynamic";
@@ -103,14 +104,18 @@ export default async function EmendaPage({ params }: Props) {
 
   if (!emenda) notFound();
 
-  const vereador = await vereadoresRepository.buscarPorId(emenda.vereadorId);
+  const [vereador, legislatura] = await Promise.all([
+    vereadoresRepository.buscarPorId(emenda.vereadorId),
+    legislaturasRepository.buscarPorId(emenda.legislaturaId),
+  ]);
+  const slug = legislatura?.slug;
 
   return (
     <>
-      <Header />
+      <Header legislaturaSlug={slug} />
       <main className="mx-auto min-h-[70vh] max-w-[1200px] px-6 py-10 lg:px-10 lg:py-12">
         <Link
-          href="/emendas"
+          href={slug ? comLegislatura("/emendas", slug) : "/emendas"}
           className="inline-flex items-center gap-2 text-sm font-semibold text-[#19689b] hover:underline"
         >
           <span aria-hidden="true">←</span> Voltar para emendas
@@ -139,7 +144,7 @@ export default async function EmendaPage({ params }: Props) {
               <p className="text-xs uppercase tracking-[0.1em] text-slate-300">Autoria</p>
               {vereador ? (
                 <Link
-                  href={`/vereadores/${vereador.id}`}
+                  href={slug ? comLegislatura(`/vereadores/${vereador.id}`, slug) : `/vereadores/${vereador.id}`}
                   className="mt-1 inline-block font-semibold hover:underline"
                 >
                   {vereador.nome}
@@ -157,7 +162,8 @@ export default async function EmendaPage({ params }: Props) {
           </div>
         </section>
 
-        <dl className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <dl className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+          <Campo titulo="Legislatura" valor={legislatura?.titulo ?? "Não informada"} />
           <Campo titulo="Beneficiário final" valor={emenda.beneficiarioFinal} />
           <Campo titulo="Órgão executor" valor={emenda.orgaoExecutor} />
           <Campo titulo="Período de execução" valor={String(emenda.periodoExecucao)} />

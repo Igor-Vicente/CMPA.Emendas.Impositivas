@@ -3,12 +3,14 @@ import Link from "next/link";
 import type { CSSProperties } from "react";
 
 import { formatarData, formatarMoeda } from "@/lib/formatters";
-import type { Emenda, ResumoDashboard, Vereador } from "@/types";
+import { comLegislatura } from "@/lib/legislaturas";
+import type { Emenda, Legislatura, ResumoDashboard, Vereador } from "@/types";
 
 type HomeContentProps = {
   resumo: ResumoDashboard;
   emendas: Emenda[];
   vereadores: Vereador[];
+  legislatura: Legislatura;
 };
 
 const icones = {
@@ -37,7 +39,7 @@ function Indicador({ titulo, valor, detalhe, icone }: { titulo: string; valor: s
   );
 }
 
-export function HomeContent({ resumo, emendas, vereadores }: HomeContentProps) {
+export function HomeContent({ resumo, emendas, vereadores, legislatura }: HomeContentProps) {
   const vereadoresPorId = new Map(vereadores.map((vereador) => [vereador.id, vereador]));
   const outrosAssuntos = resumo.porAssunto.slice(8);
   const assuntos = outrosAssuntos.length
@@ -62,7 +64,7 @@ export function HomeContent({ resumo, emendas, vereadores }: HomeContentProps) {
         <section id="indicadores" aria-labelledby="titulo-indicadores">
           <div className="mb-6">
             <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#9a6c1d]">Visão geral</p>
-            <h2 id="titulo-indicadores" className="mt-2 text-2xl font-semibold tracking-tight text-[#12334d] sm:text-3xl">Recursos da legislatura</h2>
+            <h2 id="titulo-indicadores" className="mt-2 text-2xl font-semibold tracking-tight text-[#12334d] sm:text-3xl">Recursos da {legislatura.titulo.toLocaleLowerCase("pt-BR")}</h2>
           </div>
           <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
             <Indicador titulo="Valor total destinado" valor={formatarMoeda(resumo.valorTotalEmCentavos)} detalhe="Somatório das emendas cadastradas" icone="valor" />
@@ -127,7 +129,7 @@ export function HomeContent({ resumo, emendas, vereadores }: HomeContentProps) {
               <h2 id="titulo-emendas" className="mt-2 text-2xl font-semibold text-[#12334d]">Emendas recentes</h2>
               <p className="mt-1 text-sm text-slate-500">Últimos registros disponibilizados no portal.</p>
             </div>
-            <Link href="/emendas" className="text-sm font-semibold text-[#19689b] hover:underline">Ver todas as emendas →</Link>
+            <Link href={comLegislatura("/emendas", legislatura.slug)} className="text-sm font-semibold text-[#19689b] hover:underline">Ver todas as emendas →</Link>
           </div>
           <div className="mt-6 overflow-hidden rounded-2xl border border-slate-200 bg-white">
             <div className="overflow-x-auto">
@@ -136,7 +138,7 @@ export function HomeContent({ resumo, emendas, vereadores }: HomeContentProps) {
                 <tbody className="divide-y divide-slate-100">
                   {emendas.map((emenda) => (
                     <tr key={emenda.id} className="transition hover:bg-slate-50/80">
-                      <td className="max-w-[320px] px-5 py-4"><Link href={`/emendas/${emenda.id}`} className="font-semibold text-slate-800 hover:text-[#19689b] hover:underline">{emenda.titulo}</Link><p className="mt-1 truncate text-xs text-slate-500">{emenda.beneficiarioFinal}</p></td>
+                      <td className="max-w-[320px] px-5 py-4"><Link href={comLegislatura(`/emendas/${emenda.id}`, legislatura.slug)} className="font-semibold text-slate-800 hover:text-[#19689b] hover:underline">{emenda.titulo}</Link><p className="mt-1 truncate text-xs text-slate-500">{emenda.beneficiarioFinal}</p></td>
                       <td className="px-5 py-4 text-sm text-slate-600">{vereadoresPorId.get(emenda.vereadorId)?.nome ?? "Não identificado"}</td>
                       <td className="px-5 py-4"><span className="rounded-full bg-[#edf5f8] px-2.5 py-1 text-xs font-medium text-[#19689b]">{emenda.assunto}</span></td>
                       <td className="px-5 py-4 text-sm text-slate-600">{formatarData(emenda.dataProtocolo)}</td>
@@ -157,11 +159,11 @@ export function HomeContent({ resumo, emendas, vereadores }: HomeContentProps) {
               <h2 id="titulo-vereadores" className="mt-2 text-2xl font-semibold text-[#12334d]">Consulte por vereador</h2>
               <p className="mt-2 text-sm leading-6 text-slate-600">Veja quanto cada parlamentar indicou e consulte individualmente suas emendas.</p>
             </div>
-            <Link href="/vereadores" className="inline-flex h-11 items-center justify-center rounded-xl bg-[#19689b] px-5 text-sm font-semibold text-white transition hover:bg-[#12577f]">Ver todos os vereadores</Link>
+            <Link href={comLegislatura("/vereadores", legislatura.slug)} className="inline-flex h-11 items-center justify-center rounded-xl bg-[#19689b] px-5 text-sm font-semibold text-white transition hover:bg-[#12577f]">Ver todos os vereadores</Link>
           </div>
           <div className="mt-7 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {destaques.map((item) => (
-              <Link key={item.vereadorId} href={`/vereadores/${item.vereadorId}`} className="rounded-2xl bg-white p-5 transition hover:-translate-y-0.5 hover:shadow-md">
+              <Link key={item.vereadorId} href={comLegislatura(`/vereadores/${item.vereadorId}`, legislatura.slug)} className="rounded-2xl bg-white p-5 transition hover:-translate-y-0.5 hover:shadow-md">
                 <span className="relative flex h-14 w-14 overflow-hidden rounded-full bg-slate-200 ring-2 ring-white">
                   {item.vereador!.imagemUrl ? (
                     <Image src={item.vereador!.imagemUrl} alt={`Foto de ${item.vereador!.nome}`} fill sizes="56px" className="object-cover" />
@@ -181,7 +183,7 @@ export function HomeContent({ resumo, emendas, vereadores }: HomeContentProps) {
       <footer id="sobre" className="border-t border-slate-200 bg-white">
         <div className="mx-auto flex max-w-[1440px] flex-col justify-between gap-3 px-6 py-8 text-sm text-slate-500 sm:flex-row sm:items-center lg:px-10">
           <div><strong className="font-semibold text-[#12334d]">Câmara Municipal de Pouso Alto</strong><p className="mt-1 text-xs">Portal de transparência das emendas impositivas.</p></div>
-          <span className="text-xs">Legislatura 2025–2028</span>
+          <span className="text-xs">{legislatura.titulo}</span>
         </div>
       </footer>
     </>

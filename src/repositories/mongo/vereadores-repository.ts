@@ -2,7 +2,7 @@ import { ObjectId, type WithId } from "mongodb";
 
 import { getDatabase } from "@/libs/mongo";
 import type { VereadoresRepository } from "@/repositories/contracts";
-import type { Vereador } from "@/types";
+import type { FiltrosVereador, Vereador } from "@/types";
 
 type VereadorMongo = {
   nome: string;
@@ -33,9 +33,27 @@ export class MongoVereadoresRepository implements VereadoresRepository {
     return db.collection<VereadorMongo>("vereadores");
   }
 
-  async listar(): Promise<Vereador[]> {
+  async listar(filtros: FiltrosVereador = {}): Promise<Vereador[]> {
     const colecao = await this.colecao();
-    const vereadores = await colecao.find().sort({ nome: 1 }).toArray();
+    let vereadorIds: ObjectId[] | undefined;
+
+    if (filtros.legislaturaId) {
+      const legislaturaId = objectIdValido(filtros.legislaturaId);
+      if (!legislaturaId) return [];
+
+      const db = await getDatabase();
+      const mandatos = await db
+        .collection<{ legislaturaId: ObjectId; vereadorId: ObjectId }>("mandatos")
+        .find({ legislaturaId })
+        .project<{ vereadorId: ObjectId }>({ vereadorId: 1 })
+        .toArray();
+      vereadorIds = mandatos.map((mandato) => mandato.vereadorId);
+    }
+
+    const vereadores = await colecao
+      .find(vereadorIds ? { _id: { $in: vereadorIds } } : {})
+      .sort({ nome: 1 })
+      .toArray();
     return vereadores.map(paraDominio);
   }
 

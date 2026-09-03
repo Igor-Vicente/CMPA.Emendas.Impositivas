@@ -16,8 +16,22 @@ export type Vereador = EntidadeBase & {
   biografiaUrl?: string;
 };
 
+export type Legislatura = EntidadeBase & {
+  slug: string;
+  titulo: string;
+  anoInicio: number;
+  anoFim: number;
+  ativa: boolean;
+};
+
+export type Mandato = EntidadeBase & {
+  legislaturaId: string;
+  vereadorId: string;
+};
+
 export type Emenda = EntidadeBase & {
   titulo: string;
+  legislaturaId: string;
   vereadorId: string;
   valorEmCentavos: number;
   finalidade: string;
@@ -77,6 +91,7 @@ export type ResumoDashboard = {
 export type FiltrosEmenda = Paginacao & {
   busca?: string;
   titulo?: string;
+  legislaturaId?: string;
   vereadorId?: string;
   assunto?: string;
   beneficiarioFinal?: string;
@@ -84,4 +99,13 @@ export type FiltrosEmenda = Paginacao & {
   periodoExecucao?: number;
   aprovada?: boolean;
   ano?: number;
+};
+
+export type FiltrosVereador = {
+  legislaturaId?: string;
+};
+
+export type FiltrosResumo = {
+  legislaturaId?: string;
+  vereadorId?: string;
 };

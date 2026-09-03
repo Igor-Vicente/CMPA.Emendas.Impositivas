@@ -1,0 +1,306 @@
+[{
+  "_id": {
+    "$oid": "6a99973a1e3f076b2d15a514"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  },
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931944"
+  },
+  "criadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99973a1e3f076b2d15a515"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  },
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931945"
+  },
+  "criadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99973a1e3f076b2d15a516"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  },
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931946"
+  },
+  "criadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99973a1e3f076b2d15a517"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  },
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931947"
+  },
+  "criadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99973a1e3f076b2d15a518"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  },
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931948"
+  },
+  "criadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99973a1e3f076b2d15a519"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  },
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931949"
+  },
+  "criadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99973a1e3f076b2d15a51a"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  },
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194a"
+  },
+  "criadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99973a1e3f076b2d15a51b"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  },
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194b"
+  },
+  "criadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99973a1e3f076b2d15a51c"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  },
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194c"
+  },
+  "criadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99b07a1e3f076b2d15a5d1"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  },
+  "vereadorId": {
+    "$oid": "6a99af7e1e3f076b2d15a5c8"
+  },
+  "criadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ba5b1e3f076b2d15a5e1"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  },
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931945"
+  },
+  "criadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ba741e3f076b2d15a5e2"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  },
+  "vereadorId": {
+    "$oid": "6a99b7351e3f076b2d15a5db"
+  },
+  "criadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ba8f1e3f076b2d15a5e3"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  },
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931948"
+  },
+  "criadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ba9c1e3f076b2d15a5e4"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  },
+  "vereadorId": {
+    "$oid": "6a99b7d21e3f076b2d15a5dc"
+  },
+  "criadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99baba1e3f076b2d15a5e5"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  },
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194b"
+  },
+  "criadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99bad31e3f076b2d15a5e6"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  },
+  "vereadorId": {
+    "$oid": "6a99b8bc1e3f076b2d15a5dd"
+  },
+  "criadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99baf91e3f076b2d15a5e7"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  },
+  "vereadorId": {
+    "$oid": "6a99b9c41e3f076b2d15a5de"
+  },
+  "criadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99bb071e3f076b2d15a5e8"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  },
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194c"
+  },
+  "criadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  }
+}]

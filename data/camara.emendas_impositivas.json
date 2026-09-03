@@ -1,0 +1,2257 @@
+[{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a57c"
+  },
+  "titulo": "Emenda Impositiva 01-A",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931949"
+  },
+  "valorEmCentavos": 4148860,
+  "finalidade": "Custeio de exames complementares do PSF de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina recursos para os serviços de saúde com a intenção de agilizar a disponibilização de exames complementares à população, fortalecendo as políticas públicas municipais de gestão em saúde no âmbito da Secretaria Municipal de Saúde.",
+  "assunto": "Saúde",
+  "beneficiarioFinal": "População do Município de Pouso Alto atendida pela rede de Atenção Primária / PSF.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-05T16:40:23.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 05/11/2025, como parte da Emenda Impositiva nº 01/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a57d"
+  },
+  "titulo": "Emenda Impositiva 01-B",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931949"
+  },
+  "valorEmCentavos": 3350000,
+  "finalidade": "Aquisição de um trator cortador de grama para Secretaria de Esportes do Município de Pouso Alto/MG.",
+  "justificativa": "A presente Emenda visa aprimorar a manutenção e conservação dos campos de futebol, áreas gramadas e demais espaços esportivos do Município. A aquisição do equipamento permitirá maior agilidade e eficiência na realização dos serviços de corte e manutenção da vegetação, promovendo um campo de qualidade para os esportistas pouso-altenses.",
+  "assunto": "Esporte",
+  "beneficiarioFinal": "Atletas, esportistas e toda a população que faz uso dos espaços esportivos do Município de Pouso Alto.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-05T16:40:23.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 05/11/2025, como parte da Emenda Impositiva nº 01/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a57e"
+  },
+  "titulo": "Emenda Impositiva 01-C",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931949"
+  },
+  "valorEmCentavos": 798860,
+  "finalidade": "Repasse financeiro ao Asilo de Santana de Capivari, Pouso Alto/MG.",
+  "justificativa": "A proposta destina parcela de recursos como repasses financeiros ao Asilo do Distrito de Santana do Capivari, garantindo uma assistência mais adequada e digna à população idosa institucionalizada da entidade.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "População idosa institucionalizada atendida pelo Asilo de Santana de Capivari.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-05T16:40:23.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 05/11/2025, como parte da Emenda Impositiva nº 01/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a57f"
+  },
+  "titulo": "Emenda Impositiva 02-A",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931947"
+  },
+  "valorEmCentavos": 6148860,
+  "finalidade": "Custeio de exames e consultas complementares para a saúde do Município de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina recursos para os serviços de saúde com a intenção de agilizar a disponibilização de exames e consultas complementares à população, fortalecendo as políticas públicas municipais de gestão em saúde no âmbito da Secretaria Municipal de Saúde.",
+  "assunto": "Saúde",
+  "beneficiarioFinal": "População do Município de Pouso Alto dependente de exames e consultas pela rede municipal de saúde.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-05T17:29:53.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 05/11/2025, como parte da Emenda Impositiva nº 02/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a580"
+  },
+  "titulo": "Emenda Impositiva 02-B",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931947"
+  },
+  "valorEmCentavos": 548860,
+  "finalidade": "Aquisição e instalação de iluminação ao Monumento Santo Cruzeiro no Município de Pouso Alto/MG.",
+  "justificativa": "Objetiva a valorização paisagística, turística e cultural do município, tornando o Monumento Santo Cruzeiro visível e atrativo à população e aos visitantes.",
+  "assunto": "Turismo e Cultura",
+  "beneficiarioFinal": "População de Pouso Alto e visitantes/turistas.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-05T17:29:53.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 05/11/2025, como parte da Emenda Impositiva nº 02/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a581"
+  },
+  "titulo": "Emenda Impositiva 02-C",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931947"
+  },
+  "valorEmCentavos": 300000,
+  "finalidade": "Repasse financeiro à Associação de Pais e Amigos dos Excepcionais (APAE) do Município de Pouso Alto/MG.",
+  "justificativa": "Destinação de recursos como repasse financeiro para apoiar a APAE de Pouso Alto, importante instituição de atendimento e apoio no município.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Assistidos e atendidos pela Associação de Pais e Amigos dos Excepcionais (APAE) de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-05T17:29:53.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 05/11/2025, como parte da Emenda Impositiva nº 02/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a582"
+  },
+  "titulo": "Emenda Impositiva 02-D",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931947"
+  },
+  "valorEmCentavos": 300000,
+  "finalidade": "Repasse financeiro ao Centro de Atendimento ao Adolescente Carente (CEAAPA) de Pouso Alto/MG.",
+  "justificativa": "Repasse financeiro ao CEAAPA, instituição que atua no acompanhamento e na inserção social de adolescentes carentes no Município.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Adolescentes carentes atendidos pelo Centro de Atendimento ao Adolescente Carente (CEAAPA) de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-05T17:29:53.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 05/11/2025, como parte da Emenda Impositiva nº 02/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a583"
+  },
+  "titulo": "Emenda Impositiva 02-E",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931947"
+  },
+  "valorEmCentavos": 300000,
+  "finalidade": "Repasse financeiro ao Lar dos Velhinhos Asilo de Pouso Alto/MG.",
+  "justificativa": "Destina parcela de recursos como repasse financeiro ao Lar dos Velhinhos para garantia de uma assistência mais adequada e digna à população idosa institucionalizada.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "População idosa institucionalizada atendida pelo Lar dos Velhinhos de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-05T17:29:53.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 05/11/2025, como parte da Emenda Impositiva nº 02/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a584"
+  },
+  "titulo": "Emenda Impositiva 02-F",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931947"
+  },
+  "valorEmCentavos": 300000,
+  "finalidade": "Repasse financeiro ao Asilo de Santana de Capivari, Pouso Alto/MG.",
+  "justificativa": "Destina parcela de recursos como repasse financeiro ao Asilo do Distrito de Santana do Capivari para garantia de uma assistência mais adequada e digna à população idosa.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "População idosa institucionalizada atendida pelo Asilo de Santana de Capivari.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-05T17:29:53.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 05/11/2025, como parte da Emenda Impositiva nº 02/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a585"
+  },
+  "titulo": "Emenda Impositiva 02-G",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931947"
+  },
+  "valorEmCentavos": 300000,
+  "finalidade": "Repasse financeiro à Associação Pouso-altense de Incentivo ao Esporte - APOIE, Pouso Alto/MG.",
+  "justificativa": "Encaminha valores à APOIE como incentivo às ações de expansão e fortalecimento da prática e das políticas públicas de esportes no Município.",
+  "assunto": "Esporte",
+  "beneficiarioFinal": "Atletas, praticantes de esportes e beneficiários das ações promovidas pela APOIE.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-05T17:29:53.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 05/11/2025, como parte da Emenda Impositiva nº 02/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a586"
+  },
+  "titulo": "Emenda Impositiva 02-H",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931947"
+  },
+  "valorEmCentavos": 100000,
+  "finalidade": "Repasse financeiro à Associação Comunitária Artística e Cultural Rádio Anchieta FM de Pouso Alto/MG.",
+  "justificativa": "Incentivar a produção cultural e comunitária promovida pela Associação Comunitária Artística e Cultural Rádio Anchieta, importante instrumento de comunicação da comunidade pouso-altense.",
+  "assunto": "Cultura",
+  "beneficiarioFinal": "Comunidade pouso-altense beneficiada pelas atividades culturais e comunitárias da Rádio Anchieta FM.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-05T17:29:53.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 05/11/2025, como parte da Emenda Impositiva nº 02/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a587"
+  },
+  "titulo": "Emenda Impositiva 03-A",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931946"
+  },
+  "valorEmCentavos": 4148860,
+  "finalidade": "Custeio de exames e consultas complementares para a saúde do Município de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina recursos para os serviços de saúde com a intenção de agilizar a disponibilização de exames e consultas complementares à população, fortalecendo as políticas públicas municipais de gestão em saúde no âmbito da Secretaria Municipal de Saúde.",
+  "assunto": "Saúde",
+  "beneficiarioFinal": "População do Município de Pouso Alto dependente de exames e consultas pela rede municipal de saúde.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T12:11:03.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 03/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a588"
+  },
+  "titulo": "Emenda Impositiva 03-B",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931946"
+  },
+  "valorEmCentavos": 2000000,
+  "finalidade": "Obra de construção de alambrado no campo de futebol do bairro Triângulo no Município de Pouso Alto/MG.",
+  "justificativa": "Destinação de recursos para construção de alambrado no campo de futebol do bairro Triângulo, visando ao incentivo, expansão e fortalecimento da prática e das políticas públicas de esportes no Município.",
+  "assunto": "Esporte",
+  "beneficiarioFinal": "Moradores e praticantes de esportes do bairro Triângulo e população do Município de Pouso Alto.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T12:11:03.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 03/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a589"
+  },
+  "titulo": "Emenda Impositiva 03-C",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931946"
+  },
+  "valorEmCentavos": 300000,
+  "finalidade": "Repasse financeiro à Associação Pouso-altense de Incentivo ao Esporte - APOIE, Pouso Alto/MG.",
+  "justificativa": "Encaminhamento de recursos à APOIE como incentivo às ações de expansão e fortalecimento da prática e das políticas públicas de esportes no Município.",
+  "assunto": "Esporte",
+  "beneficiarioFinal": "Atletas, praticantes de esportes e beneficiários das ações promovidas pela APOIE.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T12:11:03.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 03/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a58a"
+  },
+  "titulo": "Emenda Impositiva 03-D",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931946"
+  },
+  "valorEmCentavos": 1848860,
+  "finalidade": "Pavimentação e obras complementares no bairro Taboão no Município de Pouso Alto/MG.",
+  "justificativa": "Proposta voltada para obras de pavimentação no bairro Taboão, visando melhorar as condições de mobilidade urbana, garantindo mais segurança e conforto aos moradores.",
+  "assunto": "Infraestrutura",
+  "beneficiarioFinal": "Moradores e frequentadores do bairro Taboão no Município de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T12:11:03.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 03/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a58b"
+  },
+  "titulo": "Emenda Impositiva 04-A",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931948"
+  },
+  "valorEmCentavos": 4148860,
+  "finalidade": "Custeio de exames e consultas complementares para a saúde do Município de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina recursos para os serviços de saúde com a intenção de agilizar a disponibilização de exames e consultas complementares à população, fortalecendo as políticas públicas municipais de gestão em saúde no âmbito da Secretaria Municipal de Saúde.",
+  "assunto": "Saúde",
+  "beneficiarioFinal": "População do Município de Pouso Alto dependente de exames e consultas pela rede municipal de saúde.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T12:14:29.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 04/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a58c"
+  },
+  "titulo": "Emenda Impositiva 04-B",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931948"
+  },
+  "valorEmCentavos": 1800000,
+  "finalidade": "Repasse financeiro ao Sengó Futebol Clube no Município de Pouso Alto/MG.",
+  "justificativa": "Destinação de recursos como repasse financeiro ao Sengó Futebol Clube para o incentivo, apoio e desenvolvimento das atividades esportivas no município.",
+  "assunto": "Esporte",
+  "beneficiarioFinal": "Atletas, membros e beneficiários das atividades esportivas do Sengó Futebol Clube.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T12:14:29.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 04/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a58d"
+  },
+  "titulo": "Emenda Impositiva 04-C",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931948"
+  },
+  "valorEmCentavos": 300000,
+  "finalidade": "Repasse financeiro ao Centro de Atendimento ao Adolescente Carente (CEAAPA) de Pouso Alto/MG.",
+  "justificativa": "Repasse financeiro ao CEAAPA, instituição que atua no acompanhamento e na inserção social de adolescentes carentes no Município.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Adolescentes carentes atendidos pelo Centro de Atendimento ao Adolescente Carente (CEAAPA) de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T12:14:29.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 04/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a58e"
+  },
+  "titulo": "Emenda Impositiva 04-D",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931948"
+  },
+  "valorEmCentavos": 300000,
+  "finalidade": "Repasse financeiro à Associação de Pais e Amigos dos Excepcionais (APAE) do Município de Pouso Alto/MG.",
+  "justificativa": "Destinação de recursos como repasse financeiro para apoiar a APAE de Pouso Alto, importante instituição de atendimento e apoio no município.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Assistidos e atendidos pela Associação de Pais e Amigos dos Excepcionais (APAE) de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T12:14:29.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 04/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a58f"
+  },
+  "titulo": "Emenda Impositiva 04-E",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931948"
+  },
+  "valorEmCentavos": 1500000,
+  "finalidade": "Aquisição de material para obra de construção de ponto de atendimento médico no bairro Matinho no Município de Pouso Alto/MG.",
+  "justificativa": "Destinação de recursos para a aquisição de material de construção visando erguer um ponto de atendimento médico no bairro Matinho, facilitando o acesso da comunidade local aos serviços de saúde.",
+  "assunto": "Saúde",
+  "beneficiarioFinal": "Moradores do bairro Matinho e população do Município de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T12:14:29.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 04/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a590"
+  },
+  "titulo": "Emenda Impositiva 04-F",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931948"
+  },
+  "valorEmCentavos": 248860,
+  "finalidade": "Repasse financeiro à Corporação Musical Mário Russano no Município de Pouso Alto/MG.",
+  "justificativa": "Repasse financeiro à Corporação Musical Mário Russano, importante e histórica instituição cultural do Município de Pouso Alto.",
+  "assunto": "Cultura",
+  "beneficiarioFinal": "Integrantes da Corporação Musical Mário Russano e comunidade de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T12:14:29.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 04/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a591"
+  },
+  "titulo": "Emenda Impositiva 05-A",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931945"
+  },
+  "valorEmCentavos": 4148860,
+  "finalidade": "Custeio de exames e consultas complementares para a saúde do Município de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina recursos para os serviços de saúde com a intenção de agilizar a disponibilização de exames e consultas complementares à população, fortalecendo as políticas públicas municipais de gestão em saúde no âmbito da Secretaria Municipal de Saúde.",
+  "assunto": "Saúde",
+  "beneficiarioFinal": "População do Município de Pouso Alto dependente de exames e consultas pela rede municipal de saúde.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T13:37:06.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 05/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a592"
+  },
+  "titulo": "Emenda Impositiva 05-B",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931945"
+  },
+  "valorEmCentavos": 2000000,
+  "finalidade": "Pavimentação e obras complementares no bairro Pessegueiro no Município de Pouso Alto/MG.",
+  "justificativa": "Obras de pavimentação no bairro Pessegueiro visando melhorar as condições de mobilidade urbana, garantindo mais segurança e conforto aos moradores.",
+  "assunto": "Infraestrutura",
+  "beneficiarioFinal": "Moradores e frequentadores do bairro Pessegueiro no Município de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T13:37:06.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 05/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a593"
+  },
+  "titulo": "Emenda Impositiva 05-C",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931945"
+  },
+  "valorEmCentavos": 2000000,
+  "finalidade": "Pavimentação e obras complementares no bairro Vidinha no Município de Pouso Alto/MG.",
+  "justificativa": "Obras de pavimentação no bairro Vidinha visando melhorar as condições de mobilidade urbana, garantindo mais segurança e conforto aos moradores.",
+  "assunto": "Infraestrutura",
+  "beneficiarioFinal": "Moradores e frequentadores do bairro Vidinha no Município de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T13:37:06.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 05/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a594"
+  },
+  "titulo": "Emenda Impositiva 05-D",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931945"
+  },
+  "valorEmCentavos": 148860,
+  "finalidade": "Repasse financeiro à Associação Pouso-altense de Incentivo ao Esporte - APOIE, Pouso Alto/MG.",
+  "justificativa": "Incentivo às ações de expansão e de fortalecimento da prática e das políticas públicas de esportes no Município de Pouso Alto/MG.",
+  "assunto": "Esporte",
+  "beneficiarioFinal": "Atletas e praticantes atendidos pelas ações da Associação Pouso-altense de Incentivo ao Esporte (APOIE).",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T13:37:06.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 05/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a595"
+  },
+  "titulo": "Emenda Impositiva 06-A",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194b"
+  },
+  "valorEmCentavos": 4648860,
+  "finalidade": "Custeio de exames e consultas complementares para a saúde do Município de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina recursos para os serviços de saúde com a intenção de agilizar a disponibilização de exames e consultas complementares à população, fortalecendo as políticas públicas municipais de gestão em saúde no âmbito da Secretaria Municipal de Saúde.",
+  "assunto": "Saúde",
+  "beneficiarioFinal": "População do Município de Pouso Alto dependente de exames e consultas pela rede municipal de saúde.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T16:31:10.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 06/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a596"
+  },
+  "titulo": "Emenda Impositiva 06-B",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194b"
+  },
+  "valorEmCentavos": 300000,
+  "finalidade": "Repasse financeiro à Associação de Pais e Amigos dos Excepcionais (APAE) do Município de Pouso Alto/MG.",
+  "justificativa": "Destinação de recursos como repasse financeiro para apoiar a Associação de Pais e Amigos dos Excepcionais (APAE) de Pouso Alto, importante instituição do município.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Assistidos e atendidos pela Associação de Pais e Amigos dos Excepcionais (APAE) de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T16:31:10.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 06/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a597"
+  },
+  "titulo": "Emenda Impositiva 06-C",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194b"
+  },
+  "valorEmCentavos": 500000,
+  "finalidade": "Repasse financeiro ao Centro de Atendimento ao Adolescente Carente (CEAAPA) de Pouso Alto/MG.",
+  "justificativa": "Repasse financeiro ao CEAAPA, instituição que atua no acompanhamento e na inserção social de adolescentes carentes no Município de Pouso Alto/MG.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Adolescentes carentes atendidos pelo Centro de Atendimento ao Adolescente Carente (CEAAPA) de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T16:31:10.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 06/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a598"
+  },
+  "titulo": "Emenda Impositiva 06-D",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194b"
+  },
+  "valorEmCentavos": 300000,
+  "finalidade": "Repasse financeiro ao Lar dos Velhinhos Asilo de Pouso Alto/MG.",
+  "justificativa": "Garantia de uma assistência mais adequada e digna à população idosa institucionalizada por meio de repasse financeiro ao Lar dos Velhinhos de Pouso Alto/MG.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Idosos institucionalizados e atendidos pelo Lar dos Velhinhos de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T16:31:10.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 06/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a599"
+  },
+  "titulo": "Emenda Impositiva 06-E",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194b"
+  },
+  "valorEmCentavos": 200000,
+  "finalidade": "Repasse financeiro à Associação Pouso-altense de Incentivo ao Esporte - APOIE, Pouso Alto/MG.",
+  "justificativa": "Incentivo às ações de expansão e de fortalecimento da prática e das políticas públicas de esportes no Município de Pouso Alto/MG.",
+  "assunto": "Esporte",
+  "beneficiarioFinal": "Atletas e praticantes atendidos pelas ações da Associação Pouso-altense de Incentivo ao Esporte (APOIE).",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T16:31:10.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 06/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a59a"
+  },
+  "titulo": "Emenda Impositiva 06-F",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194b"
+  },
+  "valorEmCentavos": 500000,
+  "finalidade": "Repasse financeiro à Associação Comunitária Artística e Cultural Rádio Anchieta FM de Pouso Alto/MG.",
+  "justificativa": "Incentivo à produção cultural e comunitária por meio de repasse financeiro à Associação Comunitária Artística e Cultural Rádio Anchieta FM, importante instrumento de comunicação da comunidade pouso-altense.",
+  "assunto": "Cultura",
+  "beneficiarioFinal": "Comunidade pouso-altense e ouvintes da Rádio Anchieta FM.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T16:31:10.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 06/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a59b"
+  },
+  "titulo": "Emenda Impositiva 06-G",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194b"
+  },
+  "valorEmCentavos": 1000000,
+  "finalidade": "Aquisição e instalação de lâmpadas de LED para iluminação pública no bairro Triângulo no Município de Pouso Alto/MG.",
+  "justificativa": "Melhoria da iluminação pública no bairro Triângulo no Município de Pouso Alto/MG, garantindo mais conforto e segurança aos moradores do bairro.",
+  "assunto": "Infraestrutura",
+  "beneficiarioFinal": "Moradores e frequentadores do bairro Triângulo no Município de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T16:31:10.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 06/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a59c"
+  },
+  "titulo": "Emenda Impositiva 06-H",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194b"
+  },
+  "valorEmCentavos": 848860,
+  "finalidade": "Aquisição de caixas d’água residenciais, para atendimento e doação para famílias carentes no Município de Pouso Alto/MG, por meio de ação da Secretaria de Assistência Social.",
+  "justificativa": "Reservar valores para aquisição e doação de caixas d’água para famílias carentes no Município de Pouso Alto, por meio de ação da Secretaria Municipal de Assistência Social.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Famílias carentes do Município de Pouso Alto/MG atendidas pela Secretaria Municipal de Assistência Social.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T16:31:10.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 06/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a59d"
+  },
+  "titulo": "Emenda Impositiva 07-A",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194c"
+  },
+  "valorEmCentavos": 4148860,
+  "finalidade": "Custeio de exames e consultas complementares para a saúde do Município de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina recursos para os serviços de saúde com a intenção de agilizar a disponibilização de exames e consultas complementares à população, fortalecendo as políticas públicas municipais de gestão em saúde no âmbito da Secretaria Municipal de Saúde.",
+  "assunto": "Saúde",
+  "beneficiarioFinal": "População do Município de Pouso Alto dependente de exames e consultas pela rede municipal de saúde.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T17:06:02.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 07/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-25T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a59e"
+  },
+  "titulo": "Emenda Impositiva 07-B",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194c"
+  },
+  "valorEmCentavos": 400000,
+  "finalidade": "Repasse financeiro ao Asilo de Santana de Capivari, Pouso Alto/MG.",
+  "justificativa": "Garantia de uma assistência mais adequada e digna à população idosa institucionalizada por meio de repasse financeiro ao Asilo de Santana do Capivari em Pouso Alto/MG.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Idosos institucionalizados e atendidos pelo Asilo de Santana do Capivari em Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T17:06:02.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 07/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-25T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a59f"
+  },
+  "titulo": "Emenda Impositiva 07-C",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194c"
+  },
+  "valorEmCentavos": 3748860,
+  "finalidade": "Aquisição e instalação de um parquinho para o lazer da população do Distrito de Santana do Capivari no Município de Pouso Alto/MG, de acordo com melhor localização.",
+  "justificativa": "Oferecer espaço de lazer, convivência e recreação às crianças e à população do Distrito de Santana do Capivari por meio da aquisição e instalação de um parquinho na melhor localização disponível.",
+  "assunto": "Esporte",
+  "beneficiarioFinal": "Crianças e moradores do Distrito de Santana do Capivari no Município de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T17:06:02.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 07/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-25T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a5a0"
+  },
+  "titulo": "Emenda Impositiva 08-A",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194a"
+  },
+  "valorEmCentavos": 4148860,
+  "finalidade": "Custeio de exames e consultas complementares para investigação e avaliação diagnóstica de neurodivergências (TDAH, TEA e demais) na saúde do Município de Pouso Alto/MG.",
+  "justificativa": "Ampliar o acesso ao diagnóstico precoce e ao acompanhamento adequado, promovendo inclusão e qualidade de vida à população pouso-altense, reservando o montante para o custeio de exames e consultas especializadas voltadas à investigação e avaliação de pessoas com suspeita ou diagnóstico de neurodivergências.",
+  "assunto": "Saúde",
+  "beneficiarioFinal": "População do Município de Pouso Alto com suspeita ou diagnóstico de neurodivergências (TDAH, TEA e demais).",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T17:59:12.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 08/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Alterada pela Subemenda nº 01/2025 (Comissão de Legislação, Justiça e Redação) em 10/11/2025. O valor foi corrigido de R$ 21.488,60 para R$ 41.488,60 (correspondente a 50% da cota impositiva individual) para sanar erro material no registro do montante original, mantendo-se a destinação ao custeio de exames/consultas de neurodivergências.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a5a1"
+  },
+  "titulo": "Emenda Impositiva 08-B",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194a"
+  },
+  "valorEmCentavos": 1000000,
+  "finalidade": "Aquisição e instalação de lâmpadas solares fotovoltaicas, ou lâmpadas de LED, ou braços de iluminação pública, nos bairros Ribeirão e Campo Alegre no Município de Pouso Alto/MG.",
+  "justificativa": "Melhoria na iluminação pública nos bairros Ribeirão e Campo Alegre, buscando trazer mais conforto e segurança para os moradores.",
+  "assunto": "Infraestrutura",
+  "beneficiarioFinal": "Moradores dos bairros Ribeirão e Campo Alegre no Município de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T17:59:12.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 08/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a5a2"
+  },
+  "titulo": "Emenda Impositiva 08-C",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194a"
+  },
+  "valorEmCentavos": 200000,
+  "finalidade": "Aquisição e instalação de lâmpadas solares fotovoltaicas, ou lâmpadas de LED, ou braços de iluminação pública, no Campinho, localizado na rua Milton Querino de Souza, no bairro Nova Esperança no Município de Pouso Alto/MG.",
+  "justificativa": "Melhoria da iluminação pública no Campinho do bairro Nova Esperança, buscando trazer mais conforto e segurança para os moradores.",
+  "assunto": "Infraestrutura",
+  "beneficiarioFinal": "Moradores do bairro Nova Esperança e frequentadores do Campinho no Município de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T17:59:12.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 08/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a5a3"
+  },
+  "titulo": "Emenda Impositiva 08-D",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194a"
+  },
+  "valorEmCentavos": 150000,
+  "finalidade": "Repasse financeiro à Corporação Musical Mário Russano no Município de Pouso Alto/MG.",
+  "justificativa": "Incentivar a Corporação Musical Mário Russano, importante e histórica instituição cultural do Município de Pouso Alto/MG.",
+  "assunto": "Cultura",
+  "beneficiarioFinal": "Corporação Musical Mário Russano e comunidade de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T17:59:12.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 08/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a5a4"
+  },
+  "titulo": "Emenda Impositiva 08-E",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194a"
+  },
+  "valorEmCentavos": 400000,
+  "finalidade": "Repasse financeiro à Associação de Pais e Amigos dos Excepcionais (APAE) do Município de Pouso Alto/MG.",
+  "justificativa": "Apoio financeiro à Associação de Pais e Amigos dos Excepcionais – APAE de Pouso Alto, reconhecendo sua relevância como importante instituição no Município.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Pessoas com deficiência atendidas pela APAE de Pouso Alto/MG e suas famílias.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T17:59:12.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 08/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a5a5"
+  },
+  "titulo": "Emenda Impositiva 08-F",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194a"
+  },
+  "valorEmCentavos": 400000,
+  "finalidade": "Repasse financeiro ao Centro de Atendimento ao Adolescente Carente (CEAAPA) de Pouso Alto/MG.",
+  "justificativa": "Apoio ao CEAAPA, instituição que há anos atua no acompanhamento e na inserção social de crianças e adolescentes carentes no Município de Pouso Alto/MG.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Crianças e adolescentes carentes atendidos pelo CEAAPA em Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T17:59:12.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 08/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a5a6"
+  },
+  "titulo": "Emenda Impositiva 08-G",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194a"
+  },
+  "valorEmCentavos": 400000,
+  "finalidade": "Repasse financeiro ao Lar dos Velhinhos Asilo de Pouso Alto/MG.",
+  "justificativa": "Garantia de uma assistência mais adequada e digna à população idosa institucionalizada por meio de repasse financeiro ao Lar dos Velhinhos de Pouso Alto/MG.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Idosos institucionalizados no Lar dos Velhinhos de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T17:59:12.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 08/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a5a7"
+  },
+  "titulo": "Emenda Impositiva 08-H",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194a"
+  },
+  "valorEmCentavos": 400000,
+  "finalidade": "Repasse financeiro ao Asilo de Santana de Capivari, Pouso Alto/MG.",
+  "justificativa": "Garantia de uma assistência mais adequada e digna à população idosa institucionalizada por meio de repasse financeiro ao Asilo de Santana de Capivari em Pouso Alto/MG.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Idosos institucionalizados e atendidos pelo Asilo de Santana de Capivari em Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T17:59:12.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 08/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a5a8"
+  },
+  "titulo": "Emenda Impositiva 08-I",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194a"
+  },
+  "valorEmCentavos": 698860,
+  "finalidade": "Repasse financeiro à Associação Pouso-altense de Incentivo ao Esporte - APOIE, Pouso Alto/MG.",
+  "justificativa": "Incentivo às ações de expansão e de fortalecimento da prática e das políticas públicas de esportes no Município de Pouso Alto/MG.",
+  "assunto": "Esporte",
+  "beneficiarioFinal": "Atletas e comunidade beneficiados pelas atividades da Associação Pouso-altense de Incentivo ao Esporte (APOIE).",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T17:59:12.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 08/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a5a9"
+  },
+  "titulo": "Emenda Impositiva 08-J",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194a"
+  },
+  "valorEmCentavos": 100000,
+  "finalidade": "Repasse financeiro à Associação Comunitária Artística e Cultural Rádio Anchieta FM de Pouso Alto/MG.",
+  "justificativa": "Incentivar a produção cultural e comunitária da Rádio Anchieta, importante instrumento de comunicação da comunidade pouso-altense.",
+  "assunto": "Cultura",
+  "beneficiarioFinal": "Comunidade do Município de Pouso Alto/MG beneficiada pela programação e ações da Rádio Anchieta FM.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T17:59:12.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 08/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a5aa"
+  },
+  "titulo": "Emenda Impositiva 08-K",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194a"
+  },
+  "valorEmCentavos": 200000,
+  "finalidade": "Repasse financeiro à Associação Comunitária do Distrito de Santana do Capivari, no Município de Pouso Alto/MG.",
+  "justificativa": "Apoio financeiro à Associação Comunitária do Distrito de Santana do Capivari, buscando a melhoria da qualidade de vida e o fortalecimento do vínculo social entre os moradores.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Moradores do Distrito de Santana do Capivari no Município de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T17:59:12.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 08/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a5ab"
+  },
+  "titulo": "Emenda Impositiva 08-L",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194a"
+  },
+  "valorEmCentavos": 200000,
+  "finalidade": "Repasse financeiro ao Grupo Teatral São Francisco de Assis do Município de Pouso Alto/MG.",
+  "justificativa": "Promover a difusão da arte cênica, a formação cultural e o acesso da comunidade às expressões artísticas locais por meio do Grupo Teatral São Francisco de Assis.",
+  "assunto": "Cultura",
+  "beneficiarioFinal": "Grupo Teatral São Francisco de Assis e população contemplada por suas produções culturais.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T17:59:12.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 08/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-26T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a5ac"
+  },
+  "titulo": "Emenda Impositiva 09-A",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931944"
+  },
+  "valorEmCentavos": 2148860,
+  "finalidade": "Custeio de exames e consultas complementares para investigação e avaliação diagnóstica de neurodivergência (TDAH, TEA e demais) no Município de Pouso Alto/MG.",
+  "justificativa": "Visando ampliar o acesso ao diagnóstico precoce e ao acompanhamento adequado, promovendo inclusão e qualidade de vida à população pouso-altense, reservarei o montante destinado por mim aos serviços de saúde para o custeio de exames e consultas especializadas voltadas à investigação e avaliação de pessoas com suspeita ou diagnóstico de neurodivergências.",
+  "assunto": "Saúde",
+  "beneficiarioFinal": "População de Pouso Alto/MG com suspeita ou diagnóstico de neurodivergências (TDAH, TEA e demais).",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T17:59:53.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 09/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-25T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a5ad"
+  },
+  "titulo": "Emenda Impositiva 09-B",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931944"
+  },
+  "valorEmCentavos": 2000000,
+  "finalidade": "Custeio de exames e consultas complementares para a saúde do Município de Pouso Alto/MG.",
+  "justificativa": "Outra parcela dos recursos de saúde será destinada à agilização da disponibilização de exames e consultas complementares à população.",
+  "assunto": "Saúde",
+  "beneficiarioFinal": "População do Município de Pouso Alto dependente de exames e consultas pela rede municipal de saúde.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T17:59:53.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 09/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-25T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a5ae"
+  },
+  "titulo": "Emenda Impositiva 09-C",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931944"
+  },
+  "valorEmCentavos": 1000000,
+  "finalidade": "Aquisição e instalação de lâmpadas solares fotovoltaicas, lâmpadas de LED ou braços de iluminação pública nos bairros Ribeirão e Campo Alegre.",
+  "justificativa": "Destinação de valores para iluminação pública nos bairros Ribeirão e Campo Alegre, buscando trazer mais conforto e segurança para os moradores.",
+  "assunto": "Infraestrutura / Iluminação Pública",
+  "beneficiarioFinal": "Moradores dos bairros Ribeirão e Campo Alegre no Município de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T17:59:53.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 09/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-25T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a5af"
+  },
+  "titulo": "Emenda Impositiva 09-D",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931944"
+  },
+  "valorEmCentavos": 200000,
+  "finalidade": "Aquisição e instalação de lâmpadas solares fotovoltaicas, lâmpadas de LED ou braços de iluminação pública no Campinho (rua Milton Querino de Souza, bairro Nova Esperança).",
+  "justificativa": "Melhoria e ampliação da iluminação pública no bairro Nova Esperança (Campinho, rua Milton Querino de Souza), garantindo mais segurança e bem-estar à comunidade.",
+  "assunto": "Infraestrutura / Iluminação Pública",
+  "beneficiarioFinal": "Moradores do bairro Nova Esperança (Campinho/Rua Milton Querino de Souza) em Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T17:59:53.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 09/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-25T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a5b0"
+  },
+  "titulo": "Emenda Impositiva 09-E",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931944"
+  },
+  "valorEmCentavos": 150000,
+  "finalidade": "Repasse financeiro à Corporação Musical Mário Russano no Município de Pouso Alto/MG.",
+  "justificativa": "Repasse financeiro à Corporação Musical Mário Russano, importante e histórica instituição cultural de nosso Município.",
+  "assunto": "Cultura",
+  "beneficiarioFinal": "Corporação Musical Mário Russano.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T17:59:53.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 09/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-25T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a5b1"
+  },
+  "titulo": "Emenda Impositiva 09-F",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931944"
+  },
+  "valorEmCentavos": 400000,
+  "finalidade": "Repasse financeiro à Associação de Pais e Amigos dos Excepcionais (APAE) do Município de Pouso Alto/MG.",
+  "justificativa": "Apoio às atividades institucionais da Associação de Pais e Amigos dos Excepcionais – APAE de Pouso Alto por meio de repasse financeiro.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Associação de Pais e Amigos dos Excepcionais (APAE) de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T17:59:53.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 09/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-25T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a5b2"
+  },
+  "titulo": "Emenda Impositiva 09-G",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931944"
+  },
+  "valorEmCentavos": 400000,
+  "finalidade": "Repasse financeiro ao Centro de Atendimento ao Adolescente Carente (CEAAPA) de Pouso Alto/MG.",
+  "justificativa": "Repasse financeiro ao CEAAPA, instituição que há anos atua no acompanhamento e na inserção social de crianças e adolescentes carentes no Município.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Centro de Atendimento ao Adolescente Carente (CEAAPA) de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T17:59:53.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 09/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-25T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a5b3"
+  },
+  "titulo": "Emenda Impositiva 09-H",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931944"
+  },
+  "valorEmCentavos": 400000,
+  "finalidade": "Repasse financeiro ao Lar dos Velhinhos Asilo de Pouso Alto/MG.",
+  "justificativa": "Para garantia de uma assistência mais adequada e digna à população idosa institucionalizada, destinarei uma parcela como repasse financeiro ao Lar dos Velhinhos de Pouso Alto/MG.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Lar dos Velhinhos Asilo de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T17:59:53.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 09/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-25T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a5b4"
+  },
+  "titulo": "Emenda Impositiva 09-I",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931944"
+  },
+  "valorEmCentavos": 400000,
+  "finalidade": "Repasse financeiro ao Asilo de Santana de Capivari, Pouso Alto/MG.",
+  "justificativa": "Para garantia de uma assistência mais adequada e digna à população idosa institucionalizada, destinarei uma parcela como repasse financeiro ao Asilo de Santana de Capivari, Pouso Alto/MG.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Asilo de Santana de Capivari, Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T17:59:53.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 09/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-25T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a5b5"
+  },
+  "titulo": "Emenda Impositiva 09-J",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931944"
+  },
+  "valorEmCentavos": 698860,
+  "finalidade": "Repasse financeiro à Associação Pouso-Altense de Incentivo ao Esporte - APOIE, Pouso Alto/MG.",
+  "justificativa": "Incentivo às ações de expansão e de fortalecimento da prática e das políticas públicas de esportes no Município, encaminhando parte dos valores à Associação Pouso-Altense de Incentivo ao Esporte – APOIE.",
+  "assunto": "Esporte",
+  "beneficiarioFinal": "Associação Pouso-Altense de Incentivo ao Esporte (APOIE).",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T17:59:53.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 09/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-25T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a5b6"
+  },
+  "titulo": "Emenda Impositiva 09-K",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931944"
+  },
+  "valorEmCentavos": 100000,
+  "finalidade": "Repasse financeiro à Associação Comunitária Artística e Cultural Rádio Anchieta FM de Pouso Alto/MG.",
+  "justificativa": "Repasse financeiro à Associação Comunitária Artística e Cultural - Rádio Anchieta para incentivar a produção cultural e comunitária deste importante instrumento de comunicação local.",
+  "assunto": "Cultura",
+  "beneficiarioFinal": "Associação Comunitária Artística e Cultural Rádio Anchieta FM.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T17:59:53.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 09/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-25T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a5b7"
+  },
+  "titulo": "Emenda Impositiva 09-L",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931944"
+  },
+  "valorEmCentavos": 200000,
+  "finalidade": "Repasse financeiro à Associação Comunitária do Distrito de Santana do Capivari, no Município de Pouso Alto/MG.",
+  "justificativa": "Repasse financeiro para a Associação Comunitária do Distrito de Santana do Capivari, buscando a melhoria da qualidade de vida e o fortalecimento do vínculo social entre os moradores.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Associação Comunitária do Distrito de Santana do Capivari.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T17:59:53.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 09/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-25T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99ab991e3f076b2d15a5b8"
+  },
+  "titulo": "Emenda Impositiva 09-M",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931944"
+  },
+  "valorEmCentavos": 200000,
+  "finalidade": "Repasse financeiro ao Grupo Teatral São Francisco de Assis do Município de Pouso Alto/MG.",
+  "justificativa": "Dedicarei parte dos valores ao Grupo Teatral São Francisco de Assis, importante instituição que busca promover a difusão da arte cênica, a formação cultural e o acesso da comunidade às expressões artísticas locais.",
+  "assunto": "Cultura",
+  "beneficiarioFinal": "Grupo Teatral São Francisco de Assis do Município de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2026,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2025-11-06T17:59:53.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 06/11/2025, como parte da Emenda Impositiva nº 09/2025 ao [Projeto de Lei Ordinária nº 37/2025](https://sapl.pousoalto.mg.leg.br/materia/1037). Apresentada em 13 de outubro de 2025, na 18ª Reunião Ordinária de 2025, incluída e votada na 12° Reunião Extraordinária de 2025.",
+  "votacao": "Votação da Emenda realizada em 24/11/2025, na 12° Reunião Extraordinária de 2025.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-08-25T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T17:25:04.969Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  }
+}]

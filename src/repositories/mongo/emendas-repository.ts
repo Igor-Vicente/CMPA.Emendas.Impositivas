@@ -6,6 +6,7 @@ import type {
   Documento,
   Emenda,
   FiltrosEmenda,
+  FiltrosResumo,
   ResumoAgrupado,
   ResumoDashboard,
   ResultadoPaginado,
@@ -39,11 +40,13 @@ type ResumoMongo = {
 type EmendaMongo = Omit<
   Emenda,
   | "id"
+  | "legislaturaId"
   | "vereadorId"
   | "planoDeTrabalho"
   | "pareceresJuridicos"
   | "relatoriosExecutivo"
 > & {
+  legislaturaId: ObjectId;
   vereadorId: ObjectId;
   planoDeTrabalho: Documento[];
   pareceresJuridicos: Documento[];
@@ -56,6 +59,7 @@ function paraDominio(documento: WithId<EmendaMongo>): Emenda {
   return {
     ...dados,
     id: _id.toHexString(),
+    legislaturaId: documento.legislaturaId.toHexString(),
     vereadorId: documento.vereadorId.toHexString(),
   };
 }
@@ -102,6 +106,12 @@ export class MongoEmendasRepository implements EmendasRepository {
 
     if (filtros.titulo) {
       query.titulo = { $regex: escaparRegex(filtros.titulo), $options: "i" };
+    }
+
+    if (filtros.legislaturaId) {
+      const legislaturaId = objectIdValido(filtros.legislaturaId);
+      if (!legislaturaId) return this.resultadoVazio(pagina, itensPorPagina);
+      query.legislaturaId = legislaturaId;
     }
 
     if (filtros.vereadorId) {
@@ -169,10 +179,25 @@ export class MongoEmendasRepository implements EmendasRepository {
     return emenda ? paraDominio(emenda) : null;
   }
 
-  async obterResumo(): Promise<ResumoDashboard> {
+  async obterResumo(filtros: FiltrosResumo = {}): Promise<ResumoDashboard> {
     const colecao = await this.colecao();
+    const query: Filter<EmendaMongo> = {};
+
+    if (filtros.legislaturaId) {
+      const legislaturaId = objectIdValido(filtros.legislaturaId);
+      if (!legislaturaId) return this.resumoVazio();
+      query.legislaturaId = legislaturaId;
+    }
+
+    if (filtros.vereadorId) {
+      const vereadorId = objectIdValido(filtros.vereadorId);
+      if (!vereadorId) return this.resumoVazio();
+      query.vereadorId = vereadorId;
+    }
+
     const [resultado] = await colecao
       .aggregate<ResumoMongo>([
+        { $match: query },
         {
           $facet: {
             geral: [
@@ -275,6 +300,21 @@ export class MongoEmendasRepository implements EmendasRepository {
       pagina,
       itensPorPagina,
       totalPaginas: 0,
+    };
+  }
+
+  private resumoVazio(): ResumoDashboard {
+    return {
+      totalEmendas: 0,
+      valorTotalEmCentavos: 0,
+      emendasAprovadas: 0,
+      emendasRejeitadas: 0,
+      aguardandoProtocolo: 0,
+      entidadesBeneficiadas: 0,
+      porAssunto: [],
+      porOrgaoExecutor: [],
+      porPeriodoExecucao: [],
+      porVereador: [],
     };
   }
 }

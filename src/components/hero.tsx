@@ -1,4 +1,6 @@
-export function Hero() {
+import Image from "next/image";
+
+export function Hero({ legislaturaSlug }: { legislaturaSlug: string }) {
   return (
     <section className="relative overflow-hidden bg-[#12334d] text-white">
       <div
@@ -10,7 +12,7 @@ export function Hero() {
         }}
       />
 
-      <div className="relative mx-auto max-w-[1440px] px-6 py-14 sm:py-18 lg:px-10 lg:py-20">
+      <div className="relative mx-auto grid max-w-[1440px] items-center gap-10 px-6 py-14 sm:py-18 lg:grid-cols-[minmax(0,1fr)_minmax(320px,480px)] lg:px-10 lg:py-20">
         <div className="max-w-3xl">
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#e1b45b]">
             Transparência legislativa
@@ -27,6 +29,7 @@ export function Hero() {
             action="/emendas"
             className="mt-8 flex max-w-2xl flex-col gap-3 rounded-2xl bg-white p-2 shadow-[0_18px_50px_rgba(0,0,0,0.2)] sm:flex-row"
           >
+            <input type="hidden" name="legislatura" value={legislaturaSlug} />
             <label className="relative min-w-0 flex-1">
               <span className="sr-only">Buscar emendas</span>
               <svg
@@ -54,6 +57,17 @@ export function Hero() {
               Consultar emendas
             </button>
           </form>
+        </div>
+
+        <div className="order-first flex justify-center lg:order-last lg:justify-end" aria-hidden="true">
+          <Image
+            src="/logo.png"
+            alt=""
+            width={519}
+            height={236}
+            priority
+            className="h-auto w-full max-w-[360px] drop-shadow-[0_16px_32px_rgba(0,0,0,0.24)] lg:max-w-[460px]"
+          />
         </div>
       </div>
     </section>

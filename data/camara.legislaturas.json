@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "6a99945f1e3f076b2d15a50e"
+  },
+  "slug": "2025-2028",
+  "titulo": "Legislatura 2025–2028",
+  "anoInicio": 2025,
+  "anoFim": 2028,
+  "ativa": true,
+  "criadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T15:38:39.320Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  },
+  "slug": "2021-2024",
+  "titulo": "Legislatura 2021–2024",
+  "anoInicio": 2021,
+  "anoFim": 2024,
+  "ativa": false,
+  "criadoEm": {
+    "$date": "2026-09-03T15:39:27.430Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-03T15:39:27.430Z"
+  }
+}]
