@@ -1,8 +1,10 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 
 import { Header } from "@/components/header";
 import { LegislaturaSelector } from "@/components/legislatura-selector";
+import { PageLoading } from "@/components/page-loading";
 import { listarEmendas, listarVereadores, obterResumoEmendas } from "@/lib/dados";
 import { formatarData, formatarMoeda } from "@/lib/formatters";
 import {
@@ -16,7 +18,15 @@ type Props = {
   searchParams: Promise<Record<string, string | string[] | undefined>>;
 };
 
-export default async function VereadorPage({ params, searchParams }: Props) {
+export default function VereadorPage(props: Props) {
+  return (
+    <Suspense fallback={<PageLoading />}>
+      <VereadorPageContent {...props} />
+    </Suspense>
+  );
+}
+
+async function VereadorPageContent({ params, searchParams }: Props) {
   const [{ id }, query] = await Promise.all([params, searchParams]);
   const pagina = Math.max(1, Number(primeiroParametro(query.pagina)) || 1);
   const { legislaturas, legislatura } = await carregarContextoLegislatura(

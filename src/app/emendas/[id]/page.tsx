@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import type { ReactNode } from "react";
+import { Suspense, type ReactNode } from "react";
 
 import { Header } from "@/components/header";
+import { PageLoading } from "@/components/page-loading";
 import {
   buscarEmendaPorId,
   buscarLegislaturaPorId,
@@ -100,7 +101,15 @@ function Documentos({ titulo, itens }: { titulo: string; itens: Documento[] }) {
   );
 }
 
-export default async function EmendaPage({ params }: Props) {
+export default function EmendaPage(props: Props) {
+  return (
+    <Suspense fallback={<PageLoading />}>
+      <EmendaPageContent {...props} />
+    </Suspense>
+  );
+}
+
+async function EmendaPageContent({ params }: Props) {
   const { id } = await params;
   const emenda = await buscarEmendaPorId(id);
 

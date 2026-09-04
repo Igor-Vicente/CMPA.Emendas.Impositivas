@@ -1,16 +1,26 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 
 import { Header } from "@/components/header";
 import { LegislaturaSelector } from "@/components/legislatura-selector";
+import { PageLoading } from "@/components/page-loading";
 import { listarVereadores, obterResumoEmendas } from "@/lib/dados";
 import { formatarMoeda } from "@/lib/formatters";
 import { carregarContextoLegislatura, comLegislatura, primeiroParametro } from "@/lib/legislaturas";
 
 type Props = { searchParams: Promise<Record<string, string | string[] | undefined>> };
 
-export default async function VereadoresPage({ searchParams }: Props) {
+export default function VereadoresPage(props: Props) {
+  return (
+    <Suspense fallback={<PageLoading />}>
+      <VereadoresPageContent {...props} />
+    </Suspense>
+  );
+}
+
+async function VereadoresPageContent({ searchParams }: Props) {
   const params = await searchParams;
   const { legislaturas, legislatura } = await carregarContextoLegislatura(
     primeiroParametro(params.legislatura),

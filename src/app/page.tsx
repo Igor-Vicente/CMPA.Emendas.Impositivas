@@ -1,7 +1,10 @@
+import { Suspense } from "react";
+
 import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
 import { HomeContent } from "@/components/home-content";
 import { LegislaturaSelector } from "@/components/legislatura-selector";
+import { PageLoading } from "@/components/page-loading";
 import { listarEmendas, listarVereadores, obterResumoEmendas } from "@/lib/dados";
 import { carregarContextoLegislatura, primeiroParametro } from "@/lib/legislaturas";
 
@@ -9,7 +12,15 @@ type Props = {
   searchParams: Promise<Record<string, string | string[] | undefined>>;
 };
 
-export default async function Home({ searchParams }: Props) {
+export default function Home(props: Props) {
+  return (
+    <Suspense fallback={<PageLoading />}>
+      <HomePageContent {...props} />
+    </Suspense>
+  );
+}
+
+async function HomePageContent({ searchParams }: Props) {
   const params = await searchParams;
   const contexto = await carregarContextoLegislatura(
     primeiroParametro(params.legislatura),

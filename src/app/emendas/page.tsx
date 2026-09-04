@@ -1,15 +1,25 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 
 import { Header } from "@/components/header";
 import { LegislaturaSelector } from "@/components/legislatura-selector";
+import { PageLoading } from "@/components/page-loading";
 import { listarEmendas, listarVereadores } from "@/lib/dados";
 import { formatarData, formatarMoeda } from "@/lib/formatters";
 import { carregarContextoLegislatura, comLegislatura, primeiroParametro } from "@/lib/legislaturas";
 
 type Props = { searchParams: Promise<Record<string, string | string[] | undefined>> };
 
-export default async function EmendasPage({ searchParams }: Props) {
+export default function EmendasPage(props: Props) {
+  return (
+    <Suspense fallback={<PageLoading />}>
+      <EmendasPageContent {...props} />
+    </Suspense>
+  );
+}
+
+async function EmendasPageContent({ searchParams }: Props) {
   const params = await searchParams;
   const busca = primeiroParametro(params.busca)?.trim();
   const pagina = Math.max(1, Number(primeiroParametro(params.pagina)) || 1);
