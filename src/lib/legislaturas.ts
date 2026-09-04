@@ -1,4 +1,4 @@
-import { legislaturasRepository } from "@/repositories";
+import { listarLegislaturas } from "@/lib/dados";
 import type { Legislatura } from "@/types";
 
 export function primeiroParametro(
@@ -13,7 +13,7 @@ export async function carregarContextoLegislatura(
   legislaturas: Legislatura[];
   legislatura: Legislatura | null;
 }> {
-  const legislaturas = await legislaturasRepository.listar();
+  const legislaturas = await listarLegislaturas();
   const legislatura = slug
     ? legislaturas.find((item) => item.slug === slug) ?? null
     : legislaturas.find((item) => item.ativa) ?? legislaturas[0] ?? null;

@@ -2,10 +2,8 @@ import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
 import { HomeContent } from "@/components/home-content";
 import { LegislaturaSelector } from "@/components/legislatura-selector";
+import { listarEmendas, listarVereadores, obterResumoEmendas } from "@/lib/dados";
 import { carregarContextoLegislatura, primeiroParametro } from "@/lib/legislaturas";
-import { emendasRepository, vereadoresRepository } from "@/repositories";
-
-export const dynamic = "force-dynamic";
 
 type Props = {
   searchParams: Promise<Record<string, string | string[] | undefined>>;
@@ -34,9 +32,9 @@ export default async function Home({ searchParams }: Props) {
 
   const { legislatura, legislaturas } = contexto;
   const dados = await Promise.all([
-    emendasRepository.obterResumo({ legislaturaId: legislatura.id }),
-    emendasRepository.listar({ legislaturaId: legislatura.id, pagina: 1, itensPorPagina: 5 }),
-    vereadoresRepository.listar({ legislaturaId: legislatura.id }),
+    obterResumoEmendas({ legislaturaId: legislatura.id }),
+    listarEmendas({ legislaturaId: legislatura.id, pagina: 1, itensPorPagina: 5 }),
+    listarVereadores({ legislaturaId: legislatura.id }),
   ]).catch((error) => {
     console.error("Erro ao carregar a página inicial:", error);
     return null;

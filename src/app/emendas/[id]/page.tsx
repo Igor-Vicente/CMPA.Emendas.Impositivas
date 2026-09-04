@@ -3,12 +3,14 @@ import { notFound } from "next/navigation";
 import type { ReactNode } from "react";
 
 import { Header } from "@/components/header";
+import {
+  buscarEmendaPorId,
+  buscarLegislaturaPorId,
+  buscarVereadorPorId,
+} from "@/lib/dados";
 import { formatarData, formatarMoeda } from "@/lib/formatters";
 import { comLegislatura } from "@/lib/legislaturas";
-import { emendasRepository, legislaturasRepository, vereadoresRepository } from "@/repositories";
 import type { Documento } from "@/types";
-
-export const dynamic = "force-dynamic";
 
 type Props = { params: Promise<{ id: string }> };
 
@@ -100,13 +102,13 @@ function Documentos({ titulo, itens }: { titulo: string; itens: Documento[] }) {
 
 export default async function EmendaPage({ params }: Props) {
   const { id } = await params;
-  const emenda = await emendasRepository.buscarPorId(id);
+  const emenda = await buscarEmendaPorId(id);
 
   if (!emenda) notFound();
 
   const [vereador, legislatura] = await Promise.all([
-    vereadoresRepository.buscarPorId(emenda.vereadorId),
-    legislaturasRepository.buscarPorId(emenda.legislaturaId),
+    buscarVereadorPorId(emenda.vereadorId),
+    buscarLegislaturaPorId(emenda.legislaturaId),
   ]);
   const slug = legislatura?.slug;
 

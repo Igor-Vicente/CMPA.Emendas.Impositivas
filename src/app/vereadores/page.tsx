@@ -4,11 +4,9 @@ import { notFound } from "next/navigation";
 
 import { Header } from "@/components/header";
 import { LegislaturaSelector } from "@/components/legislatura-selector";
+import { listarVereadores, obterResumoEmendas } from "@/lib/dados";
 import { formatarMoeda } from "@/lib/formatters";
 import { carregarContextoLegislatura, comLegislatura, primeiroParametro } from "@/lib/legislaturas";
-import { emendasRepository, vereadoresRepository } from "@/repositories";
-
-export const dynamic = "force-dynamic";
 
 type Props = { searchParams: Promise<Record<string, string | string[] | undefined>> };
 
@@ -20,8 +18,8 @@ export default async function VereadoresPage({ searchParams }: Props) {
   if (!legislatura) notFound();
 
   const [vereadores, resumo] = await Promise.all([
-    vereadoresRepository.listar({ legislaturaId: legislatura.id }),
-    emendasRepository.obterResumo({ legislaturaId: legislatura.id }),
+    listarVereadores({ legislaturaId: legislatura.id }),
+    obterResumoEmendas({ legislaturaId: legislatura.id }),
   ]);
   const totais = new Map(resumo.porVereador.map((item) => [item.vereadorId, item]));
 

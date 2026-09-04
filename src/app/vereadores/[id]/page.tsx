@@ -3,15 +3,13 @@ import { notFound } from "next/navigation";
 
 import { Header } from "@/components/header";
 import { LegislaturaSelector } from "@/components/legislatura-selector";
+import { listarEmendas, listarVereadores, obterResumoEmendas } from "@/lib/dados";
 import { formatarData, formatarMoeda } from "@/lib/formatters";
 import {
   carregarContextoLegislatura,
   comLegislatura,
   primeiroParametro,
 } from "@/lib/legislaturas";
-import { emendasRepository, vereadoresRepository } from "@/repositories";
-
-export const dynamic = "force-dynamic";
 
 type Props = {
   params: Promise<{ id: string }>;
@@ -27,14 +25,14 @@ export default async function VereadorPage({ params, searchParams }: Props) {
   if (!legislatura) notFound();
 
   const [vereadores, emendas, resumo] = await Promise.all([
-    vereadoresRepository.listar({ legislaturaId: legislatura.id }),
-    emendasRepository.listar({
+    listarVereadores({ legislaturaId: legislatura.id }),
+    listarEmendas({
       legislaturaId: legislatura.id,
       vereadorId: id,
       pagina,
       itensPorPagina: 12,
     }),
-    emendasRepository.obterResumo({
+    obterResumoEmendas({
       legislaturaId: legislatura.id,
       vereadorId: id,
     }),
