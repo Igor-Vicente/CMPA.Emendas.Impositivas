@@ -3,8 +3,7 @@ import Link from "next/link";
 import { comLegislatura } from "@/lib/legislaturas";
 
 export function Header({ legislaturaSlug }: { legislaturaSlug?: string }) {
-  const href = (caminho: string) =>
-    legislaturaSlug ? comLegislatura(caminho, legislaturaSlug) : caminho;
+  const href = (caminho: string) => (legislaturaSlug ? comLegislatura(caminho, legislaturaSlug) : caminho);
 
   return (
     <header className="w-full border-b border-white/10 bg-[#0d2a40] text-white">
@@ -23,13 +22,22 @@ export function Header({ legislaturaSlug }: { legislaturaSlug?: string }) {
         </Link>
         <div className="flex items-center gap-2">
           <nav className="hidden items-center gap-1 text-sm md:flex" aria-label="Navegação principal">
-            <Link className="rounded-lg px-4 py-2 text-slate-200 transition hover:bg-white/10 hover:text-white" href={href("/")}>
+            <Link
+              className="rounded-lg px-4 py-2 text-slate-200 transition hover:bg-white/10 hover:text-white"
+              href={href("/")}
+            >
               Início
             </Link>
-            <Link className="rounded-lg px-4 py-2 text-slate-200 transition hover:bg-white/10 hover:text-white" href={href("/emendas")}>
+            <Link
+              className="rounded-lg px-4 py-2 text-slate-200 transition hover:bg-white/10 hover:text-white"
+              href={href("/emendas")}
+            >
               Emendas
             </Link>
-            <Link className="rounded-lg px-4 py-2 text-slate-200 transition hover:bg-white/10 hover:text-white" href={href("/vereadores")}>
+            <Link
+              className="rounded-lg px-4 py-2 text-slate-200 transition hover:bg-white/10 hover:text-white"
+              href={href("/vereadores")}
+            >
               Vereadores
             </Link>
           </nav>

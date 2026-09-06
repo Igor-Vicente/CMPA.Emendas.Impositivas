@@ -21,10 +21,7 @@ export function LegislaturaSelector({
       {Object.entries(parametrosOcultos).map(([nome, valor]) =>
         valor ? <input key={nome} type="hidden" name={nome} value={valor} /> : null,
       )}
-      <label
-        htmlFor="legislatura"
-        className="px-1 text-xs font-semibold uppercase tracking-[0.1em] text-slate-500"
-      >
+      <label htmlFor="legislatura" className="px-1 text-xs font-semibold uppercase tracking-[0.1em] text-slate-500">
         Legislatura
       </label>
       <select

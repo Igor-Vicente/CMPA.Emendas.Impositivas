@@ -14,16 +14,12 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Emendas Impositivas | Câmara Municipal de Pouso Alto",
-  description:
-    "Painel de transparência das emendas impositivas da Câmara Municipal de Pouso Alto.",
+  description: "Painel de transparência das emendas impositivas da Câmara Municipal de Pouso Alto.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html
-      lang="pt-BR"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
+    <html lang="pt-BR" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );

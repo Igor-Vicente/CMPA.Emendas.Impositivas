@@ -4,8 +4,8 @@ import type {
   FiltrosResumo,
   FiltrosVereador,
   Legislatura,
-  ResumoDashboard,
   ResultadoPaginado,
+  ResumoDashboard,
   Vereador,
 } from "@/types";
 

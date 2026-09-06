@@ -65,5 +65,4 @@ export class MongoVereadoresRepository implements VereadoresRepository {
     const vereador = await colecao.findOne({ _id });
     return vereador ? paraDominio(vereador) : null;
   }
-
 }

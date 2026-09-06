@@ -19,10 +19,7 @@ export class MongoLegislaturasRepository implements LegislaturasRepository {
 
   async listar(): Promise<Legislatura[]> {
     const colecao = await this.colecao();
-    const legislaturas = await colecao
-      .find()
-      .sort({ anoInicio: -1 })
-      .toArray();
+    const legislaturas = await colecao.find().sort({ anoInicio: -1 }).toArray();
     return legislaturas.map(paraDominio);
   }
 
@@ -42,10 +39,7 @@ export class MongoLegislaturasRepository implements LegislaturasRepository {
 
   async buscarAtiva(): Promise<Legislatura | null> {
     const colecao = await this.colecao();
-    const legislatura = await colecao.findOne(
-      { ativa: true },
-      { sort: { anoInicio: -1 } },
-    );
+    const legislatura = await colecao.findOne({ ativa: true }, { sort: { anoInicio: -1 } });
     return legislatura ? paraDominio(legislatura) : null;
   }
 }

@@ -7,9 +7,9 @@ import type {
   Emenda,
   FiltrosEmenda,
   FiltrosResumo,
+  ResultadoPaginado,
   ResumoAgrupado,
   ResumoDashboard,
-  ResultadoPaginado,
 } from "@/types";
 
 type GrupoMongo = {
@@ -39,12 +39,7 @@ type ResumoMongo = {
 
 type EmendaMongo = Omit<
   Emenda,
-  | "id"
-  | "legislaturaId"
-  | "vereadorId"
-  | "planoDeTrabalho"
-  | "pareceresJuridicos"
-  | "relatoriosExecutivo"
+  "id" | "legislaturaId" | "vereadorId" | "planoDeTrabalho" | "pareceresJuridicos" | "relatoriosExecutivo"
 > & {
   legislaturaId: ObjectId;
   vereadorId: ObjectId;
@@ -85,23 +80,14 @@ export class MongoEmendasRepository implements EmendasRepository {
     return db.collection<EmendaMongo>("emendas_impositivas");
   }
 
-  async listar(
-    filtros: FiltrosEmenda = {},
-  ): Promise<ResultadoPaginado<Emenda>> {
+  async listar(filtros: FiltrosEmenda = {}): Promise<ResultadoPaginado<Emenda>> {
     const pagina = Math.max(1, Math.trunc(filtros.pagina ?? 1));
-    const itensPorPagina = Math.min(
-      100,
-      Math.max(1, Math.trunc(filtros.itensPorPagina ?? 20)),
-    );
+    const itensPorPagina = Math.min(100, Math.max(1, Math.trunc(filtros.itensPorPagina ?? 20)));
     const query: Filter<EmendaMongo> = {};
 
     if (filtros.busca) {
       const busca = { $regex: escaparRegex(filtros.busca), $options: "i" };
-      query.$or = [
-        { titulo: busca },
-        { justificativa: busca },
-        { assunto: busca },
-      ];
+      query.$or = [{ titulo: busca }, { justificativa: busca }, { assunto: busca }];
     }
 
     if (filtros.titulo) {
@@ -277,9 +263,7 @@ export class MongoEmendasRepository implements EmendasRepository {
 
     return {
       ...totais,
-      entidadesBeneficiadas: beneficiarios.filter(
-        (beneficiario) => beneficiario.trim() !== "",
-      ).length,
+      entidadesBeneficiadas: beneficiarios.filter((beneficiario) => beneficiario.trim() !== "").length,
       porAssunto: mapearGrupo(resultado?.porAssunto ?? []),
       porOrgaoExecutor: mapearGrupo(resultado?.porOrgaoExecutor ?? []),
       porPeriodoExecucao: mapearGrupo(resultado?.porPeriodoExecucao ?? []),
@@ -290,10 +274,7 @@ export class MongoEmendasRepository implements EmendasRepository {
     };
   }
 
-  private resultadoVazio(
-    pagina: number,
-    itensPorPagina: number,
-  ): ResultadoPaginado<Emenda> {
+  private resultadoVazio(pagina: number, itensPorPagina: number): ResultadoPaginado<Emenda> {
     return {
       itens: [],
       total: 0,

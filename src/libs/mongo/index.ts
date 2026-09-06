@@ -36,4 +36,3 @@ export async function getDatabase(): Promise<Db> {
 
   return mongoClient.db(databaseName);
 }
-
