@@ -41,7 +41,7 @@ async function EmendasPageContent({ searchParams }: Props) {
   return (
     <>
       <Header legislaturaSlug={legislatura.slug} />
-      <main className="mx-auto min-h-[70vh] w-full max-w-[1440px] px-4 py-8 sm:px-6 sm:py-12 lg:px-10">
+      <main className="mx-auto min-h-[70vh] w-full max-w-360 px-4 py-8 sm:px-6 sm:py-12 lg:px-10">
         <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#9a6c1d]">Consulta pública</p>
         <h1 className="mt-2 text-2xl font-semibold text-[#12334d] sm:text-3xl">Todas as emendas</h1>
         <p className="mt-2 text-sm text-slate-500">
@@ -72,8 +72,8 @@ async function EmendasPageContent({ searchParams }: Props) {
 
         <div className="mt-7 overflow-hidden rounded-2xl border border-slate-200 bg-white">
           <div className="hidden overflow-x-auto md:block">
-            <table className="w-full min-w-[760px] text-left">
-              <thead className="bg-slate-50 text-xs font-semibold uppercase tracking-[0.1em] text-slate-500">
+            <table className="w-full min-w-190 text-left">
+              <thead className="bg-slate-50 text-xs font-semibold uppercase tracking-widest text-slate-500">
                 <tr>
                   <th className="px-5 py-4">Emenda</th>
                   <th className="px-5 py-4">Vereador</th>
@@ -85,7 +85,7 @@ async function EmendasPageContent({ searchParams }: Props) {
               <tbody className="divide-y divide-slate-100">
                 {resultado.itens.map((emenda) => (
                   <tr key={emenda.id} className="hover:bg-slate-50">
-                    <td className="max-w-[330px] px-5 py-4">
+                    <td className="max-w-82.5 px-5 py-4">
                       <Link
                         href={comLegislatura(`/emendas/${emenda.id}`, legislatura.slug)}
                         className="font-semibold text-slate-800 hover:text-[#19689b] hover:underline"

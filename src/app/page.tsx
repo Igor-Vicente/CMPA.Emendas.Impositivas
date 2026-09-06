@@ -56,7 +56,7 @@ async function HomePageContent({ searchParams }: Props) {
       <Header legislaturaSlug={legislatura.slug} />
       <main>
         <Hero legislaturaSlug={legislatura.slug} />
-        <div className="mx-auto flex max-w-[1440px] justify-end px-6 pt-8 lg:px-10">
+        <div className="mx-auto flex max-w-360 justify-end px-6 pt-8 lg:px-10">
           <LegislaturaSelector action="/" legislaturas={legislaturas} selecionada={legislatura} />
         </div>
         {dados ? (

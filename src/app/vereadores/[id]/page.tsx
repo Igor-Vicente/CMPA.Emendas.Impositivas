@@ -50,7 +50,7 @@ async function VereadorPageContent({ params, searchParams }: Props) {
   return (
     <>
       <Header legislaturaSlug={legislatura.slug} />
-      <main className="mx-auto min-h-[70vh] max-w-[1440px] px-6 py-12 lg:px-10">
+      <main className="mx-auto min-h-[70vh] max-w-360 px-6 py-12 lg:px-10">
         <div className="mb-7 flex justify-end">
           <LegislaturaSelector action={`/vereadores/${id}`} legislaturas={legislaturas} selecionada={legislatura} />
         </div>

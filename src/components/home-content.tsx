@@ -98,7 +98,7 @@ export function HomeContent({ resumo, emendas, vereadores, legislatura }: HomeCo
 
   return (
     <>
-      <div className="mx-auto max-w-[1440px] px-6 py-12 lg:px-10 lg:py-16">
+      <div className="mx-auto max-w-360 px-6 py-12 lg:px-10 lg:py-16">
         <section id="indicadores" aria-labelledby="titulo-indicadores">
           <div className="mb-6">
             <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#9a6c1d]">Visão geral</p>
@@ -150,7 +150,7 @@ export function HomeContent({ resumo, emendas, vereadores, legislatura }: HomeCo
             {assuntos.length ? (
               <div className="mt-6 overflow-x-auto pb-2">
                 <div
-                  className="grid h-[310px] min-w-[720px] grid-cols-[repeat(var(--colunas),minmax(70px,1fr))] items-end gap-5 border-b border-slate-300 px-5"
+                  className="grid h-77.5 min-w-180 grid-cols-[repeat(var(--colunas),minmax(70px,1fr))] items-end gap-5 border-b border-slate-300 px-5"
                   style={
                     {
                       "--colunas": assuntos.length,
@@ -163,7 +163,7 @@ export function HomeContent({ resumo, emendas, vereadores, legislatura }: HomeCo
                     <div key={item.nome} className="flex h-full flex-col justify-end text-center">
                       <span className="mb-2 text-xs font-semibold text-slate-500">{item.quantidade}</span>
                       <div
-                        className="mx-auto w-full max-w-[96px] rounded-t-md bg-[#5275dc] transition hover:bg-[#3f63cf]"
+                        className="mx-auto w-full max-w-24 rounded-t-md bg-[#5275dc] transition hover:bg-[#3f63cf]"
                         style={{ height: `${Math.max(4, (item.quantidade / maiorQuantidade) * 240)}px` }}
                         title={`${item.nome}: ${item.quantidade} emendas`}
                       />
@@ -204,7 +204,7 @@ export function HomeContent({ resumo, emendas, vereadores, legislatura }: HomeCo
                       return (
                         <div
                           key={item.nome}
-                          className="flex min-w-[2px] items-center justify-center border-r border-white/60 text-[11px] font-bold text-white"
+                          className="flex min-w-0.5 items-center justify-center border-r border-white/60 text-[11px] font-bold text-white"
                           style={{ width: `${percentual}%`, backgroundColor: coresAssuntos[index] }}
                           title={`${item.nome}: ${percentual.toFixed(1)}%`}
                         >
@@ -265,8 +265,8 @@ export function HomeContent({ resumo, emendas, vereadores, legislatura }: HomeCo
           </div>
           <div className="mt-6 overflow-hidden rounded-2xl border border-slate-200 bg-white">
             <div className="overflow-x-auto">
-              <table className="w-full min-w-[760px] text-left">
-                <thead className="bg-slate-50 text-xs font-semibold uppercase tracking-[0.1em] text-slate-500">
+              <table className="w-full min-w-190 text-left">
+                <thead className="bg-slate-50 text-xs font-semibold uppercase tracking-widest text-slate-500">
                   <tr>
                     <th className="px-5 py-4">Emenda</th>
                     <th className="px-5 py-4">Vereador</th>
@@ -374,7 +374,7 @@ export function HomeContent({ resumo, emendas, vereadores, legislatura }: HomeCo
       </div>
 
       <footer id="sobre" className="border-t border-slate-200 bg-white">
-        <div className="mx-auto flex max-w-[1440px] flex-col justify-between gap-3 px-6 py-8 text-sm text-slate-500 sm:flex-row sm:items-center lg:px-10">
+        <div className="mx-auto flex max-w-360 flex-col justify-between gap-3 px-6 py-8 text-sm text-slate-500 sm:flex-row sm:items-center lg:px-10">
           <div>
             <strong className="font-semibold text-[#12334d]">Câmara Municipal de Pouso Alto</strong>
             <p className="mt-1 text-xs">Portal de transparência das emendas impositivas.</p>

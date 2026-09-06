@@ -9,7 +9,7 @@ import type { FiltrosEmenda, FiltrosResumo, FiltrosVereador } from "@/types";
  * houver uma tela de cadastro neste projeto.
  */
 export async function listarLegislaturas() {
-  "use cache";
+  "use cache: remote";
   cacheLife("days");
   cacheTag("legislaturas");
   console.info("[CACHE_FILL] Consultando legislaturas no MongoDB", {
@@ -20,7 +20,7 @@ export async function listarLegislaturas() {
 }
 
 export async function buscarLegislaturaPorId(id: string) {
-  "use cache";
+  "use cache: remote";
   cacheLife("days");
   cacheTag("legislaturas");
   console.info("[CACHE_FILL] Consultando legislatura no MongoDB", {
@@ -32,7 +32,7 @@ export async function buscarLegislaturaPorId(id: string) {
 }
 
 export async function listarVereadores(filtros: FiltrosVereador = {}) {
-  "use cache";
+  "use cache: remote";
   cacheLife("days");
   cacheTag("vereadores");
   console.info("[CACHE_FILL] Consultando vereadores no MongoDB", {
@@ -44,7 +44,7 @@ export async function listarVereadores(filtros: FiltrosVereador = {}) {
 }
 
 export async function buscarVereadorPorId(id: string) {
-  "use cache";
+  "use cache: remote";
   cacheLife("days");
   cacheTag("vereadores");
   console.info("[CACHE_FILL] Consultando vereador no MongoDB", {
@@ -56,7 +56,7 @@ export async function buscarVereadorPorId(id: string) {
 }
 
 export async function listarEmendas(filtros: FiltrosEmenda = {}) {
-  "use cache";
+  "use cache: remote";
   cacheLife("days");
   cacheTag("emendas");
   console.info("[CACHE_FILL] Consultando emendas no MongoDB", {
@@ -72,7 +72,7 @@ export async function listarEmendas(filtros: FiltrosEmenda = {}) {
 }
 
 export async function buscarEmendaPorId(id: string) {
-  "use cache";
+  "use cache: remote";
   cacheLife("days");
   cacheTag("emendas");
   console.info("[CACHE_FILL] Consultando emenda no MongoDB", {
@@ -84,7 +84,7 @@ export async function buscarEmendaPorId(id: string) {
 }
 
 export async function obterResumoEmendas(filtros: FiltrosResumo = {}) {
-  "use cache";
+  "use cache: remote";
   cacheLife("days");
   cacheTag("emendas");
   console.info("[CACHE_FILL] Consultando resumo de emendas no MongoDB", {

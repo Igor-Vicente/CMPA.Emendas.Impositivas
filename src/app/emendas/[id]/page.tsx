@@ -14,7 +14,7 @@ type Props = { params: Promise<{ id: string }> };
 function Campo({ titulo, valor }: { titulo: string; valor: string }) {
   return (
     <div className="rounded-2xl border border-slate-200 bg-white p-5">
-      <dt className="text-xs font-semibold uppercase tracking-[0.1em] text-slate-500">{titulo}</dt>
+      <dt className="text-xs font-semibold uppercase tracking-widest text-slate-500">{titulo}</dt>
       <dd className="mt-2 text-sm font-medium leading-6 text-slate-800">{valor || "Não informado"}</dd>
     </div>
   );
@@ -114,7 +114,7 @@ async function EmendaPageContent({ params }: Props) {
   return (
     <>
       <Header legislaturaSlug={slug} />
-      <main className="mx-auto min-h-[70vh] max-w-[1200px] px-6 py-10 lg:px-10 lg:py-12">
+      <main className="mx-auto min-h-[70vh] max-w-300 px-6 py-10 lg:px-10 lg:py-12">
         <Link
           href={slug ? comLegislatura("/emendas", slug) : "/emendas"}
           className="inline-flex items-center gap-2 text-sm font-semibold text-[#19689b] hover:underline"
@@ -138,7 +138,7 @@ async function EmendaPageContent({ params }: Props) {
           <h1 className="mt-5 max-w-4xl text-3xl font-semibold leading-tight sm:text-4xl">{emenda.titulo}</h1>
           <div className="mt-7 flex flex-col justify-between gap-5 border-t border-white/15 pt-6 sm:flex-row sm:items-end">
             <div>
-              <p className="text-xs uppercase tracking-[0.1em] text-slate-300">Autoria</p>
+              <p className="text-xs uppercase tracking-widest text-slate-300">Autoria</p>
               {vereador ? (
                 <Link
                   href={slug ? comLegislatura(`/vereadores/${vereador.id}`, slug) : `/vereadores/${vereador.id}`}
@@ -151,7 +151,7 @@ async function EmendaPageContent({ params }: Props) {
               )}
             </div>
             <div className="sm:text-right">
-              <p className="text-xs uppercase tracking-[0.1em] text-slate-300">Valor destinado</p>
+              <p className="text-xs uppercase tracking-widest text-slate-300">Valor destinado</p>
               <strong className="mt-1 block text-2xl text-[#e1b45b]">{formatarMoeda(emenda.valorEmCentavos)}</strong>
             </div>
           </div>
@@ -174,7 +174,7 @@ async function EmendaPageContent({ params }: Props) {
           <h2 className="text-lg font-semibold text-[#12334d]">Tramitação legislativa</h2>
           <dl className="mt-5 grid gap-5 sm:grid-cols-2">
             <div>
-              <dt className="text-xs font-semibold uppercase tracking-[0.1em] text-slate-500">Tramitação</dt>
+              <dt className="text-xs font-semibold uppercase tracking-widest text-slate-500">Tramitação</dt>
               <dd className="mt-2 whitespace-pre-line text-sm leading-6 text-slate-700">
                 {emenda.tramitacaoLegislativa ? (
                   <TextoComLinks conteudo={emenda.tramitacaoLegislativa} />
@@ -184,13 +184,13 @@ async function EmendaPageContent({ params }: Props) {
               </dd>
             </div>
             <div>
-              <dt className="text-xs font-semibold uppercase tracking-[0.1em] text-slate-500">Votação</dt>
+              <dt className="text-xs font-semibold uppercase tracking-widest text-slate-500">Votação</dt>
               <dd className="mt-2 whitespace-pre-line text-sm leading-6 text-slate-700">
                 {emenda.votacao || "Não informada."}
               </dd>
             </div>
             <div>
-              <dt className="text-xs font-semibold uppercase tracking-[0.1em] text-slate-500">
+              <dt className="text-xs font-semibold uppercase tracking-widest text-slate-500">
                 Resultado da deliberação
               </dt>
               <dd className="mt-2 whitespace-pre-line text-sm leading-6 text-slate-700">
@@ -198,7 +198,7 @@ async function EmendaPageContent({ params }: Props) {
               </dd>
             </div>
             <div>
-              <dt className="text-xs font-semibold uppercase tracking-[0.1em] text-slate-500">Alterações</dt>
+              <dt className="text-xs font-semibold uppercase tracking-widest text-slate-500">Alterações</dt>
               <dd className="mt-2 whitespace-pre-line text-sm leading-6 text-slate-700">
                 {emenda.alteracoes || "Nenhuma alteração informada."}
               </dd>

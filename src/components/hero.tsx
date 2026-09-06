@@ -12,7 +12,7 @@ export function Hero({ legislaturaSlug }: { legislaturaSlug: string }) {
         }}
       />
 
-      <div className="relative mx-auto grid max-w-[1440px] items-center gap-10 px-6 py-14 sm:py-18 lg:grid-cols-[minmax(0,1fr)_minmax(320px,480px)] lg:px-10 lg:py-20">
+      <div className="relative mx-auto grid max-w-360 items-center gap-10 px-6 py-14 sm:py-18 lg:grid-cols-[minmax(0,1fr)_minmax(320px,480px)] lg:px-10 lg:py-20">
         <div className="max-w-3xl">
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#e1b45b]">Transparência legislativa</p>
           <h1 className="mt-4 text-4xl font-semibold tracking-[-0.04em] sm:text-5xl lg:text-6xl">
@@ -64,7 +64,7 @@ export function Hero({ legislaturaSlug }: { legislaturaSlug: string }) {
             width={519}
             height={236}
             priority
-            className="h-auto w-full max-w-[360px] drop-shadow-[0_16px_32px_rgba(0,0,0,0.24)] lg:max-w-[460px]"
+            className="h-auto w-full max-w-90 drop-shadow-[0_16px_32px_rgba(0,0,0,0.24)] lg:max-w-115"
           />
         </div>
       </div>

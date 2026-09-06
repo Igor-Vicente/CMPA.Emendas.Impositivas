@@ -7,7 +7,7 @@ export function Header({ legislaturaSlug }: { legislaturaSlug?: string }) {
 
   return (
     <header className="w-full border-b border-white/10 bg-[#0d2a40] text-white">
-      <div className="mx-auto flex max-w-[1440px] items-center justify-between gap-8 px-6 py-4 lg:px-10">
+      <div className="mx-auto flex max-w-360 items-center justify-between gap-8 px-6 py-4 lg:px-10">
         <Link
           href={href("/")}
           className="flex min-w-0 flex-col leading-tight"

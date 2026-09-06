@@ -4,7 +4,7 @@ export function PageLoading() {
   return (
     <>
       <Header />
-      <main className="mx-auto flex min-h-[70vh] w-full max-w-[1440px] items-center justify-center px-6 py-20">
+      <main className="mx-auto flex min-h-[70vh] w-full max-w-360 items-center justify-center px-6 py-20">
         <div className="flex flex-col items-center gap-4 text-center" role="status" aria-live="polite">
           <span
             className="h-10 w-10 animate-spin rounded-full border-4 border-[#cfe1eb] border-t-[#19689b]"

@@ -34,7 +34,7 @@ async function VereadoresPageContent({ searchParams }: Props) {
   return (
     <>
       <Header legislaturaSlug={legislatura.slug} />
-      <main className="mx-auto min-h-[70vh] max-w-[1440px] px-6 py-12 lg:px-10">
+      <main className="mx-auto min-h-[70vh] max-w-360 px-6 py-12 lg:px-10">
         <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#9a6c1d]">{legislatura.titulo}</p>
         <h1 className="mt-2 text-3xl font-semibold text-[#12334d]">Vereadores</h1>
         <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-500">
