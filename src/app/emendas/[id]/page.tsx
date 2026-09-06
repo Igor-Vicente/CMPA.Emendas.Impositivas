@@ -114,7 +114,7 @@ async function EmendaPageContent({ params }: Props) {
   return (
     <>
       <Header legislaturaSlug={slug} />
-      <main className="mx-auto min-h-[70vh] max-w-300 px-6 py-10 lg:px-10 lg:py-12">
+      <main className="mx-auto min-h-[70vh] max-w-360 w-full px-6 py-10 lg:px-10 lg:py-12">
         <Link
           href={slug ? comLegislatura("/emendas", slug) : "/emendas"}
           className="inline-flex items-center gap-2 text-sm font-semibold text-[#19689b] hover:underline"
