@@ -52,6 +52,7 @@ export class MongoVereadoresRepository implements VereadoresRepository {
 
     const vereadores = await colecao
       .find(vereadorIds ? { _id: { $in: vereadorIds } } : {})
+      .collation({ locale: "pt", strength: 1 })
       .sort({ nome: 1 })
       .toArray();
     return vereadores.map(paraDominio);
