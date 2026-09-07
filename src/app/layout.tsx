@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Emendas Impositivas | Câmara Municipal de Pouso Alto",
+  title: "Emendas Impositivas — Câmara Municipal de Pouso Alto",
   description: "Painel de transparência das emendas impositivas da Câmara Municipal de Pouso Alto.",
 };
 
