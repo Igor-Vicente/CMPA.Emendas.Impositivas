@@ -102,10 +102,11 @@ export type FiltrosEmenda = Paginacao & {
 };
 
 export type FiltrosVereador = {
-  legislaturaId?: string;
+  legislaturaIds?: string[];
 };
 
 export type FiltrosResumo = {
   legislaturaId?: string;
   vereadorId?: string;
+  periodoExecucao?: number;
 };

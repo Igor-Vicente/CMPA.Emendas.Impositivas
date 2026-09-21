@@ -19,6 +19,20 @@ export async function listarLegislaturas() {
   return legislaturasRepository.listar();
 }
 
+export async function listarAnosExecucao() {
+  "use cache: remote";
+  cacheLife("days");
+  cacheTag("emendas");
+  return emendasRepository.listarAnosExecucao();
+}
+
+export async function listarLegislaturaIdsPorAno(ano: number) {
+  "use cache: remote";
+  cacheLife("days");
+  cacheTag("emendas");
+  return emendasRepository.listarLegislaturaIdsPorAno(ano);
+}
+
 export async function buscarLegislaturaPorId(id: string) {
   "use cache: remote";
   cacheLife("days");
@@ -35,10 +49,12 @@ export async function listarVereadores(filtros: FiltrosVereador = {}) {
   "use cache: remote";
   cacheLife("days");
   cacheTag("vereadores");
+  cacheTag("emendas");
+  cacheTag("legislaturas");
   console.info("[CACHE_FILL] Consultando vereadores no MongoDB", {
     ocorridoEm: new Date().toISOString(),
     operacao: "listar",
-    legislaturaId: filtros.legislaturaId,
+    legislaturaIds: filtros.legislaturaIds,
   });
   return vereadoresRepository.listar(filtros);
 }
@@ -64,6 +80,7 @@ export async function listarEmendas(filtros: FiltrosEmenda = {}) {
     operacao: "listar",
     legislaturaId: filtros.legislaturaId,
     vereadorId: filtros.vereadorId,
+    periodoExecucao: filtros.periodoExecucao,
     pagina: filtros.pagina,
     itensPorPagina: filtros.itensPorPagina,
     possuiBusca: Boolean(filtros.busca),
@@ -92,6 +109,7 @@ export async function obterResumoEmendas(filtros: FiltrosResumo = {}) {
     operacao: "obterResumo",
     legislaturaId: filtros.legislaturaId,
     vereadorId: filtros.vereadorId,
+    periodoExecucao: filtros.periodoExecucao,
   });
   return emendasRepository.obterResumo(filtros);
 }

@@ -37,14 +37,16 @@ export class MongoVereadoresRepository implements VereadoresRepository {
     const colecao = await this.colecao();
     let vereadorIds: ObjectId[] | undefined;
 
-    if (filtros.legislaturaId) {
-      const legislaturaId = objectIdValido(filtros.legislaturaId);
-      if (!legislaturaId) return [];
+    if (filtros.legislaturaIds) {
+      const legislaturaIds = filtros.legislaturaIds
+        .map(objectIdValido)
+        .filter((id): id is ObjectId => id !== null);
+      if (legislaturaIds.length !== filtros.legislaturaIds.length) return [];
 
       const db = await getDatabase();
       const mandatos = await db
         .collection<{ legislaturaId: ObjectId; vereadorId: ObjectId }>("mandatos")
-        .find({ legislaturaId })
+        .find({ legislaturaId: { $in: legislaturaIds } })
         .project<{ vereadorId: ObjectId }>({ vereadorId: 1 })
         .toArray();
       vereadorIds = mandatos.map((mandato) => mandato.vereadorId);

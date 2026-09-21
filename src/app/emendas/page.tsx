@@ -3,11 +3,11 @@ import { notFound } from "next/navigation";
 import { Suspense } from "react";
 
 import { Header } from "@/components/header";
-import { LegislaturaSelector } from "@/components/legislatura-selector";
+import { AnoSelector } from "@/components/ano-selector";
 import { PageLoading } from "@/components/page-loading";
 import { listarEmendas, listarVereadores } from "@/lib/dados";
 import { formatarData, formatarMoeda } from "@/lib/formatters";
-import { carregarContextoLegislatura, comLegislatura, primeiroParametro } from "@/lib/legislaturas";
+import { carregarContextoAno, comAno, primeiroParametro } from "@/lib/anos";
 
 type Props = { searchParams: Promise<Record<string, string | string[] | undefined>> };
 
@@ -23,42 +23,42 @@ async function EmendasPageContent({ searchParams }: Props) {
   const params = await searchParams;
   const busca = primeiroParametro(params.busca)?.trim();
   const pagina = Math.max(1, Number(primeiroParametro(params.pagina)) || 1);
-  const { legislaturas, legislatura } = await carregarContextoLegislatura(primeiroParametro(params.legislatura));
-  if (!legislatura) notFound();
+  const { anos, ano, legislaturaIds } = await carregarContextoAno(primeiroParametro(params.ano), primeiroParametro(params.legislatura));
+  if (ano === null) notFound();
 
   const [resultado, vereadores] = await Promise.all([
-    listarEmendas({ legislaturaId: legislatura.id, busca, pagina, itensPorPagina: 12 }),
-    listarVereadores({ legislaturaId: legislatura.id }),
+    listarEmendas({ periodoExecucao: ano, busca, pagina, itensPorPagina: 12 }),
+    listarVereadores({ legislaturaIds }),
   ]);
   const vereadoresPorId = new Map(vereadores.map((item) => [item.id, item.nome]));
   const hrefPagina = (numero: number) =>
     `/emendas?${new URLSearchParams({
-      legislatura: legislatura.slug,
+      ano: String(ano),
       ...(busca ? { busca } : {}),
       pagina: String(numero),
     })}`;
 
   return (
     <>
-      <Header legislaturaSlug={legislatura.slug} />
+      <Header ano={ano} />
       <main className="mx-auto min-h-[70vh] w-full max-w-360 px-4 py-8 sm:px-6 sm:py-12 lg:px-10">
         <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#9a6c1d]">Consulta pública</p>
         <h1 className="mt-2 text-2xl font-semibold text-[#12334d] sm:text-3xl">Todas as emendas</h1>
         <p className="mt-2 text-sm text-slate-500">
-          Consulte os registros da {legislatura.titulo.toLocaleLowerCase("pt-BR")}.
+          Consulte as emendas com execução prevista para {ano}.
         </p>
 
         <div className="mt-7 flex max-w-2xl">
-          <LegislaturaSelector
+          <AnoSelector
             action="/emendas"
-            legislaturas={legislaturas}
-            selecionada={legislatura}
+            anos={anos}
+            selecionado={ano}
             parametrosOcultos={{ busca }}
           />
         </div>
 
         <form className="mt-7 flex max-w-2xl flex-col gap-2 rounded-2xl border border-slate-200 bg-white p-2 sm:flex-row sm:gap-3">
-          <input type="hidden" name="legislatura" value={legislatura.slug} />
+          <input type="hidden" name="ano" value={ano} />
           <input
             name="busca"
             defaultValue={busca}
@@ -87,7 +87,7 @@ async function EmendasPageContent({ searchParams }: Props) {
                   <tr key={emenda.id} className="hover:bg-slate-50">
                     <td className="max-w-82.5 px-5 py-4">
                       <Link
-                        href={comLegislatura(`/emendas/${emenda.id}`, legislatura.slug)}
+                        href={comAno(`/emendas/${emenda.id}`, ano)}
                         className="font-semibold text-slate-800 hover:text-[#19689b] hover:underline"
                       >
                         {emenda.titulo}
@@ -117,7 +117,7 @@ async function EmendasPageContent({ searchParams }: Props) {
                   <strong className="shrink-0 text-sm text-slate-900">{formatarMoeda(emenda.valorEmCentavos)}</strong>
                 </div>
                 <Link
-                  href={comLegislatura(`/emendas/${emenda.id}`, legislatura.slug)}
+                  href={comAno(`/emendas/${emenda.id}`, ano)}
                   className="mt-3 block font-semibold leading-6 text-slate-800 hover:text-[#19689b] hover:underline"
                 >
                   {emenda.titulo}

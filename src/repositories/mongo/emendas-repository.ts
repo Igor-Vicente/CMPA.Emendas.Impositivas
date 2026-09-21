@@ -80,6 +80,18 @@ export class MongoEmendasRepository implements EmendasRepository {
     return db.collection<EmendaMongo>("emendas_impositivas");
   }
 
+  async listarAnosExecucao(): Promise<number[]> {
+    const colecao = await this.colecao();
+    const anos = await colecao.distinct("periodoExecucao");
+    return anos.filter((ano) => Number.isInteger(ano) && ano >= 1900 && ano <= 9999).sort((a, b) => b - a);
+  }
+
+  async listarLegislaturaIdsPorAno(ano: number): Promise<string[]> {
+    const colecao = await this.colecao();
+    const ids = await colecao.distinct("legislaturaId", { periodoExecucao: ano });
+    return ids.map((id) => id.toHexString());
+  }
+
   async listar(filtros: FiltrosEmenda = {}): Promise<ResultadoPaginado<Emenda>> {
     const pagina = Math.max(1, Math.trunc(filtros.pagina ?? 1));
     const itensPorPagina = Math.min(100, Math.max(1, Math.trunc(filtros.itensPorPagina ?? 20)));
@@ -179,6 +191,10 @@ export class MongoEmendasRepository implements EmendasRepository {
       const vereadorId = objectIdValido(filtros.vereadorId);
       if (!vereadorId) return this.resumoVazio();
       query.vereadorId = vereadorId;
+    }
+
+    if (filtros.periodoExecucao !== undefined) {
+      query.periodoExecucao = filtros.periodoExecucao;
     }
 
     const [resultado] = await colecao

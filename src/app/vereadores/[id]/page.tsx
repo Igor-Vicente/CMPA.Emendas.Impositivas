@@ -3,11 +3,11 @@ import { notFound } from "next/navigation";
 import { Suspense } from "react";
 
 import { Header } from "@/components/header";
-import { LegislaturaSelector } from "@/components/legislatura-selector";
+import { AnoSelector } from "@/components/ano-selector";
 import { PageLoading } from "@/components/page-loading";
 import { listarEmendas, listarVereadores, obterResumoEmendas } from "@/lib/dados";
 import { formatarData, formatarMoeda } from "@/lib/formatters";
-import { carregarContextoLegislatura, comLegislatura, primeiroParametro } from "@/lib/legislaturas";
+import { carregarContextoAno, comAno, primeiroParametro } from "@/lib/anos";
 
 type Props = {
   params: Promise<{ id: string }>;
@@ -25,39 +25,39 @@ export default function VereadorPage(props: Props) {
 async function VereadorPageContent({ params, searchParams }: Props) {
   const [{ id }, query] = await Promise.all([params, searchParams]);
   const pagina = Math.max(1, Number(primeiroParametro(query.pagina)) || 1);
-  const { legislaturas, legislatura } = await carregarContextoLegislatura(primeiroParametro(query.legislatura));
-  if (!legislatura) notFound();
+  const { anos, ano, legislaturaIds } = await carregarContextoAno(primeiroParametro(query.ano), primeiroParametro(query.legislatura));
+  if (ano === null) notFound();
 
   const [vereadores, emendas, resumo] = await Promise.all([
-    listarVereadores({ legislaturaId: legislatura.id }),
+    listarVereadores({ legislaturaIds }),
     listarEmendas({
-      legislaturaId: legislatura.id,
       vereadorId: id,
+      periodoExecucao: ano,
       pagina,
       itensPorPagina: 12,
     }),
     obterResumoEmendas({
-      legislaturaId: legislatura.id,
       vereadorId: id,
+      periodoExecucao: ano,
     }),
   ]);
   const vereador = vereadores.find((item) => item.id === id);
   if (!vereador) notFound();
 
   const porArea = resumo.porAssunto.map((item) => item.nome);
-  const hrefPagina = (numero: number) => `${comLegislatura(`/vereadores/${id}`, legislatura.slug)}&pagina=${numero}`;
+  const hrefPagina = (numero: number) => `${comAno(`/vereadores/${id}`, ano)}&pagina=${numero}`;
 
   return (
     <>
-      <Header legislaturaSlug={legislatura.slug} />
+      <Header ano={ano} />
       <main className="mx-auto min-h-[70vh] max-w-360 w-full px-6 py-12 lg:px-10">
         <div className="mb-7 flex justify-end">
-          <LegislaturaSelector action={`/vereadores/${id}`} legislaturas={legislaturas} selecionada={legislatura} />
+          <AnoSelector action={`/vereadores/${id}`} anos={anos} selecionado={ano} />
         </div>
 
         <section className="rounded-3xl bg-[#12334d] p-7 text-white sm:p-10">
           <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#e1b45b]">
-            Emendas por vereador · {legislatura.titulo}
+            Emendas por vereador · execução em {ano}
           </p>
           <h1 className="mt-3 text-3xl font-semibold sm:text-4xl">{vereador.nome}</h1>
           <div className="mt-8 grid gap-4 sm:grid-cols-3">
@@ -87,7 +87,7 @@ async function VereadorPageContent({ params, searchParams }: Props) {
             {emendas.itens.map((emenda) => (
               <Link
                 key={emenda.id}
-                href={comLegislatura(`/emendas/${emenda.id}`, legislatura.slug)}
+                href={comAno(`/emendas/${emenda.id}`, ano)}
                 className="block rounded-2xl border border-slate-200 bg-white p-5 transition hover:-translate-y-0.5 hover:border-[#9cc6dc] hover:shadow-md sm:p-6"
               >
                 <article>
@@ -115,7 +115,7 @@ async function VereadorPageContent({ params, searchParams }: Props) {
             ))}
             {!emendas.itens.length && (
               <p className="rounded-2xl border border-slate-200 bg-white px-6 py-14 text-center text-sm text-slate-500">
-                Nenhuma emenda cadastrada para este vereador nesta legislatura.
+                Nenhuma emenda cadastrada para este vereador em {ano}.
               </p>
             )}
           </div>

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export function Hero({ legislaturaSlug }: { legislaturaSlug: string }) {
+export function Hero({ ano }: { ano: number }) {
   return (
     <section className="relative overflow-hidden bg-[#12334d] text-white">
       <div
@@ -27,7 +27,7 @@ export function Hero({ legislaturaSlug }: { legislaturaSlug: string }) {
             action="/emendas"
             className="mt-8 flex max-w-2xl flex-col gap-3 rounded-2xl bg-white p-2 shadow-[0_18px_50px_rgba(0,0,0,0.2)] sm:flex-row"
           >
-            <input type="hidden" name="legislatura" value={legislaturaSlug} />
+            <input type="hidden" name="ano" value={ano} />
             <label className="relative min-w-0 flex-1">
               <span className="sr-only">Buscar emendas</span>
               <svg

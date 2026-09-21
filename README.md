@@ -22,6 +22,12 @@ vez por dia. As entradas tambem recebem tags (`emendas`, `vereadores` e
 `legislaturas`) para permitir invalidacao sob demanda quando houver uma rotina de
 cadastro no projeto.
 
+O seletor publico mostra apenas os anos de execucao (`periodoExecucao`) cadastrados
+nas emendas. O ano do protocolo aparece nos detalhes, mas nao define o filtro.
+A lista de vereadores usa os mandatos das legislaturas vinculadas as emendas do
+ano selecionado. Para otimizar as consultas, aplique os indices de
+`data/create-indexes.mongodb.js` ao banco da aplicacao.
+
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.

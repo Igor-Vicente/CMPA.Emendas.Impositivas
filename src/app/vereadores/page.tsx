@@ -4,11 +4,11 @@ import { notFound } from "next/navigation";
 import { Suspense } from "react";
 
 import { Header } from "@/components/header";
-import { LegislaturaSelector } from "@/components/legislatura-selector";
+import { AnoSelector } from "@/components/ano-selector";
 import { PageLoading } from "@/components/page-loading";
 import { listarVereadores, obterResumoEmendas } from "@/lib/dados";
 import { formatarMoeda } from "@/lib/formatters";
-import { carregarContextoLegislatura, comLegislatura, primeiroParametro } from "@/lib/legislaturas";
+import { carregarContextoAno, comAno, primeiroParametro } from "@/lib/anos";
 
 type Props = { searchParams: Promise<Record<string, string | string[] | undefined>> };
 
@@ -22,26 +22,41 @@ export default function VereadoresPage(props: Props) {
 
 async function VereadoresPageContent({ searchParams }: Props) {
   const params = await searchParams;
-  const { legislaturas, legislatura } = await carregarContextoLegislatura(primeiroParametro(params.legislatura));
-  if (!legislatura) notFound();
+  const { anos, ano, legislaturaIds, legislaturasDoAno } = await carregarContextoAno(primeiroParametro(params.ano), primeiroParametro(params.legislatura));
+  if (ano === null) notFound();
 
   const [vereadores, resumo] = await Promise.all([
-    listarVereadores({ legislaturaId: legislatura.id }),
-    obterResumoEmendas({ legislaturaId: legislatura.id }),
+    listarVereadores({ legislaturaIds }),
+    obterResumoEmendas({ periodoExecucao: ano }),
   ]);
   const totais = new Map(resumo.porVereador.map((item) => [item.vereadorId, item]));
 
   return (
     <>
-      <Header legislaturaSlug={legislatura.slug} />
+      <Header ano={ano} />
       <main className="mx-auto min-h-[70vh] max-w-360 w-full px-6 py-12 lg:px-10">
-        <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#9a6c1d]">{legislatura.titulo}</p>
-        <h1 className="mt-2 text-3xl font-semibold text-[#12334d]">Vereadores</h1>
-        <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-500">
+        <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#9a6c1d]">Vereadores</p>
+        <h1 className="mt-2 text-3xl font-semibold text-[#12334d]">
+          Vereadores das emendas com execução em {ano}
+        </h1>
+        {legislaturasDoAno.length > 0 && (
+          <aside className="mt-6 max-w-3xl rounded-2xl border border-[#bdd9e8] border-l-4 border-l-[#19689b] bg-[#eaf3f8] px-5 py-4 sm:px-6 sm:py-5">
+            <p className="text-xs font-bold uppercase tracking-[0.12em] text-[#19689b]">
+              {legislaturasDoAno.length === 1 ? "Legislatura das emendas" : "Legislaturas das emendas"}
+            </p>
+            <p className="mt-2 text-xl font-bold text-[#12334d] sm:text-2xl">
+              {legislaturasDoAno.map((item) => item.titulo).join(" · ")}
+            </p>
+            <p className="mt-2 text-sm leading-6 text-slate-600">
+              O ano de execução pode ser posterior ao mandato em que as emendas foram apresentadas.
+            </p>
+          </aside>
+        )}
+        <p className="mt-5 max-w-2xl text-sm leading-6 text-slate-500">
           Selecione um parlamentar para consultar os valores e as emendas de sua autoria.
         </p>
         <div className="mt-7 flex">
-          <LegislaturaSelector action="/vereadores" legislaturas={legislaturas} selecionada={legislatura} />
+          <AnoSelector action="/vereadores" anos={anos} selecionado={ano} />
         </div>
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {vereadores.map((vereador) => {
@@ -49,7 +64,7 @@ async function VereadoresPageContent({ searchParams }: Props) {
             return (
               <Link
                 key={vereador.id}
-                href={comLegislatura(`/vereadores/${vereador.id}`, legislatura.slug)}
+                href={comAno(`/vereadores/${vereador.id}`, ano)}
                 className="rounded-2xl border border-slate-200 bg-white p-5 transition hover:-translate-y-0.5 hover:shadow-md"
               >
                 <span className="relative flex h-16 w-16 overflow-hidden rounded-full bg-slate-200 ring-2 ring-slate-100">

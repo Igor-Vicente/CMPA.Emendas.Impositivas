@@ -1,9 +1,9 @@
 import Link from "next/link";
 
-import { comLegislatura } from "@/lib/legislaturas";
+import { comAno } from "@/lib/anos";
 
-export function Header({ legislaturaSlug }: { legislaturaSlug?: string }) {
-  const href = (caminho: string) => (legislaturaSlug ? comLegislatura(caminho, legislaturaSlug) : caminho);
+export function Header({ ano }: { ano?: number }) {
+  const href = (caminho: string) => (ano ? comAno(caminho, ano) : caminho);
 
   return (
     <header className="w-full border-b border-white/10 bg-[#0d2a40] text-white">

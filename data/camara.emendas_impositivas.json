@@ -2254,4 +2254,1780 @@
   "legislaturaId": {
     "$oid": "6a99945f1e3f076b2d15a50e"
   }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e56"
+  },
+  "titulo": "Emenda Impositiva 01-A",
+  "vereadorId": {
+    "$oid": "6a99b9c41e3f076b2d15a5de"
+  },
+  "valorEmCentavos": 2581887,
+  "finalidade": "Custeio de exames complementares do PSF de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina recursos para os serviços de saúde com a intenção de agilizar a disponibilização de exames complementares à população, fortalecendo as políticas públicas municipais de gestão em saúde no âmbito da Secretaria Municipal de Saúde.",
+  "assunto": "Saúde",
+  "beneficiarioFinal": "População do Município de Pouso Alto atendida pela rede de Atenção Primária / PSF.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-21T17:37:33.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 21/10/2024, como parte da [Emenda Impositiva nº 01/2024](https://sapl.pousoalto.mg.leg.br/materia/1527) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e57"
+  },
+  "titulo": "Emenda Impositiva 01-B",
+  "vereadorId": {
+    "$oid": "6a99b9c41e3f076b2d15a5de"
+  },
+  "valorEmCentavos": 500000,
+  "finalidade": "Repasse financeiro ao Asilo Municipal de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina recursos para garantia de uma assistência mais adequada e digna à população idosa institucionalizada no Asilo Municipal de Pouso Alto/MG.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Idosos institucionalizados no Asilo Municipal de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-21T17:37:33.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 21/10/2024, como parte da [Emenda Impositiva nº 01/2024](https://sapl.pousoalto.mg.leg.br/materia/1527) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e58"
+  },
+  "titulo": "Emenda Impositiva 01-C",
+  "vereadorId": {
+    "$oid": "6a99b9c41e3f076b2d15a5de"
+  },
+  "valorEmCentavos": 300000,
+  "finalidade": "Repasse financeiro à Associação de Pais e Amigos dos Excepcionais (APAE) do Município de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina valores como repasse financeiro à Associação de Pais e Amigos dos Excepcionais – APAE de Pouso Alto, importante instituição voltada ao atendimento de pessoas com deficiência no Município.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Alunos e usuários atendidos pela Associação de Pais e Amigos dos Excepcionais (APAE) de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-21T17:37:33.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 21/10/2024, como parte da [Emenda Impositiva nº 01/2024](https://sapl.pousoalto.mg.leg.br/materia/1527) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e59"
+  },
+  "titulo": "Emenda Impositiva 01-D",
+  "vereadorId": {
+    "$oid": "6a99b9c41e3f076b2d15a5de"
+  },
+  "valorEmCentavos": 500000,
+  "finalidade": "Repasse financeiro ao Asilo de Santana de Capivari, Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina recursos para garantia de uma assistência mais adequada e digna à população idosa institucionalizada no Asilo de Santana de Capivari.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Idosos institucionalizados no Asilo do Distrito de Santana do Capivari, Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-21T17:37:33.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 21/10/2024, como parte da [Emenda Impositiva nº 01/2024](https://sapl.pousoalto.mg.leg.br/materia/1527) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e5a"
+  },
+  "titulo": "Emenda Impositiva 01-E",
+  "vereadorId": {
+    "$oid": "6a99b9c41e3f076b2d15a5de"
+  },
+  "valorEmCentavos": 1281886,
+  "finalidade": "Aquisição e instalação de lâmpadas de iluminação LED nos postes do bairro Córrego das Pedras no Município de Pouso Alto/MG.",
+  "justificativa": "A presente emenda propõe a melhoria da iluminação pública no bairro Córrego das Pedras, com a aquisição e instalação de lâmpadas de iluminação LED nos postes do bairro, visando a segurança e o bem-estar dos moradores.",
+  "assunto": "Infraestrutura",
+  "beneficiarioFinal": "Moradores e usuários das vias públicas do bairro Córrego das Pedras, Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-21T17:37:33.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 21/10/2024, como parte da [Emenda Impositiva nº 01/2024](https://sapl.pousoalto.mg.leg.br/materia/1527) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e5b"
+  },
+  "titulo": "Emenda Impositiva 02-A",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931945"
+  },
+  "valorEmCentavos": 2581887,
+  "finalidade": "Custeio de exames complementares do PSF de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina recursos para os serviços de saúde com a intenção de agilizar a disponibilização de exames complementares à população, fortalecendo as políticas públicas municipais de gestão em saúde no âmbito da Secretaria Municipal de Saúde.",
+  "assunto": "Saúde",
+  "beneficiarioFinal": "População do Município de Pouso Alto atendida pela rede de Atenção Primária / PSF.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-21T17:39:37.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 21/10/2024, como parte da [Emenda Impositiva nº 02/2024](https://sapl.pousoalto.mg.leg.br/materia/1528) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e5c"
+  },
+  "titulo": "Emenda Impositiva 02-B",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931945"
+  },
+  "valorEmCentavos": 2581886,
+  "finalidade": "Aquisição e instalação de lâmpadas de iluminação de energia solar no município de Pouso Alto/MG.",
+  "justificativa": "A presente emenda refere-se à melhoria da iluminação pública no Município de Pouso Alto, com a aquisição e instalação de lâmpadas de iluminação de energia solar.",
+  "assunto": "Infraestrutura",
+  "beneficiarioFinal": "Moradores e usuários das vias públicas do município de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-21T17:39:37.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 21/10/2024, como parte da [Emenda Impositiva nº 02/2024](https://sapl.pousoalto.mg.leg.br/materia/1528) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e5d"
+  },
+  "titulo": "Emenda Impositiva 03-A",
+  "vereadorId": {
+    "$oid": "6a99b7d21e3f076b2d15a5dc"
+  },
+  "valorEmCentavos": 2581887,
+  "finalidade": "Custeio de exames complementares do PSF de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina recursos aos serviços de saúde com a intenção de agilizar a disponibilização de exames complementares à população, fortalecendo as políticas públicas municipais de gestão em saúde no âmbito da Secretaria Municipal de Saúde.",
+  "assunto": "Saúde",
+  "beneficiarioFinal": "População do Município de Pouso Alto atendida pela rede de Atenção Primária / PSF.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-24T17:43:09.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 24/10/2024, como parte da [Emenda Impositiva nº 03/2024](https://sapl.pousoalto.mg.leg.br/materia/1529) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e5e"
+  },
+  "titulo": "Emenda Impositiva 03-B",
+  "vereadorId": {
+    "$oid": "6a99b7d21e3f076b2d15a5dc"
+  },
+  "valorEmCentavos": 2581886,
+  "finalidade": "Aquisição e instalação de 1 caixa d’água de 10.000 litros e filtro para a caixa d’água no bairro Ribeirão no município de Pouso Alto/MG.",
+  "justificativa": "A presente emenda refere-se à melhoria da captação e distribuição de água para a população do bairro Ribeirão, com a aquisição e instalação de 1 caixa d’água de 10 mil litros com filtro para caixa d’água.",
+  "assunto": "Saneamento",
+  "beneficiarioFinal": "Moradores e população do bairro Ribeirão no município de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-24T17:43:09.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 24/10/2024, como parte da [Emenda Impositiva nº 03/2024](https://sapl.pousoalto.mg.leg.br/materia/1529) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e5f"
+  },
+  "titulo": "Emenda Impositiva 04-A",
+  "vereadorId": {
+    "$oid": "6a99b8bc1e3f076b2d15a5dd"
+  },
+  "valorEmCentavos": 2581887,
+  "finalidade": "Custeio de exames complementares no Município de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina recursos aos serviços de saúde com a intenção de agilizar a disponibilização de exames complementares à população no âmbito do Município de Pouso Alto/MG.",
+  "assunto": "Saúde",
+  "beneficiarioFinal": "População do Município de Pouso Alto/MG atendida pelos serviços de saúde.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-24T17:44:59.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 24/10/2024, como parte da [Emenda Impositiva nº 04/2024](https://sapl.pousoalto.mg.leg.br/materia/1530) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e60"
+  },
+  "titulo": "Emenda Impositiva 04-B",
+  "vereadorId": {
+    "$oid": "6a99b8bc1e3f076b2d15a5dd"
+  },
+  "valorEmCentavos": 1000000,
+  "finalidade": "Aquisição e instalação de lâmpadas de iluminação de energia solar no bairro Coura, no Município de Pouso Alto/MG.",
+  "justificativa": "A presente emenda refere-se à melhoria da iluminação pública no bairro Coura, com a aquisição e instalação de lâmpadas de iluminação de energia solar.",
+  "assunto": "Infraestrutura",
+  "beneficiarioFinal": "Moradores e usuários das vias públicas do bairro Coura no município de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-24T17:44:59.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 24/10/2024, como parte da [Emenda Impositiva nº 04/2024](https://sapl.pousoalto.mg.leg.br/materia/1530) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e61"
+  },
+  "titulo": "Emenda Impositiva 04-C",
+  "vereadorId": {
+    "$oid": "6a99b8bc1e3f076b2d15a5dd"
+  },
+  "valorEmCentavos": 500000,
+  "finalidade": "Repasse financeiro à Associação Pouso-Altense de Incentivo ao Esporte - APOIE, Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina recursos à Associação Pouso-Altense de Incentivo ao Esporte (APOIE) como incentivo às ações de expansão e de fortalecimento da prática e das políticas públicas de esportes no Município.",
+  "assunto": "Esporte e Lazer",
+  "beneficiarioFinal": "Associação Pouso-Altense de Incentivo ao Esporte (APOIE) e praticantes de esportes do município de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-24T17:44:59.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 24/10/2024, como parte da [Emenda Impositiva nº 04/2024](https://sapl.pousoalto.mg.leg.br/materia/1530) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e62"
+  },
+  "titulo": "Emenda Impositiva 04-D",
+  "vereadorId": {
+    "$oid": "6a99b8bc1e3f076b2d15a5dd"
+  },
+  "valorEmCentavos": 500000,
+  "finalidade": "Repasse financeiro ao Asilo de Santana de Capivari, Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina repasse financeiro ao Asilo de Santana de Capivari para garantia de uma assistência mais adequada e digna à população idosa institucionalizada no Distrito de Santana do Capivari.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Asilo de Santana de Capivari e idosos institucionalizados do Distrito de Santana do Capivari.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-24T17:44:59.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 24/10/2024, como parte da [Emenda Impositiva nº 04/2024](https://sapl.pousoalto.mg.leg.br/materia/1530) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e63"
+  },
+  "titulo": "Emenda Impositiva 04-E",
+  "vereadorId": {
+    "$oid": "6a99b8bc1e3f076b2d15a5dd"
+  },
+  "valorEmCentavos": 300000,
+  "finalidade": "Repasse financeiro à Associação de Pais e Amigos dos Excepcionais - APAE do Município de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina valores à Associação de Pais e Amigos dos Excepcionais (APAE) de Pouso Alto como repasse financeiro para apoiar esta importante instituição do Município.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Associação de Pais e Amigos dos Excepcionais (APAE) de Pouso Alto e seus assistidos.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-24T17:44:59.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 24/10/2024, como parte da [Emenda Impositiva nº 04/2024](https://sapl.pousoalto.mg.leg.br/materia/1530) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e64"
+  },
+  "titulo": "Emenda Impositiva 04-A",
+  "vereadorId": {
+    "$oid": "6a99b8bc1e3f076b2d15a5dd"
+  },
+  "valorEmCentavos": 100000,
+  "finalidade": "Repasse financeiro ao Lar dos Velhinhos Asilo de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina parcela como repasse financeiro ao Lar dos Velhinhos Asilo de Pouso Alto para garantia de uma assistência mais adequada e digna à população idosa institucionalizada na sede do Município.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Lar dos Velhinhos Asilo de Pouso Alto/MG e idosos institucionalizados.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-24T17:44:59.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 24/10/2024, como parte da [Emenda Impositiva nº 04/2024](https://sapl.pousoalto.mg.leg.br/materia/1530) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e65"
+  },
+  "titulo": "Emenda Impositiva 04-B",
+  "vereadorId": {
+    "$oid": "6a99b8bc1e3f076b2d15a5dd"
+  },
+  "valorEmCentavos": 181886,
+  "finalidade": "Repasse financeiro à entidade Rádio Anchieta FM (Associação Comunitária Artística e Cultural - Rádio Anchieta) de Pouso Alto/MG.",
+  "justificativa": "A presente emenda propõe repasse financeiro à Associação Comunitária Artística e Cultural - Rádio Anchieta para incentivar a produção cultural e comunitária deste importante instrumento de comunicação da comunidade pouso-altense.",
+  "assunto": "Cultura",
+  "beneficiarioFinal": "Associação Comunitária Artística e Cultural - Rádio Anchieta FM e comunidade do município de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-24T17:44:59.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 24/10/2024, como parte da [Emenda Impositiva nº 04/2024](https://sapl.pousoalto.mg.leg.br/materia/1530) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e66"
+  },
+  "titulo": "Emenda Impositiva 05-A",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194b"
+  },
+  "valorEmCentavos": 2581887,
+  "finalidade": "Custeio de exames preparatórios para cirurgias de cataratas no Município de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina recursos aos serviços de saúde com a intenção de agilizar a disponibilização de exames preparatórios para cirurgias de cataratas à população.",
+  "assunto": "Saúde",
+  "beneficiarioFinal": "População do Município de Pouso Alto/MG necessitada de cirurgias de catarata.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-24T17:46:37.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 24/10/2024, como parte da [Emenda Impositiva nº 05/2024](https://sapl.pousoalto.mg.leg.br/materia/1531) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e67"
+  },
+  "titulo": "Emenda Impositiva 05-B",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194b"
+  },
+  "valorEmCentavos": 400000,
+  "finalidade": "Repasse financeiro ao Lar dos Velhinhos Asilo de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina repasse financeiro ao asilo Lar dos Velhinhos de Pouso Alto/MG para garantia de uma assistência mais adequada e digna à população idosa institucionalizada.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Lar dos Velhinhos Asilo de Pouso Alto/MG e idosos institucionalizados.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-24T17:46:37.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 24/10/2024, como parte da [Emenda Impositiva nº 05/2024](https://sapl.pousoalto.mg.leg.br/materia/1531) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e68"
+  },
+  "titulo": "Emenda Impositiva 05-C",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194b"
+  },
+  "valorEmCentavos": 500000,
+  "finalidade": "Repasse financeiro à Associação de Pais e Amigos dos Excepcionais APAE do Município de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina valores à Associação de Pais e Amigos dos Excepcionais – APAE de Pouso Alto como repasse financeiro para apoiar esta importante instituição do Município.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Associação de Pais e Amigos dos Excepcionais (APAE) de Pouso Alto e seus assistidos.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-24T17:46:37.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 24/10/2024, como parte da [Emenda Impositiva nº 05/2024](https://sapl.pousoalto.mg.leg.br/materia/1531) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e69"
+  },
+  "titulo": "Emenda Impositiva 05-D",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194b"
+  },
+  "valorEmCentavos": 181886,
+  "finalidade": "Repasse financeiro à Associação Pouso-Altense de Incentivo ao Esporte - APOIE, Pouso Alto/MG.",
+  "justificativa": "A presente emenda encaminha valores à Associação Pouso-Altense de Incentivo ao Esporte – APOIE como incentivo às ações de expansão e de fortalecimento da prática e das políticas públicas de esportes no Município.",
+  "assunto": "Esporte e Lazer",
+  "beneficiarioFinal": "Associação Pouso-Altense de Incentivo ao Esporte (APOIE) e praticantes de esportes do município de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-24T17:46:37.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 24/10/2024, como parte da [Emenda Impositiva nº 05/2024](https://sapl.pousoalto.mg.leg.br/materia/1531) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e6a"
+  },
+  "titulo": "Emenda Impositiva 05-E",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194b"
+  },
+  "valorEmCentavos": 300000,
+  "finalidade": "Repasse financeiro ao Centro de Atendimento ao Adolescente de Pouso Alto/MG (CEAAPA).",
+  "justificativa": "A presente emenda destina repasse financeiro ao CEAAPA (Centro de Atendimento ao Adolescente de Pouso Alto), instituição que há anos atua no acompanhamento e na inserção social de adolescentes carentes no Município.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Centro de Atendimento ao Adolescente de Pouso Alto/MG (CEAAPA) e adolescentes acompanhados pela instituição.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-24T17:46:37.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 24/10/2024, como parte da [Emenda Impositiva nº 05/2024](https://sapl.pousoalto.mg.leg.br/materia/1531) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e6b"
+  },
+  "titulo": "Emenda Impositiva 05-F",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194b"
+  },
+  "valorEmCentavos": 500000,
+  "finalidade": "Repasse financeiro à entidade Rádio Anchieta FM (Associação Comunitária Artística e Cultural - Rádio Anchieta) de Pouso Alto/MG.",
+  "justificativa": "A presente emenda propõe repasse financeiro à Associação Comunitária Artística e Cultural - Rádio Anchieta para incentivar a produção cultural e comunitária deste importante instrumento de comunicação da comunidade pouso-altense.",
+  "assunto": "Cultura",
+  "beneficiarioFinal": "Associação Comunitária Artística e Cultural - Rádio Anchieta FM e comunidade do município de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-24T17:46:37.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 24/10/2024, como parte da [Emenda Impositiva nº 05/2024](https://sapl.pousoalto.mg.leg.br/materia/1531) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e6c"
+  },
+  "titulo": "Emenda Impositiva 05-G",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194b"
+  },
+  "valorEmCentavos": 700000,
+  "finalidade": "Aquisição e instalação de lâmpadas de iluminação de energia solar no Município de Pouso Alto/MG.",
+  "justificativa": "A presente emenda refere-se à melhoria da iluminação pública no Município de Pouso Alto, com a aquisição e instalação de lâmpadas de iluminação de energia solar.",
+  "assunto": "Infraestrutura",
+  "beneficiarioFinal": "Moradores e usuários das vias públicas do município de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-24T17:46:37.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 24/10/2024, como parte da [Emenda Impositiva nº 05/2024](https://sapl.pousoalto.mg.leg.br/materia/1531) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e6d"
+  },
+  "titulo": "Emenda Impositiva 06-A",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194c"
+  },
+  "valorEmCentavos": 2581887,
+  "finalidade": "Custeio de exames complementares do PSF de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina recursos aos serviços de saúde com a intenção de agilizar a disponibilização de exames complementares à população.",
+  "assunto": "Saúde",
+  "beneficiarioFinal": "População do Município de Pouso Alto/MG atendida pelos serviços de saúde do PSF.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-24T17:49:00.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 24/10/2024, como parte da [Emenda Impositiva nº 06/2024](https://sapl.pousoalto.mg.leg.br/materia/1532) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e6e"
+  },
+  "titulo": "Emenda Impositiva 06-B",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194c"
+  },
+  "valorEmCentavos": 500000,
+  "finalidade": "Repasse financeiro ao Asilo Municipal de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina repasse financeiro ao asilo da sede do Município para garantia de uma assistência mais adequada e digna à população idosa institucionalizada.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Asilo Municipal (Lar dos Velhinhos) de Pouso Alto/MG e idosos institucionalizados.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-24T17:49:00.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 24/10/2024, como parte da [Emenda Impositiva nº 06/2024](https://sapl.pousoalto.mg.leg.br/materia/1532) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e6f"
+  },
+  "titulo": "Emenda Impositiva 06-C",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194c"
+  },
+  "valorEmCentavos": 431886,
+  "finalidade": "Repasse financeiro à Associação de Pais e Amigos dos Excepcionais APAE do Município de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina valores à Associação de Pais e Amigos dos Excepcionais – APAE de Pouso Alto como repasse financeiro para apoiar esta importante instituição do Município.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Associação de Pais e Amigos dos Excepcionais (APAE) de Pouso Alto e seus assistidos.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-24T17:49:00.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 24/10/2024, como parte da [Emenda Impositiva nº 06/2024](https://sapl.pousoalto.mg.leg.br/materia/1532) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e70"
+  },
+  "titulo": "Emenda Impositiva 06-D",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194c"
+  },
+  "valorEmCentavos": 800000,
+  "finalidade": "Repasse financeiro ao Asilo de Santana de Capivari, Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina repasse financeiro ao asilo do Distrito de Santana do Capivari para garantia de uma assistência mais adequada e digna à população idosa institucionalizada.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Asilo de Santana de Capivari e idosos institucionalizados do Distrito de Santana do Capivari.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-24T17:49:00.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 24/10/2024, como parte da [Emenda Impositiva nº 06/2024](https://sapl.pousoalto.mg.leg.br/materia/1532) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e71"
+  },
+  "titulo": "Emenda Impositiva 06-E",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194c"
+  },
+  "valorEmCentavos": 250000,
+  "finalidade": "Repasse financeiro à entidade Rádio Anchieta FM de Pouso Alto/MG.",
+  "justificativa": "A presente emenda propõe repasse financeiro à Associação Comunitária Artística e Cultural - Rádio Anchieta para incentivar a produção cultural e comunitária deste importante instrumento de comunicação da comunidade pouso-altense.",
+  "assunto": "Cultura",
+  "beneficiarioFinal": "Associação Comunitária Artística e Cultural - Rádio Anchieta FM e comunidade do município de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-24T17:49:00.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 24/10/2024, como parte da [Emenda Impositiva nº 06/2024](https://sapl.pousoalto.mg.leg.br/materia/1532) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e72"
+  },
+  "titulo": "Emenda Impositiva 06-F",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe82877193194c"
+  },
+  "valorEmCentavos": 600000,
+  "finalidade": "Repasse financeiro para a Associação Comunitária do Distrito de Santana de Capivari, Pouso Alto/MG.",
+  "justificativa": "A presente emenda refere-se ao repasse financeiro à Associação Comunitária do Distrito de Santana de Capivari, Pouso Alto/MG.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Associação Comunitária do Distrito de Santana de Capivari e moradores do Distrito de Santana do Capivari.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-24T17:49:00.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 24/10/2024, como parte da [Emenda Impositiva nº 06/2024](https://sapl.pousoalto.mg.leg.br/materia/1532) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e73"
+  },
+  "titulo": "Emenda Impositiva 07-A",
+  "vereadorId": {
+    "$oid": "6a99af7e1e3f076b2d15a5c8"
+  },
+  "valorEmCentavos": 2581887,
+  "finalidade": "Custeio de exames complementares de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina recursos aos serviços de saúde com a intenção de agilizar a disponibilização de exames complementares à população.",
+  "assunto": "Saúde",
+  "beneficiarioFinal": "População do Município de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-25T15:34:58.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 25/10/2024, como parte da [Emenda Impositiva nº 07/2024](https://sapl.pousoalto.mg.leg.br/materia/1533) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e74"
+  },
+  "titulo": "Emenda Impositiva 07-B",
+  "vereadorId": {
+    "$oid": "6a99af7e1e3f076b2d15a5c8"
+  },
+  "valorEmCentavos": 400000,
+  "finalidade": "Repasse financeiro ao Asilo Municipal de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina repasse financeiro ao asilo da sede do Município para garantia de uma assistência mais adequada e digna à população idosa institucionalizada.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Asilo Municipal (Lar dos Velhinhos) de Pouso Alto/MG e idosos institucionalizados.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-25T15:34:58.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 25/10/2024, como parte da [Emenda Impositiva nº 07/2024](https://sapl.pousoalto.mg.leg.br/materia/1533) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e75"
+  },
+  "titulo": "Emenda Impositiva 07-C",
+  "vereadorId": {
+    "$oid": "6a99af7e1e3f076b2d15a5c8"
+  },
+  "valorEmCentavos": 800000,
+  "finalidade": "Repasse financeiro à Associação de Pais e Amigos dos Excepcionais APAE do Município de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina valores à Associação de Pais e Amigos dos Excepcionais – APAE de Pouso Alto como repasse financeiro para apoiar esta importante instituição do Município.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Associação de Pais e Amigos dos Excepcionais (APAE) de Pouso Alto e seus assistidos.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-25T15:34:58.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 25/10/2024, como parte da [Emenda Impositiva nº 07/2024](https://sapl.pousoalto.mg.leg.br/materia/1533) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e76"
+  },
+  "titulo": "Emenda Impositiva 07-D",
+  "vereadorId": {
+    "$oid": "6a99af7e1e3f076b2d15a5c8"
+  },
+  "valorEmCentavos": 400000,
+  "finalidade": "Repasse financeiro ao Asilo de Santana de Capivari, Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina repasse financeiro ao asilo do Distrito de Santana do Capivari para garantia de uma assistência mais adequada e digna à população idosa institucionalizada.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Asilo de Santana de Capivari e idosos institucionalizados do Distrito de Santana do Capivari.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-25T15:34:58.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 25/10/2024, como parte da [Emenda Impositiva nº 07/2024](https://sapl.pousoalto.mg.leg.br/materia/1533) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e77"
+  },
+  "titulo": "Emenda Impositiva 07-E",
+  "vereadorId": {
+    "$oid": "6a99af7e1e3f076b2d15a5c8"
+  },
+  "valorEmCentavos": 400000,
+  "finalidade": "Repasse financeiro ao Centro de Atendimento ao Adolescente (CEAAPA) de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina repasse financeiro ao CEAAPA, instituição que há anos atua no acompanhamento e na inserção social de adolescentes carentes em nosso Município.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Centro de Atendimento ao Adolescente (CEAAPA) de Pouso Alto/MG e adolescentes acompanhados pela instituição.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-25T15:34:58.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 25/10/2024, como parte da [Emenda Impositiva nº 07/2024](https://sapl.pousoalto.mg.leg.br/materia/1533) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e78"
+  },
+  "titulo": "Emenda Impositiva 07-F",
+  "vereadorId": {
+    "$oid": "6a99af7e1e3f076b2d15a5c8"
+  },
+  "valorEmCentavos": 300000,
+  "finalidade": "Repasse financeiro à Corporação Musical Mário Russano, no Município de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina repasse financeiro à Corporação Musical Mário Russano, importante e histórica instituição cultural.",
+  "assunto": "Cultura",
+  "beneficiarioFinal": "Corporação Musical Mário Russano e comunidade do município de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-25T15:34:58.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 25/10/2024, como parte da [Emenda Impositiva nº 07/2024](https://sapl.pousoalto.mg.leg.br/materia/1533) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e79"
+  },
+  "titulo": "Emenda Impositiva 07-G",
+  "vereadorId": {
+    "$oid": "6a99af7e1e3f076b2d15a5c8"
+  },
+  "valorEmCentavos": 281886,
+  "finalidade": "Repasse financeiro à Associação Pouso-Altense de Incentivo ao Esporte - APOIE, Pouso Alto/MG.",
+  "justificativa": "A presente emenda encaminha parte dos valores à Associação Pouso-Altense de Incentivo ao Esporte – APOIE como incentivo às ações de expansão e de fortalecimento da prática e das políticas públicas de esportes no Município.",
+  "assunto": "Esporte e Lazer",
+  "beneficiarioFinal": "Associação Pouso-Altense de Incentivo ao Esporte (APOIE) e praticantes de esportes do município de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-25T15:34:58.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 25/10/2024, como parte da [Emenda Impositiva nº 07/2024](https://sapl.pousoalto.mg.leg.br/materia/1533) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e7a"
+  },
+  "titulo": "Emenda Impositiva 08-A",
+  "vereadorId": {
+    "$oid": "6a99b7351e3f076b2d15a5db"
+  },
+  "valorEmCentavos": 2581887,
+  "finalidade": "Repasse financeiro à Santa Casa de Misericórdia São Vicente de Paulo, Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina o montante dos serviços de saúde como repasse financeiro à Santa Casa de Misericórdia São Vicente de Paulo para fortalecimento das políticas públicas municipais de gestão em saúde.",
+  "assunto": "Saúde",
+  "beneficiarioFinal": "Santa Casa de Misericórdia São Vicente de Paulo e população do Município de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-25T15:39:39.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 25/10/2024, como parte da [Emenda Impositiva nº 08/2024](https://sapl.pousoalto.mg.leg.br/materia/1534) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e7b"
+  },
+  "titulo": "Emenda Impositiva 08-A",
+  "vereadorId": {
+    "$oid": "6a99b7351e3f076b2d15a5db"
+  },
+  "valorEmCentavos": 500000,
+  "finalidade": "Repasse financeiro ao Lar dos Velhinhos Asilo de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina repasse financeiro ao asilo da sede do Município para a garantia de uma assistência mais adequada e digna à população idosa institucionalizada, visando ao desenvolvimento de atividades internas.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Lar dos Velhinhos Asilo de Pouso Alto/MG e idosos institucionalizados.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-25T15:39:39.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 25/10/2024, como parte da [Emenda Impositiva nº 08/2024](https://sapl.pousoalto.mg.leg.br/materia/1534) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e7c"
+  },
+  "titulo": "Emenda Impositiva 08-B",
+  "vereadorId": {
+    "$oid": "6a99b7351e3f076b2d15a5db"
+  },
+  "valorEmCentavos": 500000,
+  "finalidade": "Repasse financeiro à Associação de Pais e Amigos dos Excepcionais APAE do Município de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina valores à Associação de Pais e Amigos dos Excepcionais – APAE de Pouso Alto como repasse financeiro para apoiar esta importante instituição do Município.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Associação de Pais e Amigos dos Excepcionais (APAE) de Pouso Alto e seus assistidos.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-25T15:39:39.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 25/10/2024, como parte da [Emenda Impositiva nº 08/2024](https://sapl.pousoalto.mg.leg.br/materia/1534) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e7d"
+  },
+  "titulo": "Emenda Impositiva 08-C",
+  "vereadorId": {
+    "$oid": "6a99b7351e3f076b2d15a5db"
+  },
+  "valorEmCentavos": 400000,
+  "finalidade": "Repasse financeiro ao Asilo de Santana de Capivari, Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina repasse financeiro ao asilo do Distrito de Santana do Capivari para garantia de uma assistência mais adequada e digna à população idosa institucionalizada, visando ao desenvolvimento de atividades internas.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Asilo de Santana de Capivari e idosos institucionalizados do Distrito de Santana do Capivari.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-25T15:39:39.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 25/10/2024, como parte da [Emenda Impositiva nº 08/2024](https://sapl.pousoalto.mg.leg.br/materia/1534) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e7e"
+  },
+  "titulo": "Emenda Impositiva 08-D",
+  "vereadorId": {
+    "$oid": "6a99b7351e3f076b2d15a5db"
+  },
+  "valorEmCentavos": 300000,
+  "finalidade": "Repasse financeiro à Associação Pouso-Altense de Incentivo ao Esporte - APOIE, Pouso Alto/MG.",
+  "justificativa": "A presente emenda encaminha parte dos valores à Associação Pouso-Altense de Incentivo ao Esporte – APOIE como incentivo às ações de expansão e de fortalecimento da prática e das políticas públicas de esportes no Município.",
+  "assunto": "Esporte e Lazer",
+  "beneficiarioFinal": "Associação Pouso-Altense de Incentivo ao Esporte (APOIE) e praticantes de esportes do município de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-25T15:39:39.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 25/10/2024, como parte da [Emenda Impositiva nº 08/2024](https://sapl.pousoalto.mg.leg.br/materia/1534) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e7f"
+  },
+  "titulo": "Emenda Impositiva 08-E",
+  "vereadorId": {
+    "$oid": "6a99b7351e3f076b2d15a5db"
+  },
+  "valorEmCentavos": 481886,
+  "finalidade": "Repasse financeiro à Corporação Musical Mário Russano, no Município de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina repasse financeiro à Corporação Musical Mário Russano, importante e histórica instituição cultural.",
+  "assunto": "Cultura",
+  "beneficiarioFinal": "Corporação Musical Mário Russano e comunidade do município de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-25T15:39:39.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 25/10/2024, como parte da [Emenda Impositiva nº 08/2024](https://sapl.pousoalto.mg.leg.br/materia/1534) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e80"
+  },
+  "titulo": "Emenda Impositiva 08-F",
+  "vereadorId": {
+    "$oid": "6a99b7351e3f076b2d15a5db"
+  },
+  "valorEmCentavos": 400000,
+  "finalidade": "Repasse financeiro ao Centro de Atendimento ao Adolescente de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina repasse financeiro ao CEAAPA, instituição que há anos atua no acompanhamento e na inserção social de adolescentes carentes em nosso Município.",
+  "assunto": "Assistência Social",
+  "beneficiarioFinal": "Centro de Atendimento ao Adolescente (CEAAPA) de Pouso Alto/MG e adolescentes acompanhados pela instituição.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-25T15:39:39.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 25/10/2024, como parte da [Emenda Impositiva nº 08/2024](https://sapl.pousoalto.mg.leg.br/materia/1534) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e81"
+  },
+  "titulo": "Emenda Impositiva 09-A",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931948"
+  },
+  "valorEmCentavos": 2581887,
+  "finalidade": "Custeio de exames complementares do PSF de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina recursos aos serviços de saúde com a intenção de agilizar a disponibilização de exames complementares à população.",
+  "assunto": "Saúde",
+  "beneficiarioFinal": "População do Município de Pouso Alto/MG atendida pelos serviços de saúde do PSF.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-25T16:58:15.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 25/10/2024, como parte da [Emenda Impositiva nº 09/2024](https://sapl.pousoalto.mg.leg.br/materia/1535) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e82"
+  },
+  "titulo": "Emenda Impositiva 09-B",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931948"
+  },
+  "valorEmCentavos": 300000,
+  "finalidade": "Repasse financeiro à Corporação Musical Mário Russano, no Município de Pouso Alto/MG.",
+  "justificativa": "A presente emenda destina repasse financeiro à Corporação Musical Mário Russano, importante e histórica instituição cultural.",
+  "assunto": "Cultura",
+  "beneficiarioFinal": "Corporação Musical Mário Russano e comunidade do município de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-25T16:58:15.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 25/10/2024, como parte da [Emenda Impositiva nº 09/2024](https://sapl.pousoalto.mg.leg.br/materia/1535) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e83"
+  },
+  "titulo": "Emenda Impositiva 09-C",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931948"
+  },
+  "valorEmCentavos": 500000,
+  "finalidade": "Aquisição e instalação de lâmpadas de energia solar nos postes dos bairros de zona rural no Município de Pouso Alto/MG.",
+  "justificativa": "A presente emenda dedica uma parcela para a melhoria da iluminação pública nos bairros de zona rural, com a aquisição e instalação de lâmpadas de iluminação de energia solar.",
+  "assunto": "Infraestrutura",
+  "beneficiarioFinal": "Moradores dos bairros da zona rural no Município de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-25T16:58:15.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 25/10/2024, como parte da [Emenda Impositiva nº 09/2024](https://sapl.pousoalto.mg.leg.br/materia/1535) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e84"
+  },
+  "titulo": "Emenda Impositiva 09-D",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931948"
+  },
+  "valorEmCentavos": 100000,
+  "finalidade": "Repasse financeiro à Associação Pouso-Altense de Incentivo ao Esporte - APOIE, Pouso Alto/MG.",
+  "justificativa": "A presente emenda encaminha parte dos valores à Associação Pouso-Altense de Incentivo ao Esporte – APOIE como incentivo às ações de expansão e de fortalecimento da prática e das políticas públicas de esportes no Município.",
+  "assunto": "Esporte e Lazer",
+  "beneficiarioFinal": "Associação Pouso-Altense de Incentivo ao Esporte (APOIE) e praticantes de esportes do município de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-25T16:58:15.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 25/10/2024, como parte da [Emenda Impositiva nº 09/2024](https://sapl.pousoalto.mg.leg.br/materia/1535) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaae31ac083e72be81e7e85"
+  },
+  "titulo": "Emenda Impositiva 09-E",
+  "vereadorId": {
+    "$oid": "6a8c8c4b36fe828771931948"
+  },
+  "valorEmCentavos": 1681886,
+  "finalidade": "Repasse financeiro ao Sengó Futebol Clube no Município de Pouso Alto/MG.",
+  "justificativa": "A presente emenda refere-se ao repasse financeiro ao Sengó Futebol Clube no Município de Pouso Alto/MG.",
+  "assunto": "Esporte e Lazer",
+  "beneficiarioFinal": "Sengó Futebol Clube e praticantes de esportes do município de Pouso Alto/MG.",
+  "orgaoExecutor": "Executivo",
+  "periodoExecucao": 2025,
+  "planoDeTrabalho": [],
+  "pareceresJuridicos": [],
+  "dataProtocolo": {
+    "$date": "2024-10-25T16:58:15.000Z"
+  },
+  "tramitacaoLegislativa": "Protocolada em 25/10/2024, como parte da [Emenda Impositiva nº 09/2024](https://sapl.pousoalto.mg.leg.br/materia/1535) ao [Projeto de Lei Ordinária nº 34/2024](https://sapl.pousoalto.mg.leg.br/materia/978). Apresentada em 29/10/2024, na 18ª Reunião Ordinária, incluída e votada na 19ª Reunião Ordinária.",
+  "votacao": "Votação da Emenda realizada em 11/11/2024, na 19ª Reunião Ordinária de 2024.",
+  "resultadoDeliberacao": "Aprovada por 9 votos favoráveis.",
+  "aprovada": true,
+  "alteracoes": "Não houve alterações, acréscimos, reduções, cancelamentos ou remanejamentos.",
+  "relatoriosExecutivo": [],
+  "detalhesRelatorioExecutivo": null,
+  "criadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "atualizadoEm": {
+    "$date": "2026-09-16T00:00:00.000Z"
+  },
+  "legislaturaId": {
+    "$oid": "6a99948c1e3f076b2d15a50f"
+  }
 }]

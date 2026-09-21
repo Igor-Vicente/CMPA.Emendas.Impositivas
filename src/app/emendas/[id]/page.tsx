@@ -6,7 +6,7 @@ import { Header } from "@/components/header";
 import { PageLoading } from "@/components/page-loading";
 import { buscarEmendaPorId, buscarLegislaturaPorId, buscarVereadorPorId } from "@/lib/dados";
 import { formatarData, formatarMoeda } from "@/lib/formatters";
-import { comLegislatura } from "@/lib/legislaturas";
+import { comAno } from "@/lib/anos";
 import type { Documento } from "@/types";
 
 type Props = { params: Promise<{ id: string }> };
@@ -109,14 +109,14 @@ async function EmendaPageContent({ params }: Props) {
     buscarVereadorPorId(emenda.vereadorId),
     buscarLegislaturaPorId(emenda.legislaturaId),
   ]);
-  const slug = legislatura?.slug;
+  const ano = emenda.periodoExecucao;
 
   return (
     <>
-      <Header legislaturaSlug={slug} />
+      <Header ano={ano} />
       <main className="mx-auto min-h-[70vh] max-w-360 w-full px-6 py-10 lg:px-10 lg:py-12">
         <Link
-          href={slug ? comLegislatura("/emendas", slug) : "/emendas"}
+          href={comAno("/emendas", ano)}
           className="inline-flex items-center gap-2 text-sm font-semibold text-[#19689b] hover:underline"
         >
           <span aria-hidden="true">←</span> Voltar para emendas
@@ -141,7 +141,7 @@ async function EmendaPageContent({ params }: Props) {
               <p className="text-xs uppercase tracking-widest text-slate-300">Autoria</p>
               {vereador ? (
                 <Link
-                  href={slug ? comLegislatura(`/vereadores/${vereador.id}`, slug) : `/vereadores/${vereador.id}`}
+                  href={comAno(`/vereadores/${vereador.id}`, ano)}
                   className="mt-1 inline-block font-semibold hover:underline"
                 >
                   {vereador.nome}

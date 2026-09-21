@@ -3,14 +3,14 @@ import Link from "next/link";
 import type { CSSProperties } from "react";
 
 import { formatarData, formatarMoeda } from "@/lib/formatters";
-import { comLegislatura } from "@/lib/legislaturas";
-import type { Emenda, Legislatura, ResumoDashboard, Vereador } from "@/types";
+import { comAno } from "@/lib/anos";
+import type { Emenda, ResumoDashboard, Vereador } from "@/types";
 
 type HomeContentProps = {
   resumo: ResumoDashboard;
   emendas: Emenda[];
   vereadores: Vereador[];
-  legislatura: Legislatura;
+  ano: number;
 };
 
 const icones = {
@@ -77,7 +77,7 @@ function Indicador({
   );
 }
 
-export function HomeContent({ resumo, emendas, vereadores, legislatura }: HomeContentProps) {
+export function HomeContent({ resumo, emendas, vereadores, ano }: HomeContentProps) {
   const vereadoresPorId = new Map(vereadores.map((vereador) => [vereador.id, vereador]));
   const outrosAssuntos = resumo.porAssunto.slice(8);
   const assuntos = outrosAssuntos.length
@@ -106,7 +106,7 @@ export function HomeContent({ resumo, emendas, vereadores, legislatura }: HomeCo
               id="titulo-indicadores"
               className="mt-2 text-2xl font-semibold tracking-tight text-[#12334d] sm:text-3xl"
             >
-              Recursos da {legislatura.titulo.toLocaleLowerCase("pt-BR")}
+              Recursos para execução em {ano}
             </h2>
           </div>
           <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
@@ -129,7 +129,7 @@ export function HomeContent({ resumo, emendas, vereadores, legislatura }: HomeCo
               icone="autores"
             />
             <Indicador
-              titulo="Entidades beneficiadas"
+              titulo="Beneficiados"
               valor={String(resumo.entidadesBeneficiadas)}
               detalhe="Beneficiários únicos contemplados"
               icone="entidades"
@@ -257,7 +257,7 @@ export function HomeContent({ resumo, emendas, vereadores, legislatura }: HomeCo
               <p className="mt-1 text-sm text-slate-500">Últimos registros disponibilizados no portal.</p>
             </div>
             <Link
-              href={comLegislatura("/emendas", legislatura.slug)}
+              href={comAno("/emendas", ano)}
               className="text-sm font-semibold text-[#19689b] hover:underline"
             >
               Ver todas as emendas →
@@ -280,7 +280,7 @@ export function HomeContent({ resumo, emendas, vereadores, legislatura }: HomeCo
                     <tr key={emenda.id} className="transition hover:bg-slate-50/80">
                       <td className="max-w-[320px] px-5 py-4">
                         <Link
-                          href={comLegislatura(`/emendas/${emenda.id}`, legislatura.slug)}
+                          href={comAno(`/emendas/${emenda.id}`, ano)}
                           className="font-semibold text-slate-800 hover:text-[#19689b] hover:underline"
                         >
                           {emenda.titulo}
@@ -326,7 +326,7 @@ export function HomeContent({ resumo, emendas, vereadores, legislatura }: HomeCo
               </p>
             </div>
             <Link
-              href={comLegislatura("/vereadores", legislatura.slug)}
+              href={comAno("/vereadores", ano)}
               className="inline-flex h-11 items-center justify-center rounded-xl bg-[#19689b] px-5 text-sm font-semibold text-white transition hover:bg-[#12577f]"
             >
               Ver todos os vereadores
@@ -336,7 +336,7 @@ export function HomeContent({ resumo, emendas, vereadores, legislatura }: HomeCo
             {destaques.map((item) => (
               <Link
                 key={item.vereadorId}
-                href={comLegislatura(`/vereadores/${item.vereadorId}`, legislatura.slug)}
+                href={comAno(`/vereadores/${item.vereadorId}`, ano)}
                 className="rounded-2xl bg-white p-5 transition hover:-translate-y-0.5 hover:shadow-md"
               >
                 <span className="relative flex h-14 w-14 overflow-hidden rounded-full bg-slate-200 ring-2 ring-white">
@@ -379,7 +379,7 @@ export function HomeContent({ resumo, emendas, vereadores, legislatura }: HomeCo
             <strong className="font-semibold text-[#12334d]">Câmara Municipal de Pouso Alto</strong>
             <p className="mt-1 text-xs">Portal de transparência das emendas impositivas.</p>
           </div>
-          <span className="text-xs">{legislatura.titulo}</span>
+          <span className="text-xs">Ano de execução: {ano}</span>
         </div>
       </footer>
     </>
