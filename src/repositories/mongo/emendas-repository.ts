@@ -1,7 +1,7 @@
-import { ObjectId, type Filter, type WithId } from "mongodb";
+import { ObjectId, type Filter, type WithId } from 'mongodb';
 
-import { getDatabase } from "@/libs/mongo";
-import type { EmendasRepository } from "@/repositories/contracts";
+import { getDatabase } from '@/libs/mongo';
+import type { EmendasRepository } from '@/repositories/contracts';
 import type {
   Documento,
   Emenda,
@@ -10,7 +10,7 @@ import type {
   ResultadoPaginado,
   ResumoAgrupado,
   ResumoDashboard,
-} from "@/types";
+} from '@/types';
 
 type GrupoMongo = {
   _id: string | number | null;
@@ -18,7 +18,7 @@ type GrupoMongo = {
   valorEmCentavos: number;
 };
 
-type GrupoVereadorMongo = Omit<GrupoMongo, "_id"> & {
+type GrupoVereadorMongo = Omit<GrupoMongo, '_id'> & {
   _id: ObjectId;
 };
 
@@ -39,7 +39,12 @@ type ResumoMongo = {
 
 type EmendaMongo = Omit<
   Emenda,
-  "id" | "legislaturaId" | "vereadorId" | "planoDeTrabalho" | "pareceresJuridicos" | "relatoriosExecutivo"
+  | 'id'
+  | 'legislaturaId'
+  | 'vereadorId'
+  | 'planoDeTrabalho'
+  | 'pareceresJuridicos'
+  | 'relatoriosExecutivo'
 > & {
   legislaturaId: ObjectId;
   vereadorId: ObjectId;
@@ -64,12 +69,12 @@ function objectIdValido(id: string): ObjectId | null {
 }
 
 function escaparRegex(valor: string): string {
-  return valor.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return valor.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
 function mapearGrupo(grupos: GrupoMongo[]): ResumoAgrupado[] {
   return grupos.map(({ _id, ...grupo }) => ({
-    nome: _id === null || _id === "" ? "Não informado" : String(_id),
+    nome: _id === null || _id === '' ? 'Não informado' : String(_id),
     ...grupo,
   }));
 }
@@ -77,33 +82,64 @@ function mapearGrupo(grupos: GrupoMongo[]): ResumoAgrupado[] {
 export class MongoEmendasRepository implements EmendasRepository {
   private async colecao() {
     const db = await getDatabase();
-    return db.collection<EmendaMongo>("emendas_impositivas");
+    return db.collection<EmendaMongo>('emendas_impositivas');
   }
 
-  async listarAnosExecucao(): Promise<number[]> {
+  async listarAnosExecucao(vereadorId?: string): Promise<number[]> {
     const colecao = await this.colecao();
-    const anos = await colecao.distinct("periodoExecucao");
-    return anos.filter((ano) => Number.isInteger(ano) && ano >= 1900 && ano <= 9999).sort((a, b) => b - a);
+    const query: Filter<EmendaMongo> = {};
+
+    if (vereadorId) {
+      const id = objectIdValido(vereadorId);
+      if (!id) return [];
+
+      const db = await getDatabase();
+      const legislaturaIds = await db
+        .collection<{ legislaturaId: ObjectId; vereadorId: ObjectId }>(
+          'mandatos',
+        )
+        .distinct('legislaturaId', { vereadorId: id });
+      if (legislaturaIds.length === 0) return [];
+
+      query.vereadorId = id;
+      query.legislaturaId = { $in: legislaturaIds };
+    }
+
+    const anos = await colecao.distinct('periodoExecucao', query);
+    return anos
+      .filter((ano) => Number.isInteger(ano) && ano >= 1900 && ano <= 9999)
+      .sort((a, b) => b - a);
   }
 
   async listarLegislaturaIdsPorAno(ano: number): Promise<string[]> {
     const colecao = await this.colecao();
-    const ids = await colecao.distinct("legislaturaId", { periodoExecucao: ano });
+    const ids = await colecao.distinct('legislaturaId', {
+      periodoExecucao: ano,
+    });
     return ids.map((id) => id.toHexString());
   }
 
-  async listar(filtros: FiltrosEmenda = {}): Promise<ResultadoPaginado<Emenda>> {
+  async listar(
+    filtros: FiltrosEmenda = {},
+  ): Promise<ResultadoPaginado<Emenda>> {
     const pagina = Math.max(1, Math.trunc(filtros.pagina ?? 1));
-    const itensPorPagina = Math.min(100, Math.max(1, Math.trunc(filtros.itensPorPagina ?? 20)));
+    const itensPorPagina = Math.min(
+      100,
+      Math.max(1, Math.trunc(filtros.itensPorPagina ?? 20)),
+    );
     const query: Filter<EmendaMongo> = {};
 
     if (filtros.busca) {
-      const busca = { $regex: escaparRegex(filtros.busca), $options: "i" };
-      query.$or = [{ titulo: busca }, { justificativa: busca }, { assunto: busca }];
+      const busca = { $regex: escaparRegex(filtros.busca), $options: 'i' };
+      query.$or = [
+        { titulo: busca },
+        { justificativa: busca },
+        { assunto: busca },
+      ];
     }
 
     if (filtros.titulo) {
-      query.titulo = { $regex: escaparRegex(filtros.titulo), $options: "i" };
+      query.titulo = { $regex: escaparRegex(filtros.titulo), $options: 'i' };
     }
 
     if (filtros.legislaturaId) {
@@ -119,20 +155,20 @@ export class MongoEmendasRepository implements EmendasRepository {
     }
 
     if (filtros.assunto) {
-      query.assunto = { $regex: escaparRegex(filtros.assunto), $options: "i" };
+      query.assunto = { $regex: escaparRegex(filtros.assunto), $options: 'i' };
     }
 
     if (filtros.beneficiarioFinal) {
       query.beneficiarioFinal = {
         $regex: escaparRegex(filtros.beneficiarioFinal),
-        $options: "i",
+        $options: 'i',
       };
     }
 
     if (filtros.orgaoExecutor) {
       query.orgaoExecutor = {
         $regex: escaparRegex(filtros.orgaoExecutor),
-        $options: "i",
+        $options: 'i',
       };
     }
 
@@ -207,26 +243,26 @@ export class MongoEmendasRepository implements EmendasRepository {
                 $group: {
                   _id: null,
                   totalEmendas: { $sum: 1 },
-                  valorTotalEmCentavos: { $sum: "$valorEmCentavos" },
+                  valorTotalEmCentavos: { $sum: '$valorEmCentavos' },
                   emendasAprovadas: {
-                    $sum: { $cond: [{ $eq: ["$aprovada", true] }, 1, 0] },
+                    $sum: { $cond: [{ $eq: ['$aprovada', true] }, 1, 0] },
                   },
                   emendasRejeitadas: {
-                    $sum: { $cond: [{ $eq: ["$aprovada", false] }, 1, 0] },
+                    $sum: { $cond: [{ $eq: ['$aprovada', false] }, 1, 0] },
                   },
                   aguardandoProtocolo: {
-                    $sum: { $cond: [{ $eq: ["$dataProtocolo", null] }, 1, 0] },
+                    $sum: { $cond: [{ $eq: ['$dataProtocolo', null] }, 1, 0] },
                   },
-                  beneficiarios: { $addToSet: "$beneficiarioFinal" },
+                  beneficiarios: { $addToSet: '$beneficiarioFinal' },
                 },
               },
             ],
             porAssunto: [
               {
                 $group: {
-                  _id: "$assunto",
+                  _id: '$assunto',
                   quantidade: { $sum: 1 },
-                  valorEmCentavos: { $sum: "$valorEmCentavos" },
+                  valorEmCentavos: { $sum: '$valorEmCentavos' },
                 },
               },
               { $sort: { valorEmCentavos: -1 } },
@@ -234,9 +270,9 @@ export class MongoEmendasRepository implements EmendasRepository {
             porOrgaoExecutor: [
               {
                 $group: {
-                  _id: "$orgaoExecutor",
+                  _id: '$orgaoExecutor',
                   quantidade: { $sum: 1 },
-                  valorEmCentavos: { $sum: "$valorEmCentavos" },
+                  valorEmCentavos: { $sum: '$valorEmCentavos' },
                 },
               },
               { $sort: { valorEmCentavos: -1 } },
@@ -244,9 +280,9 @@ export class MongoEmendasRepository implements EmendasRepository {
             porPeriodoExecucao: [
               {
                 $group: {
-                  _id: "$periodoExecucao",
+                  _id: '$periodoExecucao',
                   quantidade: { $sum: 1 },
-                  valorEmCentavos: { $sum: "$valorEmCentavos" },
+                  valorEmCentavos: { $sum: '$valorEmCentavos' },
                 },
               },
               { $sort: { _id: 1 } },
@@ -254,9 +290,9 @@ export class MongoEmendasRepository implements EmendasRepository {
             porVereador: [
               {
                 $group: {
-                  _id: "$vereadorId",
+                  _id: '$vereadorId',
                   quantidade: { $sum: 1 },
-                  valorEmCentavos: { $sum: "$valorEmCentavos" },
+                  valorEmCentavos: { $sum: '$valorEmCentavos' },
                 },
               },
               { $sort: { valorEmCentavos: -1 } },
@@ -279,7 +315,9 @@ export class MongoEmendasRepository implements EmendasRepository {
 
     return {
       ...totais,
-      entidadesBeneficiadas: beneficiarios.filter((beneficiario) => beneficiario.trim() !== "").length,
+      entidadesBeneficiadas: beneficiarios.filter(
+        (beneficiario) => beneficiario.trim() !== '',
+      ).length,
       porAssunto: mapearGrupo(resultado?.porAssunto ?? []),
       porOrgaoExecutor: mapearGrupo(resultado?.porOrgaoExecutor ?? []),
       porPeriodoExecucao: mapearGrupo(resultado?.porPeriodoExecucao ?? []),
@@ -290,7 +328,10 @@ export class MongoEmendasRepository implements EmendasRepository {
     };
   }
 
-  private resultadoVazio(pagina: number, itensPorPagina: number): ResultadoPaginado<Emenda> {
+  private resultadoVazio(
+    pagina: number,
+    itensPorPagina: number,
+  ): ResultadoPaginado<Emenda> {
     return {
       itens: [],
       total: 0,

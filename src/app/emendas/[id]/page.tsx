@@ -1,21 +1,29 @@
-import Link from "next/link";
-import { notFound } from "next/navigation";
-import { Suspense, type ReactNode } from "react";
+import Link from 'next/link';
+import { notFound } from 'next/navigation';
+import { Suspense, type ReactNode } from 'react';
 
-import { Header } from "@/components/header";
-import { PageLoading } from "@/components/page-loading";
-import { buscarEmendaPorId, buscarLegislaturaPorId, buscarVereadorPorId } from "@/lib/dados";
-import { formatarData, formatarMoeda } from "@/lib/formatters";
-import { comAno } from "@/lib/anos";
-import type { Documento } from "@/types";
+import { Header } from '@/components/header';
+import { PageLoading } from '@/components/page-loading';
+import {
+  buscarEmendaPorId,
+  buscarLegislaturaPorId,
+  buscarVereadorPorId,
+} from '@/lib/dados';
+import { formatarData, formatarMoeda } from '@/lib/formatters';
+import { comAno } from '@/lib/anos';
+import type { Documento } from '@/types';
 
 type Props = { params: Promise<{ id: string }> };
 
 function Campo({ titulo, valor }: { titulo: string; valor: string }) {
   return (
     <div className="rounded-2xl border border-slate-200 bg-white p-5">
-      <dt className="text-xs font-semibold uppercase tracking-widest text-slate-500">{titulo}</dt>
-      <dd className="mt-2 text-sm font-medium leading-6 text-slate-800">{valor || "Não informado"}</dd>
+      <dt className="text-xs font-semibold uppercase tracking-widest text-slate-500">
+        {titulo}
+      </dt>
+      <dd className="mt-2 text-sm font-medium leading-6 text-slate-800">
+        {valor || 'Não informado'}
+      </dd>
     </div>
   );
 }
@@ -24,7 +32,9 @@ function Texto({ titulo, conteudo }: { titulo: string; conteudo: string }) {
   return (
     <section className="rounded-2xl border border-slate-200 bg-white p-6 sm:p-7">
       <h2 className="text-lg font-semibold text-[#12334d]">{titulo}</h2>
-      <p className="mt-3 whitespace-pre-line text-sm leading-7 text-slate-600">{conteudo || "Não informado."}</p>
+      <p className="mt-3 whitespace-pre-line text-sm leading-7 text-slate-600">
+        {conteudo || 'Não informado.'}
+      </p>
     </section>
   );
 }
@@ -85,7 +95,9 @@ function Documentos({ titulo, itens }: { titulo: string; itens: Documento[] }) {
           ))}
         </ul>
       ) : (
-        <p className="mt-4 text-sm text-slate-500">Nenhum documento disponibilizado.</p>
+        <p className="mt-4 text-sm text-slate-500">
+          Nenhum documento disponibilizado.
+        </p>
       )}
     </section>
   );
@@ -116,7 +128,7 @@ async function EmendaPageContent({ params }: Props) {
       <Header ano={ano} />
       <main className="mx-auto min-h-[70vh] max-w-360 w-full px-6 py-10 lg:px-10 lg:py-12">
         <Link
-          href={comAno("/emendas", ano)}
+          href={comAno('/emendas', ano)}
           className="inline-flex items-center gap-2 text-sm font-semibold text-[#19689b] hover:underline"
         >
           <span aria-hidden="true">←</span> Voltar para emendas
@@ -125,20 +137,26 @@ async function EmendaPageContent({ params }: Props) {
         <section className="mt-6 rounded-3xl bg-[#12334d] p-7 text-white sm:p-10">
           <div className="flex flex-wrap items-center gap-3">
             <span className="rounded-full bg-white/10 px-3 py-1 text-xs font-semibold text-slate-100">
-              {emenda.assunto || "Assunto não informado"}
+              {emenda.assunto || 'Assunto não informado'}
             </span>
             <span
               className={`rounded-full px-3 py-1 text-xs font-semibold ${
-                emenda.aprovada ? "bg-emerald-400/20 text-emerald-100" : "bg-amber-300/20 text-amber-100"
+                emenda.aprovada
+                  ? 'bg-emerald-400/20 text-emerald-100'
+                  : 'bg-amber-300/20 text-amber-100'
               }`}
             >
-              {emenda.aprovada ? "Aprovada" : "Não aprovada"}
+              {emenda.aprovada ? 'Aprovada' : 'Não aprovada'}
             </span>
           </div>
-          <h1 className="mt-5 max-w-4xl text-3xl font-semibold leading-tight sm:text-4xl">{emenda.titulo}</h1>
+          <h1 className="mt-5 max-w-4xl text-3xl font-semibold leading-tight sm:text-4xl">
+            {emenda.titulo}
+          </h1>
           <div className="mt-7 flex flex-col justify-between gap-5 border-t border-white/15 pt-6 sm:flex-row sm:items-end">
             <div>
-              <p className="text-xs uppercase tracking-widest text-slate-300">Autoria</p>
+              <p className="text-xs uppercase tracking-widest text-slate-300">
+                Autoria
+              </p>
               {vereador ? (
                 <Link
                   href={comAno(`/vereadores/${vereador.id}`, ano)}
@@ -151,18 +169,31 @@ async function EmendaPageContent({ params }: Props) {
               )}
             </div>
             <div className="sm:text-right">
-              <p className="text-xs uppercase tracking-widest text-slate-300">Valor destinado</p>
-              <strong className="mt-1 block text-2xl text-[#e1b45b]">{formatarMoeda(emenda.valorEmCentavos)}</strong>
+              <p className="text-xs uppercase tracking-widest text-slate-300">
+                Valor destinado
+              </p>
+              <strong className="mt-1 block text-2xl text-[#e1b45b]">
+                {formatarMoeda(emenda.valorEmCentavos)}
+              </strong>
             </div>
           </div>
         </section>
 
         <dl className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
-          <Campo titulo="Legislatura" valor={legislatura?.titulo ?? "Não informada"} />
+          <Campo
+            titulo="Legislatura"
+            valor={legislatura?.titulo ?? 'Não informada'}
+          />
           <Campo titulo="Beneficiário final" valor={emenda.beneficiarioFinal} />
           <Campo titulo="Órgão executor" valor={emenda.orgaoExecutor} />
-          <Campo titulo="Período de execução" valor={String(emenda.periodoExecucao)} />
-          <Campo titulo="Data do protocolo" valor={formatarData(emenda.dataProtocolo)} />
+          <Campo
+            titulo="Período de execução"
+            valor={String(emenda.periodoExecucao)}
+          />
+          <Campo
+            titulo="Data do protocolo"
+            valor={formatarData(emenda.dataProtocolo)}
+          />
         </dl>
 
         <div className="mt-6 grid gap-6 lg:grid-cols-2">
@@ -171,22 +202,28 @@ async function EmendaPageContent({ params }: Props) {
         </div>
 
         <section className="mt-6 rounded-2xl border border-slate-200 bg-white p-6 sm:p-7">
-          <h2 className="text-lg font-semibold text-[#12334d]">Tramitação legislativa</h2>
+          <h2 className="text-lg font-semibold text-[#12334d]">
+            Tramitação legislativa
+          </h2>
           <dl className="mt-5 grid gap-5 sm:grid-cols-2">
             <div>
-              <dt className="text-xs font-semibold uppercase tracking-widest text-slate-500">Tramitação</dt>
+              <dt className="text-xs font-semibold uppercase tracking-widest text-slate-500">
+                Tramitação
+              </dt>
               <dd className="mt-2 whitespace-pre-line text-sm leading-6 text-slate-700">
                 {emenda.tramitacaoLegislativa ? (
                   <TextoComLinks conteudo={emenda.tramitacaoLegislativa} />
                 ) : (
-                  "Não informada."
+                  'Não informada.'
                 )}
               </dd>
             </div>
             <div>
-              <dt className="text-xs font-semibold uppercase tracking-widest text-slate-500">Votação</dt>
+              <dt className="text-xs font-semibold uppercase tracking-widest text-slate-500">
+                Votação
+              </dt>
               <dd className="mt-2 whitespace-pre-line text-sm leading-6 text-slate-700">
-                {emenda.votacao || "Não informada."}
+                {emenda.votacao || 'Não informada.'}
               </dd>
             </div>
             <div>
@@ -194,26 +231,40 @@ async function EmendaPageContent({ params }: Props) {
                 Resultado da deliberação
               </dt>
               <dd className="mt-2 whitespace-pre-line text-sm leading-6 text-slate-700">
-                {emenda.resultadoDeliberacao || "Não informado."}
+                {emenda.resultadoDeliberacao || 'Não informado.'}
               </dd>
             </div>
             <div>
-              <dt className="text-xs font-semibold uppercase tracking-widest text-slate-500">Alterações</dt>
+              <dt className="text-xs font-semibold uppercase tracking-widest text-slate-500">
+                Alterações
+              </dt>
               <dd className="mt-2 whitespace-pre-line text-sm leading-6 text-slate-700">
-                {emenda.alteracoes || "Nenhuma alteração informada."}
+                {emenda.alteracoes || 'Nenhuma alteração informada.'}
               </dd>
             </div>
           </dl>
         </section>
 
         <div className="mt-6">
-          <Texto titulo="Detalhes da execução" conteudo={emenda.detalhesRelatorioExecutivo} />
+          <Texto
+            titulo="Detalhes da execução"
+            conteudo={emenda.detalhesRelatorioExecutivo}
+          />
         </div>
 
         <div className="mt-6 grid gap-4 lg:grid-cols-3">
-          <Documentos titulo="Plano de trabalho" itens={emenda.planoDeTrabalho} />
-          <Documentos titulo="Pareceres jurídicos" itens={emenda.pareceresJuridicos} />
-          <Documentos titulo="Relatórios do Executivo" itens={emenda.relatoriosExecutivo} />
+          <Documentos
+            titulo="Plano de trabalho"
+            itens={emenda.planoDeTrabalho}
+          />
+          <Documentos
+            titulo="Pareceres jurídicos"
+            itens={emenda.pareceresJuridicos}
+          />
+          <Documentos
+            titulo="Relatórios do Executivo"
+            itens={emenda.relatoriosExecutivo}
+          />
         </div>
       </main>
     </>

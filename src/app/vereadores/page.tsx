@@ -1,16 +1,18 @@
-import Image from "next/image";
-import Link from "next/link";
-import { notFound } from "next/navigation";
-import { Suspense } from "react";
+import Image from 'next/image';
+import Link from 'next/link';
+import { notFound } from 'next/navigation';
+import { Suspense } from 'react';
 
-import { Header } from "@/components/header";
-import { AnoSelector } from "@/components/ano-selector";
-import { PageLoading } from "@/components/page-loading";
-import { listarVereadores, obterResumoEmendas } from "@/lib/dados";
-import { formatarMoeda } from "@/lib/formatters";
-import { carregarContextoAno, comAno, primeiroParametro } from "@/lib/anos";
+import { Header } from '@/components/header';
+import { AnoSelector } from '@/components/ano-selector';
+import { PageLoading } from '@/components/page-loading';
+import { listarVereadores, obterResumoEmendas } from '@/lib/dados';
+import { formatarMoeda } from '@/lib/formatters';
+import { carregarContextoAno, comAno, primeiroParametro } from '@/lib/anos';
 
-type Props = { searchParams: Promise<Record<string, string | string[] | undefined>> };
+type Props = {
+  searchParams: Promise<Record<string, string | string[] | undefined>>;
+};
 
 export default function VereadoresPage(props: Props) {
   return (
@@ -22,38 +24,50 @@ export default function VereadoresPage(props: Props) {
 
 async function VereadoresPageContent({ searchParams }: Props) {
   const params = await searchParams;
-  const { anos, ano, legislaturaIds, legislaturasDoAno } = await carregarContextoAno(primeiroParametro(params.ano), primeiroParametro(params.legislatura));
+  const { anos, ano, legislaturaIds, legislaturasDoAno } =
+    await carregarContextoAno(
+      primeiroParametro(params.ano),
+      primeiroParametro(params.legislatura),
+    );
   if (ano === null) notFound();
 
   const [vereadores, resumo] = await Promise.all([
     listarVereadores({ legislaturaIds }),
     obterResumoEmendas({ periodoExecucao: ano }),
   ]);
-  const totais = new Map(resumo.porVereador.map((item) => [item.vereadorId, item]));
+  const totais = new Map(
+    resumo.porVereador.map((item) => [item.vereadorId, item]),
+  );
 
   return (
     <>
       <Header ano={ano} />
       <main className="mx-auto min-h-[70vh] max-w-360 w-full px-6 py-12 lg:px-10">
-        <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#9a6c1d]">Vereadores</p>
+        <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#9a6c1d]">
+          Vereadores
+        </p>
         <h1 className="mt-2 text-3xl font-semibold text-[#12334d]">
           Vereadores das emendas com execução em {ano}
         </h1>
         {legislaturasDoAno.length > 0 && (
           <aside className="mt-6 max-w-3xl rounded-2xl border border-[#bdd9e8] border-l-4 border-l-[#19689b] bg-[#eaf3f8] px-5 py-4 sm:px-6 sm:py-5">
             <p className="text-xs font-bold uppercase tracking-[0.12em] text-[#19689b]">
-              {legislaturasDoAno.length === 1 ? "Legislatura das emendas" : "Legislaturas das emendas"}
+              {legislaturasDoAno.length === 1
+                ? 'Legislatura das emendas'
+                : 'Legislaturas das emendas'}
             </p>
             <p className="mt-2 text-xl font-bold text-[#12334d] sm:text-2xl">
-              {legislaturasDoAno.map((item) => item.titulo).join(" · ")}
+              {legislaturasDoAno.map((item) => item.titulo).join(' · ')}
             </p>
             <p className="mt-2 text-sm leading-6 text-slate-600">
-              O ano de execução pode ser posterior ao mandato em que as emendas foram apresentadas.
+              O ano de execução pode ser posterior ao mandato em que as emendas
+              foram apresentadas.
             </p>
           </aside>
         )}
         <p className="mt-5 max-w-2xl text-sm leading-6 text-slate-500">
-          Selecione um parlamentar para consultar os valores e as emendas de sua autoria.
+          Selecione um parlamentar para consultar os valores e as emendas de sua
+          autoria.
         </p>
         <div className="mt-7 flex">
           <AnoSelector action="/vereadores" anos={anos} selecionado={ano} />
@@ -90,12 +104,15 @@ async function VereadoresPageContent({ searchParams }: Props) {
                     </svg>
                   )}
                 </span>
-                <h2 className="mt-4 font-semibold text-slate-800">{vereador.nome}</h2>
+                <h2 className="mt-4 font-semibold text-slate-800">
+                  {vereador.nome}
+                </h2>
                 <p className="mt-4 text-xl font-semibold text-[#19689b]">
                   {formatarMoeda(total?.valorEmCentavos ?? 0)}
                 </p>
                 <p className="mt-1 text-xs text-slate-500">
-                  {total?.quantidade ?? 0} {(total?.quantidade ?? 0) === 1 ? "emenda" : "emendas"}
+                  {total?.quantidade ?? 0}{' '}
+                  {(total?.quantidade ?? 0) === 1 ? 'emenda' : 'emendas'}
                 </p>
               </Link>
             );

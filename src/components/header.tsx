@@ -1,6 +1,6 @@
-import Link from "next/link";
+import Link from 'next/link';
 
-import { comAno } from "@/lib/anos";
+import { comAno } from '@/lib/anos';
 
 export function Header({ ano }: { ano?: number }) {
   const href = (caminho: string) => (ano ? comAno(caminho, ano) : caminho);
@@ -9,7 +9,7 @@ export function Header({ ano }: { ano?: number }) {
     <header className="w-full border-b border-white/10 bg-[#0d2a40] text-white">
       <div className="mx-auto flex max-w-360 items-center justify-between gap-8 px-6 py-4 lg:px-10">
         <Link
-          href={href("/")}
+          href={href('/')}
           className="flex min-w-0 flex-col leading-tight"
           aria-label="Ir para o início do Portal de Emendas Impositivas"
         >
@@ -21,22 +21,25 @@ export function Header({ ano }: { ano?: number }) {
           </strong>
         </Link>
         <div className="flex items-center gap-2">
-          <nav className="hidden items-center gap-1 text-sm md:flex" aria-label="Navegação principal">
+          <nav
+            className="hidden items-center gap-1 text-sm md:flex"
+            aria-label="Navegação principal"
+          >
             <Link
               className="rounded-lg px-4 py-2 text-slate-200 transition hover:bg-white/10 hover:text-white"
-              href={href("/")}
+              href={href('/')}
             >
               Início
             </Link>
             <Link
               className="rounded-lg px-4 py-2 text-slate-200 transition hover:bg-white/10 hover:text-white"
-              href={href("/emendas")}
+              href={href('/emendas')}
             >
               Emendas
             </Link>
             <Link
               className="rounded-lg px-4 py-2 text-slate-200 transition hover:bg-white/10 hover:text-white"
-              href={href("/vereadores")}
+              href={href('/vereadores')}
             >
               Vereadores
             </Link>

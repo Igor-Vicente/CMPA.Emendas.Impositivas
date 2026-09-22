@@ -7,7 +7,7 @@ import type {
   ResultadoPaginado,
   ResumoDashboard,
   Vereador,
-} from "@/types";
+} from '@/types';
 
 export interface VereadoresRepository {
   listar(filtros?: FiltrosVereador): Promise<Vereador[]>;
@@ -22,7 +22,7 @@ export interface LegislaturasRepository {
 }
 
 export interface EmendasRepository {
-  listarAnosExecucao(): Promise<number[]>;
+  listarAnosExecucao(vereadorId?: string): Promise<number[]>;
   listarLegislaturaIdsPorAno(ano: number): Promise<string[]>;
   listar(filtros?: FiltrosEmenda): Promise<ResultadoPaginado<Emenda>>;
   buscarPorId(id: string): Promise<Emenda | null>;

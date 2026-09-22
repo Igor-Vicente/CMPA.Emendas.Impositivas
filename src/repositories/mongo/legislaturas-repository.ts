@@ -1,10 +1,10 @@
-import { ObjectId, type WithId } from "mongodb";
+import { ObjectId, type WithId } from 'mongodb';
 
-import { getDatabase } from "@/libs/mongo";
-import type { LegislaturasRepository } from "@/repositories/contracts";
-import type { Legislatura } from "@/types";
+import { getDatabase } from '@/libs/mongo';
+import type { LegislaturasRepository } from '@/repositories/contracts';
+import type { Legislatura } from '@/types';
 
-type LegislaturaMongo = Omit<Legislatura, "id">;
+type LegislaturaMongo = Omit<Legislatura, 'id'>;
 
 function paraDominio(documento: WithId<LegislaturaMongo>): Legislatura {
   const { _id, ...dados } = documento;
@@ -14,7 +14,7 @@ function paraDominio(documento: WithId<LegislaturaMongo>): Legislatura {
 export class MongoLegislaturasRepository implements LegislaturasRepository {
   private async colecao() {
     const db = await getDatabase();
-    return db.collection<LegislaturaMongo>("legislaturas");
+    return db.collection<LegislaturaMongo>('legislaturas');
   }
 
   async listar(): Promise<Legislatura[]> {
@@ -39,7 +39,10 @@ export class MongoLegislaturasRepository implements LegislaturasRepository {
 
   async buscarAtiva(): Promise<Legislatura | null> {
     const colecao = await this.colecao();
-    const legislatura = await colecao.findOne({ ativa: true }, { sort: { anoInicio: -1 } });
+    const legislatura = await colecao.findOne(
+      { ativa: true },
+      { sort: { anoInicio: -1 } },
+    );
     return legislatura ? paraDominio(legislatura) : null;
   }
 }

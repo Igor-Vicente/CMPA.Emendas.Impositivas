@@ -23,7 +23,9 @@ vez por dia. As entradas tambem recebem tags (`emendas`, `vereadores` e
 cadastro no projeto.
 
 O seletor publico mostra apenas os anos de execucao (`periodoExecucao`) cadastrados
-nas emendas. O ano do protocolo aparece nos detalhes, mas nao define o filtro.
+nas emendas. Na pagina de um vereador, ele mostra somente os anos em que esse
+vereador possui emendas, inclusive quando a execucao ocorre depois do fim do
+mandato. O ano do protocolo aparece nos detalhes, mas nao define o filtro.
 A lista de vereadores usa os mandatos das legislaturas vinculadas as emendas do
 ano selecionado. Para otimizar as consultas, aplique os indices de
 `data/create-indexes.mongodb.js` ao banco da aplicacao.

@@ -71,7 +71,7 @@ export type ResumoAgrupado = {
   valorEmCentavos: number;
 };
 
-export type ResumoPorVereador = Omit<ResumoAgrupado, "nome"> & {
+export type ResumoPorVereador = Omit<ResumoAgrupado, 'nome'> & {
   vereadorId: string;
 };
 

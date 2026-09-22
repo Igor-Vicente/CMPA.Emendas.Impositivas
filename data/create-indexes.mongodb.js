@@ -5,7 +5,7 @@ db.legislaturas.createIndex(
   { slug: 1 },
   {
     unique: true,
-    name: "legislatura_slug_unico",
+    name: 'legislatura_slug_unico',
   },
 );
 
@@ -14,7 +14,7 @@ db.legislaturas.createIndex(
   {
     unique: true,
     partialFilterExpression: { ativa: true },
-    name: "uma_legislatura_ativa",
+    name: 'uma_legislatura_ativa',
   },
 );
 
@@ -22,30 +22,30 @@ db.mandatos.createIndex(
   { legislaturaId: 1, vereadorId: 1 },
   {
     unique: true,
-    name: "mandato_legislatura_vereador_unico",
+    name: 'mandato_legislatura_vereador_unico',
   },
 );
 
 db.emendas_impositivas.createIndex(
   { legislaturaId: 1, dataProtocolo: -1 },
   {
-    name: "emendas_por_legislatura",
+    name: 'emendas_por_legislatura',
   },
 );
 
 db.emendas_impositivas.createIndex(
   { legislaturaId: 1, vereadorId: 1, dataProtocolo: -1 },
   {
-    name: "emendas_por_legislatura_e_vereador",
+    name: 'emendas_por_legislatura_e_vereador',
   },
 );
 
 db.emendas_impositivas.createIndex(
   { periodoExecucao: 1, dataProtocolo: -1 },
-  { name: "emendas_por_ano_execucao" },
+  { name: 'emendas_por_ano_execucao' },
 );
 
 db.emendas_impositivas.createIndex(
   { periodoExecucao: 1, vereadorId: 1, dataProtocolo: -1 },
-  { name: "emendas_por_ano_execucao_e_vereador" },
+  { name: 'emendas_por_ano_execucao_e_vereador' },
 );

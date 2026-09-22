@@ -1,8 +1,8 @@
-import { ObjectId, type WithId } from "mongodb";
+import { ObjectId, type WithId } from 'mongodb';
 
-import { getDatabase } from "@/libs/mongo";
-import type { VereadoresRepository } from "@/repositories/contracts";
-import type { FiltrosVereador, Vereador } from "@/types";
+import { getDatabase } from '@/libs/mongo';
+import type { VereadoresRepository } from '@/repositories/contracts';
+import type { FiltrosVereador, Vereador } from '@/types';
 
 type VereadorMongo = {
   nome: string;
@@ -30,7 +30,7 @@ function objectIdValido(id: string): ObjectId | null {
 export class MongoVereadoresRepository implements VereadoresRepository {
   private async colecao() {
     const db = await getDatabase();
-    return db.collection<VereadorMongo>("vereadores");
+    return db.collection<VereadorMongo>('vereadores');
   }
 
   async listar(filtros: FiltrosVereador = {}): Promise<Vereador[]> {
@@ -45,7 +45,9 @@ export class MongoVereadoresRepository implements VereadoresRepository {
 
       const db = await getDatabase();
       const mandatos = await db
-        .collection<{ legislaturaId: ObjectId; vereadorId: ObjectId }>("mandatos")
+        .collection<{ legislaturaId: ObjectId; vereadorId: ObjectId }>(
+          'mandatos',
+        )
         .find({ legislaturaId: { $in: legislaturaIds } })
         .project<{ vereadorId: ObjectId }>({ vereadorId: 1 })
         .toArray();
@@ -54,7 +56,7 @@ export class MongoVereadoresRepository implements VereadoresRepository {
 
     const vereadores = await colecao
       .find(vereadorIds ? { _id: { $in: vereadorIds } } : {})
-      .collation({ locale: "pt", strength: 1 })
+      .collation({ locale: 'pt', strength: 1 })
       .sort({ nome: 1 })
       .toArray();
     return vereadores.map(paraDominio);

@@ -1,15 +1,17 @@
-import Link from "next/link";
-import { notFound } from "next/navigation";
-import { Suspense } from "react";
+import Link from 'next/link';
+import { notFound } from 'next/navigation';
+import { Suspense } from 'react';
 
-import { Header } from "@/components/header";
-import { AnoSelector } from "@/components/ano-selector";
-import { PageLoading } from "@/components/page-loading";
-import { listarEmendas, listarVereadores } from "@/lib/dados";
-import { formatarData, formatarMoeda } from "@/lib/formatters";
-import { carregarContextoAno, comAno, primeiroParametro } from "@/lib/anos";
+import { Header } from '@/components/header';
+import { AnoSelector } from '@/components/ano-selector';
+import { PageLoading } from '@/components/page-loading';
+import { listarEmendas, listarVereadores } from '@/lib/dados';
+import { formatarData, formatarMoeda } from '@/lib/formatters';
+import { carregarContextoAno, comAno, primeiroParametro } from '@/lib/anos';
 
-type Props = { searchParams: Promise<Record<string, string | string[] | undefined>> };
+type Props = {
+  searchParams: Promise<Record<string, string | string[] | undefined>>;
+};
 
 export default function EmendasPage(props: Props) {
   return (
@@ -23,14 +25,19 @@ async function EmendasPageContent({ searchParams }: Props) {
   const params = await searchParams;
   const busca = primeiroParametro(params.busca)?.trim();
   const pagina = Math.max(1, Number(primeiroParametro(params.pagina)) || 1);
-  const { anos, ano, legislaturaIds } = await carregarContextoAno(primeiroParametro(params.ano), primeiroParametro(params.legislatura));
+  const { anos, ano, legislaturaIds } = await carregarContextoAno(
+    primeiroParametro(params.ano),
+    primeiroParametro(params.legislatura),
+  );
   if (ano === null) notFound();
 
   const [resultado, vereadores] = await Promise.all([
     listarEmendas({ periodoExecucao: ano, busca, pagina, itensPorPagina: 12 }),
     listarVereadores({ legislaturaIds }),
   ]);
-  const vereadoresPorId = new Map(vereadores.map((item) => [item.id, item.nome]));
+  const vereadoresPorId = new Map(
+    vereadores.map((item) => [item.id, item.nome]),
+  );
   const hrefPagina = (numero: number) =>
     `/emendas?${new URLSearchParams({
       ano: String(ano),
@@ -42,8 +49,12 @@ async function EmendasPageContent({ searchParams }: Props) {
     <>
       <Header ano={ano} />
       <main className="mx-auto min-h-[70vh] w-full max-w-360 px-4 py-8 sm:px-6 sm:py-12 lg:px-10">
-        <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#9a6c1d]">Consulta pública</p>
-        <h1 className="mt-2 text-2xl font-semibold text-[#12334d] sm:text-3xl">Todas as emendas</h1>
+        <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#9a6c1d]">
+          Consulta pública
+        </p>
+        <h1 className="mt-2 text-2xl font-semibold text-[#12334d] sm:text-3xl">
+          Todas as emendas
+        </h1>
         <p className="mt-2 text-sm text-slate-500">
           Consulte as emendas com execução prevista para {ano}.
         </p>
@@ -92,13 +103,20 @@ async function EmendasPageContent({ searchParams }: Props) {
                       >
                         {emenda.titulo}
                       </Link>
-                      <p className="mt-1 truncate text-xs text-slate-500">{emenda.finalidade}</p>
+                      <p className="mt-1 truncate text-xs text-slate-500">
+                        {emenda.finalidade}
+                      </p>
                     </td>
                     <td className="px-5 py-4 text-sm text-slate-600">
-                      {vereadoresPorId.get(emenda.vereadorId) ?? "Não identificado"}
+                      {vereadoresPorId.get(emenda.vereadorId) ??
+                        'Não identificado'}
                     </td>
-                    <td className="px-5 py-4 text-sm text-[#19689b]">{emenda.assunto}</td>
-                    <td className="px-5 py-4 text-sm text-slate-600">{formatarData(emenda.dataProtocolo)}</td>
+                    <td className="px-5 py-4 text-sm text-[#19689b]">
+                      {emenda.assunto}
+                    </td>
+                    <td className="px-5 py-4 text-sm text-slate-600">
+                      {formatarData(emenda.dataProtocolo)}
+                    </td>
                     <td className="px-5 py-4 text-right text-sm font-semibold">
                       {formatarMoeda(emenda.valorEmCentavos)}
                     </td>
@@ -114,7 +132,9 @@ async function EmendasPageContent({ searchParams }: Props) {
                   <span className="rounded-full bg-[#edf5f8] px-2.5 py-1 text-xs font-medium text-[#19689b]">
                     {emenda.assunto}
                   </span>
-                  <strong className="shrink-0 text-sm text-slate-900">{formatarMoeda(emenda.valorEmCentavos)}</strong>
+                  <strong className="shrink-0 text-sm text-slate-900">
+                    {formatarMoeda(emenda.valorEmCentavos)}
+                  </strong>
                 </div>
                 <Link
                   href={comAno(`/emendas/${emenda.id}`, ano)}
@@ -122,24 +142,31 @@ async function EmendasPageContent({ searchParams }: Props) {
                 >
                   {emenda.titulo}
                 </Link>
-                <p className="mt-1 text-xs leading-5 text-slate-500">{emenda.finalidade}</p>
+                <p className="mt-1 text-xs leading-5 text-slate-500">
+                  {emenda.finalidade}
+                </p>
                 <dl className="mt-4 grid grid-cols-2 gap-3 border-t border-slate-100 pt-3 text-xs">
                   <div className="min-w-0">
                     <dt className="text-slate-400">Vereador</dt>
                     <dd className="mt-1 truncate font-medium text-slate-600">
-                      {vereadoresPorId.get(emenda.vereadorId) ?? "Não identificado"}
+                      {vereadoresPorId.get(emenda.vereadorId) ??
+                        'Não identificado'}
                     </dd>
                   </div>
                   <div>
                     <dt className="text-slate-400">Protocolo</dt>
-                    <dd className="mt-1 font-medium text-slate-600">{formatarData(emenda.dataProtocolo)}</dd>
+                    <dd className="mt-1 font-medium text-slate-600">
+                      {formatarData(emenda.dataProtocolo)}
+                    </dd>
                   </div>
                 </dl>
               </article>
             ))}
           </div>
           {!resultado.itens.length && (
-            <p className="px-6 py-14 text-center text-sm text-slate-500">Nenhuma emenda encontrada.</p>
+            <p className="px-6 py-14 text-center text-sm text-slate-500">
+              Nenhuma emenda encontrada.
+            </p>
           )}
         </div>
         {resultado.totalPaginas > 1 && (

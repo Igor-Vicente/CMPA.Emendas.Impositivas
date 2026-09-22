@@ -1,4 +1,4 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   reactCompiler: true,
@@ -6,9 +6,9 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: "https",
-        hostname: "sapl.pousoalto.mg.leg.br",
-        pathname: "/media/sapl/public/parlamentar/**",
+        protocol: 'https',
+        hostname: 'sapl.pousoalto.mg.leg.br',
+        pathname: '/media/sapl/public/parlamentar/**',
       },
     ],
   },
