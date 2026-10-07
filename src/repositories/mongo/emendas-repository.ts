@@ -44,20 +44,28 @@ type EmendaMongo = Omit<
   | 'vereadorId'
   | 'planoDeTrabalho'
   | 'pareceresJuridicos'
-  | 'relatoriosExecutivo'
+  | 'resultado'
+  | 'detalhesExecucao'
 > & {
   legislaturaId: ObjectId;
   vereadorId: ObjectId;
   planoDeTrabalho: Documento[];
   pareceresJuridicos: Documento[];
-  relatoriosExecutivo: Documento[];
+  resultado?: Documento[];
+  detalhesExecucao?: string | null;
+  relatoriosExecutivo?: Documento[];
+  detalhesRelatorioExecutivo?: string | null;
 };
 
 function paraDominio(documento: WithId<EmendaMongo>): Emenda {
-  const { _id, ...dados } = documento;
+  const { _id, relatoriosExecutivo, detalhesRelatorioExecutivo, ...dados } =
+    documento;
 
   return {
     ...dados,
+    resultado: dados.resultado ?? relatoriosExecutivo ?? [],
+    detalhesExecucao:
+      dados.detalhesExecucao ?? detalhesRelatorioExecutivo ?? '',
     id: _id.toHexString(),
     legislaturaId: documento.legislaturaId.toHexString(),
     vereadorId: documento.vereadorId.toHexString(),

@@ -69,7 +69,15 @@ function TextoComLinks({ conteudo }: { conteudo: string }) {
   return partes;
 }
 
-function Documentos({ titulo, itens }: { titulo: string; itens: Documento[] }) {
+function Documentos({
+  titulo,
+  itens,
+  mensagemVazia,
+}: {
+  titulo: string;
+  itens: Documento[];
+  mensagemVazia?: string;
+}) {
   return (
     <section className="rounded-2xl border border-slate-200 bg-white p-6">
       <div className="flex items-center justify-between gap-4">
@@ -95,8 +103,12 @@ function Documentos({ titulo, itens }: { titulo: string; itens: Documento[] }) {
           ))}
         </ul>
       ) : (
-        <p className="mt-4 text-sm text-slate-500">
-          Nenhum documento disponibilizado.
+        <p className="mt-4 whitespace-pre-line text-sm text-slate-500">
+          <TextoComLinks
+            conteudo={
+              mensagemVazia?.trim() || 'Nenhum documento disponibilizado.'
+            }
+          />
         </p>
       )}
     </section>
@@ -239,7 +251,11 @@ async function EmendaPageContent({ params }: Props) {
                 Alterações
               </dt>
               <dd className="mt-2 whitespace-pre-line text-sm leading-6 text-slate-700">
-                {emenda.alteracoes || 'Nenhuma alteração informada.'}
+                {emenda.alteracoes ? (
+                  <TextoComLinks conteudo={emenda.alteracoes} />
+                ) : (
+                  'Não informada.'
+                )}
               </dd>
             </div>
           </dl>
@@ -248,7 +264,7 @@ async function EmendaPageContent({ params }: Props) {
         <div className="mt-6">
           <Texto
             titulo="Detalhes da execução"
-            conteudo={emenda.detalhesRelatorioExecutivo}
+            conteudo={emenda.detalhesExecucao}
           />
         </div>
 
@@ -256,14 +272,17 @@ async function EmendaPageContent({ params }: Props) {
           <Documentos
             titulo="Plano de trabalho"
             itens={emenda.planoDeTrabalho}
+            mensagemVazia={emenda.justificativaAusenciaPlanoDeTrabalho}
           />
           <Documentos
             titulo="Pareceres jurídicos"
             itens={emenda.pareceresJuridicos}
+            mensagemVazia={emenda.justificativaAusenciaPareceresJuridicos}
           />
           <Documentos
-            titulo="Relatórios do Executivo"
-            itens={emenda.relatoriosExecutivo}
+            titulo="Resultados"
+            itens={emenda.resultado}
+            mensagemVazia={emenda.resultadoTexto}
           />
         </div>
       </main>

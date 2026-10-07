@@ -41,15 +41,18 @@ export type Emenda = EntidadeBase & {
   orgaoExecutor: string;
   periodoExecucao: number;
   planoDeTrabalho: Documento[];
+  justificativaAusenciaPlanoDeTrabalho?: string;
   pareceresJuridicos: Documento[];
+  justificativaAusenciaPareceresJuridicos?: string;
   dataProtocolo: Date | null;
   tramitacaoLegislativa: string;
   votacao: string;
   resultadoDeliberacao: string;
   aprovada: boolean;
   alteracoes: string;
-  relatoriosExecutivo: Documento[];
-  detalhesRelatorioExecutivo: string;
+  resultado: Documento[];
+  resultadoTexto?: string;
+  detalhesExecucao: string;
 };
 
 export type Paginacao = {
