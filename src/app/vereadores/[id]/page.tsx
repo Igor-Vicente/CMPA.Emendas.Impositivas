@@ -143,15 +143,14 @@ async function VereadorPageContent({ params, searchParams }: Props) {
                   <div className="mt-5 flex flex-wrap gap-x-6 gap-y-2 border-t border-slate-100 pt-4 text-xs text-slate-500">
                     <span>Beneficiário: {emenda.beneficiarioFinal}</span>
                     <span>Protocolo: {formatarData(emenda.dataProtocolo)}</span>
-                    <span
-                      className={
-                        emenda.aprovada
-                          ? 'font-semibold text-emerald-700'
-                          : 'font-semibold text-amber-700'
-                      }
-                    >
-                      {emenda.aprovada ? 'Aprovada' : 'Não aprovada'}
-                    </span>
+                  </div>
+                  <div className="mt-4 rounded-xl border-l-4 border-[#19689b] bg-[#edf5f8] px-4 py-3">
+                    <p className="text-xs font-semibold text-[#19689b]">
+                      Detalhes da execução
+                    </p>
+                    <p className="mt-1 whitespace-pre-line wrap-break-word text-sm leading-6 text-slate-700">
+                      {emenda.detalhesExecucao || 'Não informado.'}
+                    </p>
                   </div>
                 </article>
               </Link>
