@@ -7,7 +7,7 @@ export function Header({ ano }: { ano?: number }) {
 
   return (
     <header className="w-full border-b border-white/10 bg-[#0d2a40] text-white">
-      <div className="mx-auto flex max-w-360 items-center justify-between gap-8 px-6 py-4 lg:px-10">
+      <div className="mx-auto flex max-w-360 flex-col items-start justify-between gap-4 px-4 py-4 sm:px-6 lg:flex-row lg:items-center lg:px-10">
         <Link
           href={href('/')}
           className="flex min-w-0 flex-col leading-tight"
@@ -20,28 +20,34 @@ export function Header({ ano }: { ano?: number }) {
             Portal de Emendas Impositivas
           </strong>
         </Link>
-        <div className="flex items-center gap-2">
+        <div className="flex w-full flex-wrap items-center justify-between gap-2 lg:w-auto">
           <nav
-            className="hidden items-center gap-1 text-sm md:flex"
+            className="flex flex-wrap items-center gap-1 text-xs sm:text-sm"
             aria-label="Navegação principal"
           >
             <Link
-              className="rounded-lg px-4 py-2 text-slate-200 transition hover:bg-white/10 hover:text-white"
+              className="rounded-lg px-2 py-2 text-slate-200 transition hover:bg-white/10 hover:text-white sm:px-4"
               href={href('/')}
             >
               Início
             </Link>
             <Link
-              className="rounded-lg px-4 py-2 text-slate-200 transition hover:bg-white/10 hover:text-white"
+              className="rounded-lg px-2 py-2 text-slate-200 transition hover:bg-white/10 hover:text-white sm:px-4"
               href={href('/emendas')}
             >
               Emendas
             </Link>
             <Link
-              className="rounded-lg px-4 py-2 text-slate-200 transition hover:bg-white/10 hover:text-white"
+              className="rounded-lg px-2 py-2 text-slate-200 transition hover:bg-white/10 hover:text-white sm:px-4"
               href={href('/vereadores')}
             >
               Vereadores
+            </Link>
+            <Link
+              className="rounded-lg px-2 py-2 text-slate-200 transition hover:bg-white/10 hover:text-white sm:px-4"
+              href={href('/relatorios')}
+            >
+              Relatórios
             </Link>
           </nav>
           <a

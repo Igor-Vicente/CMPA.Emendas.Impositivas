@@ -92,6 +92,13 @@ export async function listarEmendas(filtros: FiltrosEmenda = {}) {
   return emendasRepository.listar(filtros);
 }
 
+export async function listarEmendasParaRelatorio(ano: number) {
+  'use cache: remote';
+  cacheLife('days');
+  cacheTag('emendas');
+  return emendasRepository.listarParaRelatorio(ano);
+}
+
 export async function buscarEmendaPorId(id: string) {
   'use cache: remote';
   cacheLife('days');

@@ -25,6 +25,7 @@ export interface EmendasRepository {
   listarAnosExecucao(vereadorId?: string): Promise<number[]>;
   listarLegislaturaIdsPorAno(ano: number): Promise<string[]>;
   listar(filtros?: FiltrosEmenda): Promise<ResultadoPaginado<Emenda>>;
+  listarParaRelatorio(ano: number): Promise<Emenda[]>;
   buscarPorId(id: string): Promise<Emenda | null>;
   obterResumo(filtros?: FiltrosResumo): Promise<ResumoDashboard>;
 }

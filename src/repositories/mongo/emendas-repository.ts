@@ -212,6 +212,15 @@ export class MongoEmendasRepository implements EmendasRepository {
     };
   }
 
+  async listarParaRelatorio(ano: number): Promise<Emenda[]> {
+    const colecao = await this.colecao();
+    const documentos = await colecao
+      .find({ periodoExecucao: ano })
+      .sort({ titulo: 1, _id: 1 })
+      .toArray();
+    return documentos.map(paraDominio);
+  }
+
   async buscarPorId(id: string): Promise<Emenda | null> {
     const _id = objectIdValido(id);
     if (!_id) return null;
