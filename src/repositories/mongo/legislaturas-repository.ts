@@ -30,19 +30,4 @@ export class MongoLegislaturasRepository implements LegislaturasRepository {
     const legislatura = await colecao.findOne({ _id: new ObjectId(id) });
     return legislatura ? paraDominio(legislatura) : null;
   }
-
-  async buscarPorSlug(slug: string): Promise<Legislatura | null> {
-    const colecao = await this.colecao();
-    const legislatura = await colecao.findOne({ slug });
-    return legislatura ? paraDominio(legislatura) : null;
-  }
-
-  async buscarAtiva(): Promise<Legislatura | null> {
-    const colecao = await this.colecao();
-    const legislatura = await colecao.findOne(
-      { ativa: true },
-      { sort: { anoInicio: -1 } },
-    );
-    return legislatura ? paraDominio(legislatura) : null;
-  }
 }

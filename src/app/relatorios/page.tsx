@@ -9,12 +9,8 @@ import { PageLoading } from '@/components/page-loading';
 import { carregarContextoAno, comAno, primeiroParametro } from '@/lib/anos';
 import { listarEmendasParaRelatorio, listarVereadores } from '@/lib/dados';
 import { formatarMoeda } from '@/lib/formatters';
-import {
-  extrairCodigoEmenda,
-  identificarSituacaoExecucao,
-  type SituacaoExecucao,
-} from '@/lib/relatorios';
-import type { Emenda } from '@/types';
+import { extrairCodigoEmenda } from '@/lib/relatorios';
+import type { Emenda, StatusExecucao } from '@/types';
 
 export const metadata: Metadata = {
   title: 'Relatórios — Portal de Emendas Impositivas',
@@ -27,16 +23,19 @@ type Props = {
 const relatorios = [
   {
     situacao: 'executadas',
+    statusExecucao: 1,
     titulo: 'Emendas executadas',
     cor: 'bg-emerald-50 text-emerald-700',
   },
   {
     situacao: 'nao-executadas',
+    statusExecucao: 0,
     titulo: 'Emendas não executadas',
     cor: 'bg-rose-50 text-rose-700',
   },
   {
     situacao: 'em-andamento',
+    statusExecucao: 2,
     titulo: 'Emendas em andamento',
     cor: 'bg-amber-50 text-amber-700',
   },
@@ -129,7 +128,6 @@ async function RelatoriosPageContent({ searchParams }: Props) {
   const params = await searchParams;
   const { anos, ano } = await carregarContextoAno(
     primeiroParametro(params.ano),
-    primeiroParametro(params.legislatura),
   );
   if (ano === null) notFound();
 
@@ -140,12 +138,12 @@ async function RelatoriosPageContent({ searchParams }: Props) {
   const vereadoresPorId = new Map(
     vereadores.map((item) => [item.id, item.nome]),
   );
-  const grupos: Record<SituacaoExecucao, Emenda[]> = {
-    executadas: [],
-    'nao-executadas': [],
-    'em-andamento': [],
-    'nao-informada': [],
+  const grupos: Record<StatusExecucao, Emenda[]> = {
+    0: [],
+    1: [],
+    2: [],
   };
+  const semStatus: Emenda[] = [];
 
   emendas.sort((a, b) => {
     const nomeA = vereadoresPorId.get(a.vereadorId) ?? 'Não identificado';
@@ -161,7 +159,9 @@ async function RelatoriosPageContent({ searchParams }: Props) {
     );
   });
   for (const emenda of emendas) {
-    grupos[identificarSituacaoExecucao(emenda.detalhesExecucao)].push(emenda);
+    const grupo = grupos[emenda.statusExecucao];
+    if (grupo) grupo.push(emenda);
+    else semStatus.push(emenda);
   }
 
   return (
@@ -176,7 +176,7 @@ async function RelatoriosPageContent({ searchParams }: Props) {
         </h1>
         <p className="mt-2 text-sm text-slate-500">
           Acompanhe as emendas com execução prevista para {ano}, agrupadas pela
-          situação descrita nos detalhes da execução.
+          situação de execução informada.
         </p>
 
         <div className="mt-7 flex max-w-2xl">
@@ -187,7 +187,7 @@ async function RelatoriosPageContent({ searchParams }: Props) {
           aria-label="Relatórios por situação"
           className="mt-7 grid gap-3 sm:grid-cols-3"
         >
-          {relatorios.map(({ situacao, titulo, cor }) => (
+          {relatorios.map(({ situacao, statusExecucao, titulo, cor }) => (
             <a
               key={situacao}
               href={`#${situacao}`}
@@ -199,7 +199,7 @@ async function RelatoriosPageContent({ searchParams }: Props) {
                 {titulo}
               </span>
               <strong className="mt-3 block text-3xl font-semibold text-[#12334d]">
-                {grupos[situacao].length}
+                {grupos[statusExecucao].length}
               </strong>
               <span className="mt-1 block text-xs text-slate-500">
                 Ver relatório ↓
@@ -209,7 +209,7 @@ async function RelatoriosPageContent({ searchParams }: Props) {
         </nav>
 
         <div className="mt-8 space-y-6">
-          {relatorios.map(({ situacao, titulo, cor }) => (
+          {relatorios.map(({ situacao, statusExecucao, titulo, cor }) => (
             <section
               key={situacao}
               id={situacao}
@@ -226,11 +226,11 @@ async function RelatoriosPageContent({ searchParams }: Props) {
                 <span
                   className={`rounded-full px-3 py-1 text-xs font-semibold ${cor}`}
                 >
-                  {grupos[situacao].length} emendas
+                  {grupos[statusExecucao].length} emendas
                 </span>
               </div>
               <TabelaRelatorio
-                emendas={grupos[situacao]}
+                emendas={grupos[statusExecucao]}
                 vereadoresPorId={vereadoresPorId}
                 ano={ano}
               />
@@ -238,17 +238,17 @@ async function RelatoriosPageContent({ searchParams }: Props) {
           ))}
         </div>
 
-        {grupos['nao-informada'].length > 0 && (
+        {semStatus.length > 0 && (
           <details className="mt-6 overflow-hidden rounded-2xl border border-slate-200 bg-white">
             <summary className="cursor-pointer px-5 py-5 text-sm font-semibold text-slate-700">
-              {grupos['nao-informada'].length} emendas sem situação identificada
+              {semStatus.length} emendas sem situação informada
             </summary>
             <p className="px-5 pb-5 text-sm leading-6 text-slate-500">
-              Os detalhes da execução estão ausentes ou não indicam uma situação
-              reconhecida. Estas emendas não entram nos três relatórios acima.
+              A situação de execução não foi informada ou é inválida. Estas
+              emendas não entram nos três relatórios acima.
             </p>
             <TabelaRelatorio
-              emendas={grupos['nao-informada']}
+              emendas={semStatus}
               vereadoresPorId={vereadoresPorId}
               ano={ano}
             />

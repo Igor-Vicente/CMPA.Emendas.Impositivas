@@ -27,7 +27,6 @@ async function EmendasPageContent({ searchParams }: Props) {
   const pagina = Math.max(1, Number(primeiroParametro(params.pagina)) || 1);
   const { anos, ano, legislaturaIds } = await carregarContextoAno(
     primeiroParametro(params.ano),
-    primeiroParametro(params.legislatura),
   );
   if (ano === null) notFound();
 

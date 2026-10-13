@@ -30,7 +30,6 @@ async function HomePageContent({ searchParams }: Props) {
   const params = await searchParams;
   const contexto = await carregarContextoAno(
     primeiroParametro(params.ano),
-    primeiroParametro(params.legislatura),
   ).catch((error) => {
     console.error('Erro ao carregar os anos:', error);
     return null;

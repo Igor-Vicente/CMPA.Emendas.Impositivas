@@ -82,7 +82,6 @@ export async function listarEmendas(filtros: FiltrosEmenda = {}) {
   console.info('[CACHE_FILL] Consultando emendas no MongoDB', {
     ocorridoEm: new Date().toISOString(),
     operacao: 'listar',
-    legislaturaId: filtros.legislaturaId,
     vereadorId: filtros.vereadorId,
     periodoExecucao: filtros.periodoExecucao,
     pagina: filtros.pagina,
@@ -118,7 +117,6 @@ export async function obterResumoEmendas(filtros: FiltrosResumo = {}) {
   console.info('[CACHE_FILL] Consultando resumo de emendas no MongoDB', {
     ocorridoEm: new Date().toISOString(),
     operacao: 'obterResumo',
-    legislaturaId: filtros.legislaturaId,
     vereadorId: filtros.vereadorId,
     periodoExecucao: filtros.periodoExecucao,
   });

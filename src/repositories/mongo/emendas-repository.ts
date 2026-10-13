@@ -27,13 +27,9 @@ type ResumoMongo = {
     totalEmendas: number;
     valorTotalEmCentavos: number;
     emendasAprovadas: number;
-    emendasRejeitadas: number;
-    aguardandoProtocolo: number;
     beneficiarios: string[];
   }>;
   porAssunto: GrupoMongo[];
-  porOrgaoExecutor: GrupoMongo[];
-  porPeriodoExecucao: GrupoMongo[];
   porVereador: GrupoVereadorMongo[];
 };
 
@@ -146,50 +142,14 @@ export class MongoEmendasRepository implements EmendasRepository {
       ];
     }
 
-    if (filtros.titulo) {
-      query.titulo = { $regex: escaparRegex(filtros.titulo), $options: 'i' };
-    }
-
-    if (filtros.legislaturaId) {
-      const legislaturaId = objectIdValido(filtros.legislaturaId);
-      if (!legislaturaId) return this.resultadoVazio(pagina, itensPorPagina);
-      query.legislaturaId = legislaturaId;
-    }
-
     if (filtros.vereadorId) {
       const vereadorId = objectIdValido(filtros.vereadorId);
       if (!vereadorId) return this.resultadoVazio(pagina, itensPorPagina);
       query.vereadorId = vereadorId;
     }
 
-    if (filtros.assunto) {
-      query.assunto = { $regex: escaparRegex(filtros.assunto), $options: 'i' };
-    }
-
-    if (filtros.beneficiarioFinal) {
-      query.beneficiarioFinal = {
-        $regex: escaparRegex(filtros.beneficiarioFinal),
-        $options: 'i',
-      };
-    }
-
-    if (filtros.orgaoExecutor) {
-      query.orgaoExecutor = {
-        $regex: escaparRegex(filtros.orgaoExecutor),
-        $options: 'i',
-      };
-    }
-
     if (filtros.periodoExecucao !== undefined) {
       query.periodoExecucao = filtros.periodoExecucao;
-    }
-
-    if (filtros.aprovada !== undefined) query.aprovada = filtros.aprovada;
-
-    if (filtros.ano !== undefined) {
-      const inicio = new Date(Date.UTC(filtros.ano, 0, 1));
-      const fim = new Date(Date.UTC(filtros.ano + 1, 0, 1));
-      query.dataProtocolo = { $gte: inicio, $lt: fim };
     }
 
     const colecao = await this.colecao();
@@ -234,12 +194,6 @@ export class MongoEmendasRepository implements EmendasRepository {
     const colecao = await this.colecao();
     const query: Filter<EmendaMongo> = {};
 
-    if (filtros.legislaturaId) {
-      const legislaturaId = objectIdValido(filtros.legislaturaId);
-      if (!legislaturaId) return this.resumoVazio();
-      query.legislaturaId = legislaturaId;
-    }
-
     if (filtros.vereadorId) {
       const vereadorId = objectIdValido(filtros.vereadorId);
       if (!vereadorId) return this.resumoVazio();
@@ -264,12 +218,6 @@ export class MongoEmendasRepository implements EmendasRepository {
                   emendasAprovadas: {
                     $sum: { $cond: [{ $eq: ['$aprovada', true] }, 1, 0] },
                   },
-                  emendasRejeitadas: {
-                    $sum: { $cond: [{ $eq: ['$aprovada', false] }, 1, 0] },
-                  },
-                  aguardandoProtocolo: {
-                    $sum: { $cond: [{ $eq: ['$dataProtocolo', null] }, 1, 0] },
-                  },
                   beneficiarios: { $addToSet: '$beneficiarioFinal' },
                 },
               },
@@ -283,26 +231,6 @@ export class MongoEmendasRepository implements EmendasRepository {
                 },
               },
               { $sort: { valorEmCentavos: -1 } },
-            ],
-            porOrgaoExecutor: [
-              {
-                $group: {
-                  _id: '$orgaoExecutor',
-                  quantidade: { $sum: 1 },
-                  valorEmCentavos: { $sum: '$valorEmCentavos' },
-                },
-              },
-              { $sort: { valorEmCentavos: -1 } },
-            ],
-            porPeriodoExecucao: [
-              {
-                $group: {
-                  _id: '$periodoExecucao',
-                  quantidade: { $sum: 1 },
-                  valorEmCentavos: { $sum: '$valorEmCentavos' },
-                },
-              },
-              { $sort: { _id: 1 } },
             ],
             porVereador: [
               {
@@ -323,8 +251,6 @@ export class MongoEmendasRepository implements EmendasRepository {
       totalEmendas: 0,
       valorTotalEmCentavos: 0,
       emendasAprovadas: 0,
-      emendasRejeitadas: 0,
-      aguardandoProtocolo: 0,
       beneficiarios: [],
     };
 
@@ -336,8 +262,6 @@ export class MongoEmendasRepository implements EmendasRepository {
         (beneficiario) => beneficiario.trim() !== '',
       ).length,
       porAssunto: mapearGrupo(resultado?.porAssunto ?? []),
-      porOrgaoExecutor: mapearGrupo(resultado?.porOrgaoExecutor ?? []),
-      porPeriodoExecucao: mapearGrupo(resultado?.porPeriodoExecucao ?? []),
       porVereador: (resultado?.porVereador ?? []).map(({ _id, ...grupo }) => ({
         vereadorId: _id.toHexString(),
         ...grupo,
@@ -363,12 +287,8 @@ export class MongoEmendasRepository implements EmendasRepository {
       totalEmendas: 0,
       valorTotalEmCentavos: 0,
       emendasAprovadas: 0,
-      emendasRejeitadas: 0,
-      aguardandoProtocolo: 0,
       entidadesBeneficiadas: 0,
       porAssunto: [],
-      porOrgaoExecutor: [],
-      porPeriodoExecucao: [],
       porVereador: [],
     };
   }

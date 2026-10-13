@@ -24,10 +24,8 @@ export type Legislatura = EntidadeBase & {
   ativa: boolean;
 };
 
-export type Mandato = EntidadeBase & {
-  legislaturaId: string;
-  vereadorId: string;
-};
+/** 0: não executada; 1: executada; 2: em andamento. */
+export type StatusExecucao = 0 | 1 | 2;
 
 export type Emenda = EntidadeBase & {
   titulo: string;
@@ -53,6 +51,7 @@ export type Emenda = EntidadeBase & {
   resultado: Documento[];
   resultadoTexto?: string;
   detalhesExecucao: string;
+  statusExecucao: StatusExecucao;
 };
 
 export type Paginacao = {
@@ -82,26 +81,15 @@ export type ResumoDashboard = {
   totalEmendas: number;
   valorTotalEmCentavos: number;
   emendasAprovadas: number;
-  emendasRejeitadas: number;
-  aguardandoProtocolo: number;
   entidadesBeneficiadas: number;
   porAssunto: ResumoAgrupado[];
-  porOrgaoExecutor: ResumoAgrupado[];
-  porPeriodoExecucao: ResumoAgrupado[];
   porVereador: ResumoPorVereador[];
 };
 
 export type FiltrosEmenda = Paginacao & {
   busca?: string;
-  titulo?: string;
-  legislaturaId?: string;
   vereadorId?: string;
-  assunto?: string;
-  beneficiarioFinal?: string;
-  orgaoExecutor?: string;
   periodoExecucao?: number;
-  aprovada?: boolean;
-  ano?: number;
 };
 
 export type FiltrosVereador = {
@@ -109,7 +97,6 @@ export type FiltrosVereador = {
 };
 
 export type FiltrosResumo = {
-  legislaturaId?: string;
   vereadorId?: string;
   periodoExecucao?: number;
 };

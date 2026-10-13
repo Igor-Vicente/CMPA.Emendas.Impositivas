@@ -17,8 +17,6 @@ export interface VereadoresRepository {
 export interface LegislaturasRepository {
   listar(): Promise<Legislatura[]>;
   buscarPorId(id: string): Promise<Legislatura | null>;
-  buscarPorSlug(slug: string): Promise<Legislatura | null>;
-  buscarAtiva(): Promise<Legislatura | null>;
 }
 
 export interface EmendasRepository {

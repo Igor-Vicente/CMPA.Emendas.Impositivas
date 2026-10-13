@@ -11,10 +11,7 @@ export function primeiroParametro(
   return Array.isArray(valor) ? valor[0] : valor;
 }
 
-export async function carregarContextoAno(
-  anoParametro?: string,
-  legislaturaSlug?: string,
-): Promise<{
+export async function carregarContextoAno(anoParametro?: string): Promise<{
   anos: number[];
   ano: number | null;
   legislaturaIds: string[];
@@ -32,13 +29,6 @@ export async function carregarContextoAno(
       /^\d{4}$/.test(anoParametro) && anos.includes(solicitado)
         ? solicitado
         : null;
-  } else if (legislaturaSlug) {
-    const antiga = legislaturas.find((item) => item.slug === legislaturaSlug);
-    const idsPorAno = await Promise.all(anos.map(listarLegislaturaIdsPorAno));
-    ano =
-      anos.find(
-        (_, indice) => antiga && idsPorAno[indice].includes(antiga.id),
-      ) ?? null;
   } else {
     ano = anos[0] ?? null;
   }

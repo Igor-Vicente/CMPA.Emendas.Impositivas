@@ -25,10 +25,7 @@ export default function VereadoresPage(props: Props) {
 async function VereadoresPageContent({ searchParams }: Props) {
   const params = await searchParams;
   const { anos, ano, legislaturaIds, legislaturasDoAno } =
-    await carregarContextoAno(
-      primeiroParametro(params.ano),
-      primeiroParametro(params.legislatura),
-    );
+    await carregarContextoAno(primeiroParametro(params.ano));
   if (ano === null) notFound();
 
   const [vereadores, resumo] = await Promise.all([
