@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { Suspense } from 'react';
 
 import { Header } from '@/components/header';
+import { EmendaCanceladaBadge } from '@/components/emenda-cancelada-badge';
 import { AnoSelector } from '@/components/ano-selector';
 import { PageLoading } from '@/components/page-loading';
 import { listarEmendas, listarVereadores } from '@/lib/dados';
@@ -94,7 +95,14 @@ async function EmendasPageContent({ searchParams }: Props) {
               </thead>
               <tbody className="divide-y divide-slate-100">
                 {resultado.itens.map((emenda) => (
-                  <tr key={emenda.id} className="hover:bg-slate-50">
+                  <tr
+                    key={emenda.id}
+                    className={
+                      emenda.statusExecucao === 3
+                        ? 'bg-rose-50/60 hover:bg-rose-100/60'
+                        : 'hover:bg-slate-50'
+                    }
+                  >
                     <td className="max-w-82.5 px-5 py-4">
                       <Link
                         href={comAno(`/emendas/${emenda.id}`, ano)}
@@ -102,6 +110,11 @@ async function EmendasPageContent({ searchParams }: Props) {
                       >
                         {emenda.titulo}
                       </Link>
+                      {emenda.statusExecucao === 3 && (
+                        <div className="mt-2">
+                          <EmendaCanceladaBadge />
+                        </div>
+                      )}
                       <p className="mt-1 truncate text-xs text-slate-500">
                         {emenda.finalidade}
                       </p>
@@ -126,7 +139,10 @@ async function EmendasPageContent({ searchParams }: Props) {
           </div>
           <div className="divide-y divide-slate-100 md:hidden">
             {resultado.itens.map((emenda) => (
-              <article key={emenda.id} className="p-4 sm:p-5">
+              <article
+                key={emenda.id}
+                className={`p-4 sm:p-5 ${emenda.statusExecucao === 3 ? 'border-l-4 border-rose-500 bg-rose-50/60' : ''}`}
+              >
                 <div className="flex items-start justify-between gap-3">
                   <span className="rounded-full bg-[#edf5f8] px-2.5 py-1 text-xs font-medium text-[#19689b]">
                     {emenda.assunto}
@@ -141,6 +157,11 @@ async function EmendasPageContent({ searchParams }: Props) {
                 >
                   {emenda.titulo}
                 </Link>
+                {emenda.statusExecucao === 3 && (
+                  <div className="mt-2">
+                    <EmendaCanceladaBadge />
+                  </div>
+                )}
                 <p className="mt-1 text-xs leading-5 text-slate-500">
                   {emenda.finalidade}
                 </p>

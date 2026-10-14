@@ -160,6 +160,11 @@ async function EmendaPageContent({ params }: Props) {
             >
               {emenda.aprovada ? 'Aprovada' : 'Não aprovada'}
             </span>
+            {emenda.statusExecucao === 3 && (
+              <span className="rounded-full bg-rose-400/20 px-3 py-1 text-xs font-semibold text-rose-100">
+                Cancelada
+              </span>
+            )}
           </div>
           <h1 className="mt-5 max-w-4xl text-3xl font-semibold leading-tight sm:text-4xl">
             {emenda.titulo}

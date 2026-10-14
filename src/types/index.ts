@@ -24,8 +24,8 @@ export type Legislatura = EntidadeBase & {
   ativa: boolean;
 };
 
-/** 0: não executada; 1: executada; 2: em andamento. */
-export type StatusExecucao = 0 | 1 | 2;
+/** 0: não executada; 1: executada; 2: em andamento; 3: cancelada. */
+export type StatusExecucao = 0 | 1 | 2 | 3;
 
 export type Emenda = EntidadeBase & {
   titulo: string;

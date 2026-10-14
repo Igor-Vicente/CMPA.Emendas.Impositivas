@@ -31,13 +31,19 @@ const relatorios = [
     situacao: 'nao-executadas',
     statusExecucao: 0,
     titulo: 'Emendas não executadas',
-    cor: 'bg-rose-50 text-rose-700',
+    cor: 'bg-slate-100 text-slate-700',
   },
   {
     situacao: 'em-andamento',
     statusExecucao: 2,
     titulo: 'Emendas em andamento',
     cor: 'bg-amber-50 text-amber-700',
+  },
+  {
+    situacao: 'canceladas',
+    statusExecucao: 3,
+    titulo: 'Emendas canceladas',
+    cor: 'bg-rose-50 text-rose-700',
   },
 ] as const;
 
@@ -142,6 +148,7 @@ async function RelatoriosPageContent({ searchParams }: Props) {
     0: [],
     1: [],
     2: [],
+    3: [],
   };
   const semStatus: Emenda[] = [];
 
@@ -185,7 +192,7 @@ async function RelatoriosPageContent({ searchParams }: Props) {
 
         <nav
           aria-label="Relatórios por situação"
-          className="mt-7 grid gap-3 sm:grid-cols-3"
+          className="mt-7 grid gap-3 sm:grid-cols-2 lg:grid-cols-4"
         >
           {relatorios.map(({ situacao, statusExecucao, titulo, cor }) => (
             <a
@@ -245,7 +252,7 @@ async function RelatoriosPageContent({ searchParams }: Props) {
             </summary>
             <p className="px-5 pb-5 text-sm leading-6 text-slate-500">
               A situação de execução não foi informada ou é inválida. Estas
-              emendas não entram nos três relatórios acima.
+              emendas não entram nos relatórios acima.
             </p>
             <TabelaRelatorio
               emendas={semStatus}

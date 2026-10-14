@@ -3,6 +3,7 @@ import { notFound, redirect } from 'next/navigation';
 import { Suspense } from 'react';
 
 import { Header } from '@/components/header';
+import { EmendaCanceladaBadge } from '@/components/emenda-cancelada-badge';
 import { AnoSelector } from '@/components/ano-selector';
 import { PageLoading } from '@/components/page-loading';
 import {
@@ -121,14 +122,23 @@ async function VereadorPageContent({ params, searchParams }: Props) {
               <Link
                 key={emenda.id}
                 href={comAno(`/emendas/${emenda.id}`, ano)}
-                className="block rounded-2xl border border-slate-200 bg-white p-5 transition hover:-translate-y-0.5 hover:border-[#9cc6dc] hover:shadow-md sm:p-6"
+                className={`block rounded-2xl border p-5 transition hover:-translate-y-0.5 hover:shadow-md sm:p-6 ${
+                  emenda.statusExecucao === 3
+                    ? 'border-rose-200 border-l-4 border-l-rose-500 bg-rose-50/60 hover:border-rose-400'
+                    : 'border-slate-200 bg-white hover:border-[#9cc6dc]'
+                }`}
               >
                 <article>
                   <div className="flex flex-col justify-between gap-4 sm:flex-row">
                     <div>
-                      <span className="rounded-full bg-[#edf5f8] px-2.5 py-1 text-xs font-medium text-[#19689b]">
-                        {emenda.assunto}
-                      </span>
+                      <div className="flex flex-wrap items-center gap-2">
+                        <span className="rounded-full bg-[#edf5f8] px-2.5 py-1 text-xs font-medium text-[#19689b]">
+                          {emenda.assunto}
+                        </span>
+                        {emenda.statusExecucao === 3 && (
+                          <EmendaCanceladaBadge />
+                        )}
+                      </div>
                       <h3 className="mt-3 text-lg font-semibold text-slate-800">
                         {emenda.titulo}
                       </h3>
@@ -144,8 +154,12 @@ async function VereadorPageContent({ params, searchParams }: Props) {
                     <span>Beneficiário: {emenda.beneficiarioFinal}</span>
                     <span>Protocolo: {formatarData(emenda.dataProtocolo)}</span>
                   </div>
-                  <div className="mt-4 rounded-xl border-l-4 border-[#19689b] bg-[#edf5f8] px-4 py-3">
-                    <p className="text-xs font-semibold text-[#19689b]">
+                  <div
+                    className={`mt-4 rounded-xl border-l-4 px-4 py-3 ${emenda.statusExecucao === 3 ? 'border-rose-500 bg-rose-100/60' : 'border-[#19689b] bg-[#edf5f8]'}`}
+                  >
+                    <p
+                      className={`text-xs font-semibold ${emenda.statusExecucao === 3 ? 'text-rose-800' : 'text-[#19689b]'}`}
+                    >
                       Detalhes da execução
                     </p>
                     <p className="mt-1 whitespace-pre-line wrap-break-word text-sm leading-6 text-slate-700">

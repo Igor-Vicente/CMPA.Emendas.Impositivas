@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import type { CSSProperties } from 'react';
+import { EmendaCanceladaBadge } from '@/components/emenda-cancelada-badge';
 
 import { formatarData, formatarMoeda } from '@/lib/formatters';
 import { comAno } from '@/lib/anos';
@@ -361,7 +362,7 @@ export function HomeContent({
                   {emendas.map((emenda) => (
                     <tr
                       key={emenda.id}
-                      className="transition hover:bg-slate-50/80"
+                      className={`transition ${emenda.statusExecucao === 3 ? 'bg-rose-50/60 hover:bg-rose-100/60' : 'hover:bg-slate-50/80'}`}
                     >
                       <td className="max-w-[320px] px-5 py-4">
                         <Link
@@ -370,6 +371,11 @@ export function HomeContent({
                         >
                           {emenda.titulo}
                         </Link>
+                        {emenda.statusExecucao === 3 && (
+                          <div className="mt-2">
+                            <EmendaCanceladaBadge />
+                          </div>
+                        )}
                         <p className="mt-1 truncate text-xs text-slate-500">
                           {emenda.beneficiarioFinal}
                         </p>
