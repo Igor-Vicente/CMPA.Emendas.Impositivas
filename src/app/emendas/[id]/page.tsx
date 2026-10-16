@@ -139,13 +139,6 @@ async function EmendaPageContent({ params }: Props) {
     <>
       <Header ano={ano} />
       <main className="mx-auto min-h-[70vh] max-w-360 w-full px-6 py-10 lg:px-10 lg:py-12">
-        <Link
-          href={comAno('/emendas', ano)}
-          className="inline-flex items-center gap-2 text-sm font-semibold text-[#19689b] hover:underline"
-        >
-          <span aria-hidden="true">←</span> Voltar para emendas
-        </Link>
-
         <section className="mt-6 rounded-3xl bg-[#12334d] p-7 text-white sm:p-10">
           <div className="flex flex-wrap items-center gap-3">
             <span className="rounded-full bg-white/10 px-3 py-1 text-xs font-semibold text-slate-100">
