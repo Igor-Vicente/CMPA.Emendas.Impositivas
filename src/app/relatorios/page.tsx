@@ -251,8 +251,8 @@ async function RelatoriosPageContent({ searchParams }: Props) {
               {semStatus.length} emendas sem situação informada
             </summary>
             <p className="px-5 pb-5 text-sm leading-6 text-slate-500">
-              A situação de execução não foi informada ou é inválida. Estas
-              emendas não entram nos relatórios acima.
+              A situação de execução não foi informada. Estas emendas não entram
+              nos relatórios acima.
             </p>
             <TabelaRelatorio
               emendas={semStatus}
