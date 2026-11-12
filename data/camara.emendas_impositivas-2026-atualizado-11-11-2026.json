@@ -1,0 +1,2326 @@
+[
+  {
+    "titulo": "Emenda Impositiva 01-A",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe82877193194c"
+    },
+    "valorEmCentavos": 7000000,
+    "finalidade": "Repasse financeiro à Santa Casa de Misericórdia São Vicente de Paulo, em Pouso Alto/MG, para aquisição de camas hospitalares destinadas à ampliação e melhoria dos atendimentos à população.",
+    "justificativa": "A destinação busca ampliar e melhorar o atendimento à população pouso-altense por meio da aquisição de novas camas hospitalares para a Santa Casa de Misericórdia São Vicente de Paulo.",
+    "assunto": "Saúde",
+    "beneficiarioFinal": "Santa Casa de Misericórdia São Vicente de Paulo e população atendida pela instituição em Pouso Alto/MG.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      {
+        "nome": "Plano de trabalho — Aquisição de camas hospitalares para a Santa Casa",
+        "url": "https://sapl.pousoalto.mg.leg.br/media/sapl/public/documentoacessorio/2026/70/plo_58-2026_-_emenda_individual_no_01-2026_-_plano_de_trabalho.pdf",
+        "tipoMime": "application/pdf"
+      }
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T18:39:19.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 493/2026, como parte da [Emenda Impositiva Individual nº 01/2026](https://sapl.pousoalto.mg.leg.br/materia/1575) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 01-B",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe82877193194c"
+    },
+    "valorEmCentavos": 3059886,
+    "finalidade": "Realização de pavimentação e obras complementares no bairro Boa Vista, zona rural de Pouso Alto/MG, na quantidade de metros lineares possível com os recursos destinados e na localidade registrada no Plano de Trabalho.",
+    "justificativa": "A pavimentação no bairro Boa Vista busca melhorar as condições de mobilidade e garantir mais segurança e conforto aos moradores da comunidade rural.",
+    "assunto": "Obras e Infraestrutura",
+    "beneficiarioFinal": "Moradores do bairro Boa Vista, na zona rural do Município de Pouso Alto/MG.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/documentoacessorio/70"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T18:39:19.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 493/2026, como parte da [Emenda Impositiva Individual nº 01/2026](https://sapl.pousoalto.mg.leg.br/materia/1575) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 02-A",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931947"
+    },
+    "valorEmCentavos": 7759886,
+    "finalidade": "Repasse financeiro à Santa Casa de Misericórdia São Vicente de Paulo, em Pouso Alto/MG, para aquisição de equipamentos hospitalares destinados à ampliação e melhoria dos atendimentos à população.",
+    "justificativa": "A aquisição de equipamentos hospitalares busca ampliar e melhorar a qualidade dos atendimentos prestados à população, fortalecendo os serviços de saúde e a assistência hospitalar no Município.",
+    "assunto": "Saúde",
+    "beneficiarioFinal": "Santa Casa de Misericórdia São Vicente de Paulo e população atendida pela instituição em Pouso Alto/MG.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/documentoacessorio/81"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:01:49.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 494/2026, como parte da [Emenda Impositiva Individual nº 02/2026](https://sapl.pousoalto.mg.leg.br/materia/1576) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 02-B",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931947"
+    },
+    "valorEmCentavos": 450000,
+    "finalidade": "Repasse financeiro à Associação de Pais e Amigos dos Excepcionais — APAE de Pouso Alto/MG.",
+    "justificativa": "O repasse financeiro busca apoiar a APAE de Pouso Alto, reconhecendo a importância da instituição para o Município.",
+    "assunto": "Assistência Social",
+    "beneficiarioFinal": "Associação de Pais e Amigos dos Excepcionais — APAE de Pouso Alto/MG e pessoas atendidas pela instituição.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/documentoacessorio/81"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:01:49.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 494/2026, como parte da [Emenda Impositiva Individual nº 02/2026](https://sapl.pousoalto.mg.leg.br/materia/1576) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 02-C",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931947"
+    },
+    "valorEmCentavos": 450000,
+    "finalidade": "Repasse financeiro ao Centro de Atendimento ao Adolescente Carente — CEAAPA de Pouso Alto/MG.",
+    "justificativa": "A destinação apoia o CEAAPA, instituição que atua no acompanhamento e na inserção social de adolescentes carentes no Município.",
+    "assunto": "Assistência Social",
+    "beneficiarioFinal": "Centro de Atendimento ao Adolescente Carente — CEAAPA de Pouso Alto/MG e adolescentes acompanhados pela instituição.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/documentoacessorio/81"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:01:49.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 494/2026, como parte da [Emenda Impositiva Individual nº 02/2026](https://sapl.pousoalto.mg.leg.br/materia/1576) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 02-D",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931947"
+    },
+    "valorEmCentavos": 450000,
+    "finalidade": "Repasse financeiro ao Lar dos Velhinhos — Asilo de Pouso Alto/MG.",
+    "justificativa": "O repasse ao Lar dos Velhinhos busca garantir assistência mais adequada e digna à população idosa institucionalizada na sede do Município.",
+    "assunto": "Assistência Social",
+    "beneficiarioFinal": "Lar dos Velhinhos — Asilo de Pouso Alto/MG e pessoas idosas acolhidas pela instituição.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/documentoacessorio/81"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:01:49.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 494/2026, como parte da [Emenda Impositiva Individual nº 02/2026](https://sapl.pousoalto.mg.leg.br/materia/1576) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 02-E",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931947"
+    },
+    "valorEmCentavos": 450000,
+    "finalidade": "Repasse financeiro ao Centro Habitacional de Idosos de Santana de Capivari, em Pouso Alto/MG.",
+    "justificativa": "O repasse à instituição de acolhimento do Distrito de Santana do Capivari busca garantir assistência mais adequada e digna à população idosa institucionalizada.",
+    "assunto": "Assistência Social",
+    "beneficiarioFinal": "Centro Habitacional de Idosos de Santana de Capivari e pessoas idosas acolhidas pela instituição.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/documentoacessorio/81"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:01:49.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 494/2026, como parte da [Emenda Impositiva Individual nº 02/2026](https://sapl.pousoalto.mg.leg.br/materia/1576) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 02-F",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931947"
+    },
+    "valorEmCentavos": 300000,
+    "finalidade": "Repasse financeiro à Associação Pouso-Altense de Incentivo ao Esporte — APOIE, em Pouso Alto/MG.",
+    "justificativa": "O apoio à APOIE busca incentivar a expansão e o fortalecimento da prática esportiva e das políticas públicas de esporte no Município.",
+    "assunto": "Esporte e Lazer",
+    "beneficiarioFinal": "Associação Pouso-Altense de Incentivo ao Esporte — APOIE e participantes das atividades esportivas promovidas pela instituição.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/documentoacessorio/81"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:01:49.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 494/2026, como parte da [Emenda Impositiva Individual nº 02/2026](https://sapl.pousoalto.mg.leg.br/materia/1576) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 02-G",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931947"
+    },
+    "valorEmCentavos": 200000,
+    "finalidade": "Repasse financeiro à Associação Comunitária Artística e Cultural Rádio Anchieta FM de Pouso Alto/MG.",
+    "justificativa": "A destinação busca incentivar a produção cultural e comunitária da Rádio Anchieta, reconhecida como importante instrumento de comunicação da comunidade pouso-altense.",
+    "assunto": "Turismo e Cultura",
+    "beneficiarioFinal": "Associação Comunitária Artística e Cultural Rádio Anchieta FM e comunidade atendida pela emissora em Pouso Alto/MG.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/documentoacessorio/81"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:01:49.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 494/2026, como parte da [Emenda Impositiva Individual nº 02/2026](https://sapl.pousoalto.mg.leg.br/materia/1576) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 03-A",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931949"
+    },
+    "valorEmCentavos": 5029943,
+    "finalidade": "Repasse financeiro à Santa Casa de Misericórdia São Vicente de Paulo, em Pouso Alto/MG, para aquisição de equipamentos hospitalares destinados à ampliação e melhoria dos atendimentos à população.",
+    "justificativa": "A aquisição de equipamentos hospitalares busca ampliar e melhorar a qualidade dos atendimentos prestados à população, fortalecendo os serviços de saúde e a assistência hospitalar no Município.",
+    "assunto": "Saúde",
+    "beneficiarioFinal": "Santa Casa de Misericórdia São Vicente de Paulo e população atendida pela instituição em Pouso Alto/MG.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/documentoacessorio/82"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:12:58.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 495/2026, como parte da [Emenda Impositiva Individual nº 03/2026](https://sapl.pousoalto.mg.leg.br/materia/1577) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 03-B",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931949"
+    },
+    "valorEmCentavos": 1500000,
+    "finalidade": "Repasse financeiro à Associação Recreativa e Cultural Bloco Carnavalesco \"Galinhas com Dentes\".",
+    "justificativa": "A destinação busca apoiar as atividades culturais e carnavalescas da associação e valorizar as manifestações culturais locais. O apoio pretende fortalecer a cultura, o lazer e a integração comunitária no Município.",
+    "assunto": "Turismo e Cultura",
+    "beneficiarioFinal": "Associação Recreativa e Cultural Bloco Carnavalesco \"Galinhas com Dentes\" e comunidade beneficiada por suas atividades culturais e carnavalescas.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/documentoacessorio/82"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:12:58.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 495/2026, como parte da [Emenda Impositiva Individual nº 03/2026](https://sapl.pousoalto.mg.leg.br/materia/1577) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 03-C",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931949"
+    },
+    "valorEmCentavos": 700000,
+    "finalidade": "Repasse financeiro ao Centro de Atendimento ao Adolescente Carente — CEAAPA de Pouso Alto/MG.",
+    "justificativa": "A destinação apoia o CEAAPA, instituição que atua no acompanhamento e na inserção social de adolescentes carentes no Município.",
+    "assunto": "Assistência Social",
+    "beneficiarioFinal": "Centro de Atendimento ao Adolescente Carente — CEAAPA de Pouso Alto/MG e adolescentes acompanhados pela instituição.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/documentoacessorio/82"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:12:58.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 495/2026, como parte da [Emenda Impositiva Individual nº 03/2026](https://sapl.pousoalto.mg.leg.br/materia/1577) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 03-D",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931949"
+    },
+    "valorEmCentavos": 629943,
+    "finalidade": "Repasse financeiro à Associação de Pais e Amigos dos Excepcionais — APAE de Pouso Alto/MG.",
+    "justificativa": "O repasse financeiro busca apoiar a APAE de Pouso Alto, reconhecendo a importância da instituição para o Município.",
+    "assunto": "Assistência Social",
+    "beneficiarioFinal": "Associação de Pais e Amigos dos Excepcionais — APAE de Pouso Alto/MG e pessoas atendidas pela instituição.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/documentoacessorio/82"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:12:58.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 495/2026, como parte da [Emenda Impositiva Individual nº 03/2026](https://sapl.pousoalto.mg.leg.br/materia/1577) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 03-E",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931949"
+    },
+    "valorEmCentavos": 1500000,
+    "finalidade": "Repasse financeiro ao Centro Habitacional de Idosos de Santana de Capivari, em Pouso Alto/MG.",
+    "justificativa": "O repasse à instituição de acolhimento de Santana do Capivari busca garantir assistência mais adequada e digna à população idosa institucionalizada.",
+    "assunto": "Assistência Social",
+    "beneficiarioFinal": "Centro Habitacional de Idosos de Santana de Capivari e pessoas idosas acolhidas pela instituição.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/documentoacessorio/82"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:12:58.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 495/2026, como parte da [Emenda Impositiva Individual nº 03/2026](https://sapl.pousoalto.mg.leg.br/materia/1577) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 03-F",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931949"
+    },
+    "valorEmCentavos": 500000,
+    "finalidade": "Repasse financeiro ao Lar dos Velhinhos — Asilo de Pouso Alto/MG.",
+    "justificativa": "O repasse ao Lar dos Velhinhos busca garantir assistência mais adequada e digna à população idosa institucionalizada na sede do Município.",
+    "assunto": "Assistência Social",
+    "beneficiarioFinal": "Lar dos Velhinhos — Asilo de Pouso Alto/MG e pessoas idosas acolhidas pela instituição.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/documentoacessorio/82"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:12:58.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 495/2026, como parte da [Emenda Impositiva Individual nº 03/2026](https://sapl.pousoalto.mg.leg.br/materia/1577) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 03-G",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931949"
+    },
+    "valorEmCentavos": 200000,
+    "finalidade": "Repasse financeiro à Associação Comunitária Artística e Cultural Rádio Anchieta FM de Pouso Alto/MG.",
+    "justificativa": "A destinação busca incentivar a produção cultural e comunitária da Rádio Anchieta, reconhecida como importante instrumento de comunicação da comunidade pouso-altense.",
+    "assunto": "Turismo e Cultura",
+    "beneficiarioFinal": "Associação Comunitária Artística e Cultural Rádio Anchieta FM e comunidade atendida pela emissora em Pouso Alto/MG.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/documentoacessorio/82"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:12:58.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 495/2026, como parte da [Emenda Impositiva Individual nº 03/2026](https://sapl.pousoalto.mg.leg.br/materia/1577) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 04-A",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931945"
+    },
+    "valorEmCentavos": 5029943,
+    "finalidade": "Repasse financeiro à Santa Casa de Misericórdia São Vicente de Paulo, em Pouso Alto/MG, para aquisição de equipamentos hospitalares destinados à ampliação e melhoria dos atendimentos à população.",
+    "justificativa": "A destinação busca ampliar e melhorar a qualidade dos atendimentos prestados pela Santa Casa de Misericórdia São Vicente de Paulo, por meio da aquisição de equipamentos hospitalares. O investimento contribui para o fortalecimento dos serviços de saúde e da assistência hospitalar no Município.",
+    "assunto": "Saúde",
+    "beneficiarioFinal": "Santa Casa de Misericórdia São Vicente de Paulo e população atendida pela instituição em Pouso Alto/MG.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/documentoacessorio/83"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:22:04.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 497/2026, como parte da [Emenda Impositiva Individual nº 04/2026](https://sapl.pousoalto.mg.leg.br/materia/1578) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 04-B",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931945"
+    },
+    "valorEmCentavos": 4029943,
+    "finalidade": "Repasse financeiro ao Lar dos Velhinhos — Asilo de Pouso Alto/MG.",
+    "justificativa": "O repasse ao Lar dos Velhinhos de Pouso Alto/MG busca garantir uma assistência mais adequada e digna à população idosa institucionalizada.",
+    "assunto": "Assistência Social",
+    "beneficiarioFinal": "Lar dos Velhinhos — Asilo de Pouso Alto/MG e pessoas idosas acolhidas pela instituição.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/documentoacessorio/83"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:22:04.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 497/2026, como parte da [Emenda Impositiva Individual nº 04/2026](https://sapl.pousoalto.mg.leg.br/materia/1578) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 04-C",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931945"
+    },
+    "valorEmCentavos": 1000000,
+    "finalidade": "Repasse financeiro ao Centro Habitacional de Idosos de Santana de Capivari, em Pouso Alto/MG.",
+    "justificativa": "O repasse ao Centro Habitacional de Idosos de Santana de Capivari busca garantir uma assistência mais adequada e digna à população idosa institucionalizada.",
+    "assunto": "Assistência Social",
+    "beneficiarioFinal": "Centro Habitacional de Idosos de Santana de Capivari e pessoas idosas acolhidas pela instituição, em Pouso Alto/MG.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/documentoacessorio/83"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:22:04.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 497/2026, como parte da [Emenda Impositiva Individual nº 04/2026](https://sapl.pousoalto.mg.leg.br/materia/1578) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 05-A",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe82877193194b"
+    },
+    "valorEmCentavos": 5029943,
+    "finalidade": "Repasse financeiro à Santa Casa de Misericórdia São Vicente de Paulo, em Pouso Alto/MG, para aquisição de equipamentos hospitalares destinados à ampliação e melhoria dos atendimentos à população.",
+    "justificativa": "A destinação busca ampliar e melhorar a qualidade dos atendimentos prestados pela Santa Casa de Misericórdia São Vicente de Paulo, por meio da aquisição de equipamentos hospitalares. O investimento contribui para o fortalecimento dos serviços de saúde e da assistência hospitalar no Município.",
+    "assunto": "Saúde",
+    "beneficiarioFinal": "Santa Casa de Misericórdia São Vicente de Paulo e população atendida pela instituição em Pouso Alto/MG.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/documentoacessorio/84"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:40:59.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 498/2026, como parte da [Emenda Impositiva Individual nº 05/2026](https://sapl.pousoalto.mg.leg.br/materia/1579) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 05-B",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe82877193194b"
+    },
+    "valorEmCentavos": 3300000,
+    "finalidade": "Aquisição e instalação de academia ao ar livre no bairro Triângulo e no bairro Rafael, em Pouso Alto/MG.",
+    "justificativa": "A aquisição e instalação de academia ao ar livre nos bairros Triângulo e Rafael busca incentivar atividades físicas e promover a saúde e o bem-estar da população. A proposta também pretende proporcionar espaço adequado para lazer e convivência comunitária.",
+    "assunto": "Esporte e Lazer",
+    "beneficiarioFinal": "População dos bairros Triângulo e Rafael, em Pouso Alto/MG.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/documentoacessorio/84"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:40:59.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 498/2026, como parte da [Emenda Impositiva Individual nº 05/2026](https://sapl.pousoalto.mg.leg.br/materia/1579) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 05-C",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe82877193194b"
+    },
+    "valorEmCentavos": 300000,
+    "finalidade": "Repasse financeiro ao Centro de Atendimento ao Adolescente Carente (CEAAPA) de Pouso Alto/MG.",
+    "justificativa": "O repasse busca apoiar o CEAAPA, instituição que atua há anos no acompanhamento e na inserção social de adolescentes carentes no Município.",
+    "assunto": "Assistência Social",
+    "beneficiarioFinal": "Centro de Atendimento ao Adolescente Carente (CEAAPA) de Pouso Alto/MG e adolescentes acompanhados pela instituição.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/documentoacessorio/84"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:40:59.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 498/2026, como parte da [Emenda Impositiva Individual nº 05/2026](https://sapl.pousoalto.mg.leg.br/materia/1579) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 05-D",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe82877193194b"
+    },
+    "valorEmCentavos": 400000,
+    "finalidade": "Repasse financeiro à Associação de Pais e Amigos dos Excepcionais — APAE de Pouso Alto/MG.",
+    "justificativa": "O repasse busca apoiar a Associação de Pais e Amigos dos Excepcionais — APAE de Pouso Alto, reconhecendo sua importância para o Município.",
+    "assunto": "Assistência Social",
+    "beneficiarioFinal": "Associação de Pais e Amigos dos Excepcionais — APAE de Pouso Alto/MG e pessoas atendidas pela instituição.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/documentoacessorio/84"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:40:59.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 498/2026, como parte da [Emenda Impositiva Individual nº 05/2026](https://sapl.pousoalto.mg.leg.br/materia/1579) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 05-E",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe82877193194b"
+    },
+    "valorEmCentavos": 300000,
+    "finalidade": "Repasse financeiro ao Lar dos Velhinhos — Asilo de Pouso Alto/MG.",
+    "justificativa": "O repasse ao Lar dos Velhinhos de Pouso Alto/MG busca garantir uma assistência mais adequada e digna à população idosa institucionalizada.",
+    "assunto": "Assistência Social",
+    "beneficiarioFinal": "Lar dos Velhinhos — Asilo de Pouso Alto/MG e pessoas idosas acolhidas pela instituição.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/documentoacessorio/84"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:40:59.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 498/2026, como parte da [Emenda Impositiva Individual nº 05/2026](https://sapl.pousoalto.mg.leg.br/materia/1579) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 05-F",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe82877193194b"
+    },
+    "valorEmCentavos": 500000,
+    "finalidade": "Repasse financeiro à Associação Comunitária Artística e Cultural Rádio Anchieta FM de Pouso Alto/MG.",
+    "justificativa": "O repasse busca incentivar a produção cultural e comunitária da Rádio Anchieta, reconhecendo sua importância como instrumento de comunicação da comunidade pouso-altense.",
+    "assunto": "Turismo e Cultura",
+    "beneficiarioFinal": "Associação Comunitária Artística e Cultural Rádio Anchieta FM e comunidade atendida pela emissora em Pouso Alto/MG.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/documentoacessorio/84"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:40:59.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 498/2026, como parte da [Emenda Impositiva Individual nº 05/2026](https://sapl.pousoalto.mg.leg.br/materia/1579) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 05-G",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe82877193194b"
+    },
+    "valorEmCentavos": 229943,
+    "finalidade": "Repasse financeiro à Associação Pouso-Altense de Incentivo ao Esporte — APOIE, em Pouso Alto/MG.",
+    "justificativa": "O repasse à APOIE busca incentivar a expansão e o fortalecimento da prática esportiva e das políticas públicas de esporte no Município.",
+    "assunto": "Esporte e Lazer",
+    "beneficiarioFinal": "Associação Pouso-Altense de Incentivo ao Esporte — APOIE e participantes das atividades esportivas promovidas pela instituição.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/documentoacessorio/84"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:40:59.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 498/2026, como parte da [Emenda Impositiva Individual nº 05/2026](https://sapl.pousoalto.mg.leg.br/materia/1579) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 06-A",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931944"
+    },
+    "valorEmCentavos": 5029943,
+    "finalidade": "Custeio de exames e consultas complementares do CISMAC para a população de Pouso Alto/MG.",
+    "justificativa": "A destinação visa custear exames e consultas de média e alta complexidade, ampliando o acesso da população aos serviços de saúde. Busca agilizar o diagnóstico e o início dos tratamentos e reduzir a demanda reprimida por esses atendimentos no Município.",
+    "assunto": "Saúde",
+    "beneficiarioFinal": "População de Pouso Alto/MG que necessita de exames e consultas complementares do CISMAC.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1580/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:54:14.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 499/2026, como parte da [Emenda Impositiva Individual nº 06/2026](https://sapl.pousoalto.mg.leg.br/materia/1580) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 06-B",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931944"
+    },
+    "valorEmCentavos": 400000,
+    "finalidade": "Repasse financeiro à Associação de Pais e Amigos dos Excepcionais — APAE de Pouso Alto/MG.",
+    "justificativa": "O repasse busca apoiar a Associação de Pais e Amigos dos Excepcionais — APAE de Pouso Alto, reconhecendo sua importância para o Município.",
+    "assunto": "Assistência Social",
+    "beneficiarioFinal": "Associação de Pais e Amigos dos Excepcionais — APAE de Pouso Alto/MG e pessoas atendidas pela instituição.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1580/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:54:14.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 499/2026, como parte da [Emenda Impositiva Individual nº 06/2026](https://sapl.pousoalto.mg.leg.br/materia/1580) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 06-C",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931944"
+    },
+    "valorEmCentavos": 1329943,
+    "finalidade": "Repasse financeiro ao Centro de Atendimento ao Adolescente Carente (CEAAPA) de Pouso Alto/MG.",
+    "justificativa": "O repasse busca apoiar o CEAAPA, instituição que atua há anos no acompanhamento e na inserção social de adolescentes carentes no Município.",
+    "assunto": "Assistência Social",
+    "beneficiarioFinal": "Centro de Atendimento ao Adolescente Carente (CEAAPA) de Pouso Alto/MG e adolescentes acompanhados pela instituição.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1580/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:54:14.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 499/2026, como parte da [Emenda Impositiva Individual nº 06/2026](https://sapl.pousoalto.mg.leg.br/materia/1580) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 06-D",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931944"
+    },
+    "valorEmCentavos": 400000,
+    "finalidade": "Repasse financeiro ao Lar dos Velhinhos — Asilo de Pouso Alto/MG.",
+    "justificativa": "O repasse ao Lar dos Velhinhos de Pouso Alto/MG busca garantir uma assistência mais adequada e digna à população idosa institucionalizada.",
+    "assunto": "Assistência Social",
+    "beneficiarioFinal": "Lar dos Velhinhos — Asilo de Pouso Alto/MG e pessoas idosas acolhidas pela instituição.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1580/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:54:14.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 499/2026, como parte da [Emenda Impositiva Individual nº 06/2026](https://sapl.pousoalto.mg.leg.br/materia/1580) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 06-E",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931944"
+    },
+    "valorEmCentavos": 400000,
+    "finalidade": "Repasse financeiro ao Centro Habitacional de Idosos de Santana de Capivari, em Pouso Alto/MG.",
+    "justificativa": "O repasse à instituição de acolhimento de idosos de Santana de Capivari busca garantir uma assistência mais adequada e digna à população idosa institucionalizada.",
+    "assunto": "Assistência Social",
+    "beneficiarioFinal": "Centro Habitacional de Idosos de Santana de Capivari e pessoas idosas acolhidas pela instituição, em Pouso Alto/MG.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1580/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:54:14.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 499/2026, como parte da [Emenda Impositiva Individual nº 06/2026](https://sapl.pousoalto.mg.leg.br/materia/1580) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 06-F",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931944"
+    },
+    "valorEmCentavos": 2200000,
+    "finalidade": "Serviço de iluminação pública com aquisição e instalação de postes completos e funcionais, com braços e lâmpadas, para atender ao bairro Rafael, em Pouso Alto/MG, na área localizada após o calçamento e a igreja do bairro, na bifurcação próximo às residências.",
+    "justificativa": "A aquisição de postes completos para a iluminação pública do bairro Rafael busca proporcionar maior segurança, melhor visibilidade e mais qualidade de vida aos moradores.",
+    "assunto": "Obras e Infraestrutura",
+    "beneficiarioFinal": "Moradores e demais usuários da área do bairro Rafael localizada após o calçamento e a igreja, na bifurcação próximo às residências, em Pouso Alto/MG.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1580/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:54:14.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 499/2026, como parte da [Emenda Impositiva Individual nº 06/2026](https://sapl.pousoalto.mg.leg.br/materia/1580) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 06-G",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931944"
+    },
+    "valorEmCentavos": 300000,
+    "finalidade": "Repasse financeiro à Associação Comunitária Artística e Cultural Rádio Anchieta FM de Pouso Alto/MG.",
+    "justificativa": "O repasse busca incentivar a produção cultural e comunitária da Rádio Anchieta, reconhecendo sua importância como instrumento de comunicação da comunidade pouso-altense.",
+    "assunto": "Turismo e Cultura",
+    "beneficiarioFinal": "Associação Comunitária Artística e Cultural Rádio Anchieta FM e comunidade atendida pela emissora em Pouso Alto/MG.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1580/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:54:14.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 499/2026, como parte da [Emenda Impositiva Individual nº 06/2026](https://sapl.pousoalto.mg.leg.br/materia/1580) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 07-A",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931946"
+    },
+    "valorEmCentavos": 5029943,
+    "finalidade": "Repasse financeiro à Santa Casa de Misericórdia São Vicente de Paulo para aquisição de equipamentos hospitalares destinados à ampliação e melhoria dos atendimentos à população de Pouso Alto/MG.",
+    "justificativa": "A aquisição de equipamentos hospitalares busca ampliar e melhorar a qualidade dos atendimentos prestados à população, fortalecendo os serviços de saúde e a assistência hospitalar no Município.",
+    "assunto": "Saúde",
+    "beneficiarioFinal": "Santa Casa de Misericórdia São Vicente de Paulo e população atendida pela instituição em Pouso Alto/MG.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1581/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:56:49.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 500/2026, como parte da [Emenda Impositiva Individual nº 07/2026](https://sapl.pousoalto.mg.leg.br/materia/1581) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 07-B",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931946"
+    },
+    "valorEmCentavos": 4002000,
+    "finalidade": "Realização de pavimentação e obras complementares no bairro Taboão, em Pouso Alto/MG, em trecho estimado de 87 metros lineares da estrada, no morro próximo ao Pesqueiro do Zé, conforme orçamento da Secretaria Municipal de Obras.",
+    "justificativa": "As obras de pavimentação no bairro Taboão buscam melhorar as condições de mobilidade e garantir mais segurança e conforto aos moradores.",
+    "assunto": "Obras e Infraestrutura",
+    "beneficiarioFinal": "Moradores do bairro Taboão e usuários do trecho da estrada próximo ao Pesqueiro do Zé, em Pouso Alto/MG.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1581/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:56:49.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 500/2026, como parte da [Emenda Impositiva Individual nº 07/2026](https://sapl.pousoalto.mg.leg.br/materia/1581) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 07-C",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931946"
+    },
+    "valorEmCentavos": 277943,
+    "finalidade": "Repasse financeiro à Associação de Pais e Amigos dos Excepcionais — APAE de Pouso Alto/MG.",
+    "justificativa": "A destinação busca apoiar a APAE de Pouso Alto por meio de repasse financeiro, reconhecendo a importância da instituição para o Município.",
+    "assunto": "Assistência Social",
+    "beneficiarioFinal": "Associação de Pais e Amigos dos Excepcionais — APAE de Pouso Alto/MG e pessoas atendidas pela instituição.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1581/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:56:49.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 500/2026, como parte da [Emenda Impositiva Individual nº 07/2026](https://sapl.pousoalto.mg.leg.br/materia/1581) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 07-D",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931946"
+    },
+    "valorEmCentavos": 250000,
+    "finalidade": "Repasse financeiro ao Grupo Teatral São Francisco de Assis de Pouso Alto/MG.",
+    "justificativa": "O apoio ao Grupo Teatral São Francisco de Assis busca promover a difusão da arte cênica, a formação cultural e o acesso da comunidade às expressões artísticas locais.",
+    "assunto": "Turismo e Cultura",
+    "beneficiarioFinal": "Grupo Teatral São Francisco de Assis e comunidade beneficiada por suas atividades artísticas em Pouso Alto/MG.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1581/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:56:49.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 500/2026, como parte da [Emenda Impositiva Individual nº 07/2026](https://sapl.pousoalto.mg.leg.br/materia/1581) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 07-E",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931946"
+    },
+    "valorEmCentavos": 250000,
+    "finalidade": "Repasse financeiro ao Lar dos Velhinhos — Asilo de Pouso Alto/MG.",
+    "justificativa": "O repasse busca garantir uma assistência mais adequada e digna à população idosa institucionalizada no Lar dos Velhinhos de Pouso Alto.",
+    "assunto": "Assistência Social",
+    "beneficiarioFinal": "Lar dos Velhinhos — Asilo de Pouso Alto/MG e pessoas idosas acolhidas pela instituição.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1581/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:56:49.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 500/2026, como parte da [Emenda Impositiva Individual nº 07/2026](https://sapl.pousoalto.mg.leg.br/materia/1581) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 07-F",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931946"
+    },
+    "valorEmCentavos": 250000,
+    "finalidade": "Repasse financeiro à Associação Comunitária Artística e Cultural Rádio Anchieta FM de Pouso Alto/MG.",
+    "justificativa": "O repasse busca incentivar a produção cultural e comunitária da Rádio Anchieta, reconhecendo sua importância como instrumento de comunicação da comunidade pouso-altense.",
+    "assunto": "Turismo e Cultura",
+    "beneficiarioFinal": "Associação Comunitária Artística e Cultural Rádio Anchieta FM e comunidade atendida pela emissora em Pouso Alto/MG.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1581/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T20:56:49.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 500/2026, como parte da [Emenda Impositiva Individual nº 07/2026](https://sapl.pousoalto.mg.leg.br/materia/1581) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 08-A",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931948"
+    },
+    "valorEmCentavos": 5029943,
+    "finalidade": "Custeio de exames e consultas complementares do CISMAC para atendimento à população de Pouso Alto/MG.",
+    "justificativa": "O custeio de exames e consultas de média e alta complexidade busca ampliar o acesso aos serviços de saúde, agilizar o diagnóstico e o início dos tratamentos e reduzir a demanda reprimida por esses atendimentos no Município.",
+    "assunto": "Saúde",
+    "beneficiarioFinal": "População de Pouso Alto/MG que necessita de exames e consultas complementares do CISMAC.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1582/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T21:00:15.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 501/2026, como parte da [Emenda Impositiva Individual nº 08/2026](https://sapl.pousoalto.mg.leg.br/materia/1582) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 08-B",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931948"
+    },
+    "valorEmCentavos": 400000,
+    "finalidade": "Repasse financeiro à Associação de Pais e Amigos dos Excepcionais — APAE de Pouso Alto/MG.",
+    "justificativa": "A destinação busca apoiar a APAE de Pouso Alto por meio de repasse financeiro, reconhecendo a importância da instituição para o Município.",
+    "assunto": "Assistência Social",
+    "beneficiarioFinal": "Associação de Pais e Amigos dos Excepcionais — APAE de Pouso Alto/MG e pessoas atendidas pela instituição.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1582/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T21:00:15.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 501/2026, como parte da [Emenda Impositiva Individual nº 08/2026](https://sapl.pousoalto.mg.leg.br/materia/1582) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 08-C",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931948"
+    },
+    "valorEmCentavos": 400000,
+    "finalidade": "Repasse financeiro ao Centro de Atendimento ao Adolescente Carente — CEAAPA de Pouso Alto/MG.",
+    "justificativa": "O repasse busca apoiar o CEAAPA, instituição que atua no acompanhamento e na inserção social de adolescentes carentes no Município.",
+    "assunto": "Assistência Social",
+    "beneficiarioFinal": "Centro de Atendimento ao Adolescente Carente — CEAAPA de Pouso Alto/MG e adolescentes acompanhados pela instituição.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1582/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T21:00:15.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 501/2026, como parte da [Emenda Impositiva Individual nº 08/2026](https://sapl.pousoalto.mg.leg.br/materia/1582) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 08-D",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931948"
+    },
+    "valorEmCentavos": 600000,
+    "finalidade": "Repasse financeiro ao Lar dos Velhinhos — Asilo de Pouso Alto/MG.",
+    "justificativa": "O repasse busca garantir uma assistência mais adequada e digna à população idosa institucionalizada no Lar dos Velhinhos de Pouso Alto.",
+    "assunto": "Assistência Social",
+    "beneficiarioFinal": "Lar dos Velhinhos — Asilo de Pouso Alto/MG e pessoas idosas acolhidas pela instituição.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1582/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T21:00:15.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 501/2026, como parte da [Emenda Impositiva Individual nº 08/2026](https://sapl.pousoalto.mg.leg.br/materia/1582) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 08-E",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931948"
+    },
+    "valorEmCentavos": 600000,
+    "finalidade": "Repasse financeiro ao Centro Habitacional de Idosos de Santana de Capivari, em Pouso Alto/MG.",
+    "justificativa": "O repasse busca garantir uma assistência mais adequada e digna à população idosa institucionalizada no Distrito de Santana do Capivari.",
+    "assunto": "Assistência Social",
+    "beneficiarioFinal": "Centro Habitacional de Idosos de Santana de Capivari, em Pouso Alto/MG, e pessoas idosas acolhidas pela instituição.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1582/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T21:00:15.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 501/2026, como parte da [Emenda Impositiva Individual nº 08/2026](https://sapl.pousoalto.mg.leg.br/materia/1582) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 08-F",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931948"
+    },
+    "valorEmCentavos": 2000000,
+    "finalidade": "Repasse financeiro ao Sengó Futebol Clube, no Município de Pouso Alto/MG.",
+    "justificativa": "A proposta destina recursos ao Sengó Futebol Clube, no Município de Pouso Alto/MG, por meio de repasse financeiro.",
+    "assunto": "Esporte e Lazer",
+    "beneficiarioFinal": "Sengó Futebol Clube e participantes de suas atividades esportivas em Pouso Alto/MG.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1582/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T21:00:15.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 501/2026, como parte da [Emenda Impositiva Individual nº 08/2026](https://sapl.pousoalto.mg.leg.br/materia/1582) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 08-G",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931948"
+    },
+    "valorEmCentavos": 929943,
+    "finalidade": "Aquisição e instalação de câmeras de segurança e sistema de monitoramento para atender às três escolas municipais de Pouso Alto/MG, conforme a disponibilidade dos recursos.",
+    "justificativa": "A instalação de câmeras e de sistema de monitoramento busca reforçar a segurança de alunos, servidores e demais membros da comunidade escolar, prevenir ocorrências e proteger o patrimônio público.",
+    "assunto": "Obras e Infraestrutura",
+    "beneficiarioFinal": "Alunos, servidores e demais membros da comunidade escolar das três escolas municipais de Pouso Alto/MG.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1582/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T21:00:15.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 501/2026, como parte da [Emenda Impositiva Individual nº 08/2026](https://sapl.pousoalto.mg.leg.br/materia/1582) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 08-H",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe828771931948"
+    },
+    "valorEmCentavos": 100000,
+    "finalidade": "Repasse financeiro à Associação Pouso-Altense de Incentivo ao Esporte — APOIE, em Pouso Alto/MG.",
+    "justificativa": "O repasse à APOIE busca incentivar a expansão e o fortalecimento da prática esportiva e das políticas públicas de esporte no Município.",
+    "assunto": "Esporte e Lazer",
+    "beneficiarioFinal": "Associação Pouso-Altense de Incentivo ao Esporte — APOIE e participantes das atividades esportivas promovidas pela instituição.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1582/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-20T21:00:15.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 20/10/2026, sob o nº 501/2026, como parte da [Emenda Impositiva Individual nº 08/2026](https://sapl.pousoalto.mg.leg.br/materia/1582) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 09-A",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe82877193194a"
+    },
+    "valorEmCentavos": 5029943,
+    "finalidade": "Custeio de exames e consultas complementares para investigação, tratamento e avaliação diagnóstica de neurodivergências, incluindo TDAH, TEA e outras, para a população de Pouso Alto/MG.",
+    "justificativa": "A destinação busca ampliar o acesso ao diagnóstico precoce e ao acompanhamento adequado de pessoas com suspeita ou diagnóstico de neurodivergências, promovendo inclusão e qualidade de vida à população pouso-altense.",
+    "assunto": "Saúde",
+    "beneficiarioFinal": "Pessoas de Pouso Alto/MG com suspeita ou diagnóstico de neurodivergências, incluindo TDAH, TEA e outras.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1583/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-21T15:49:43.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 21/10/2026, sob o nº 502/2026, como parte da [Emenda Impositiva Individual nº 09/2026](https://sapl.pousoalto.mg.leg.br/materia/1583) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 09-B",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe82877193194a"
+    },
+    "valorEmCentavos": 600000,
+    "finalidade": "Serviço de iluminação pública com aquisição e instalação, quando necessário, de postes completos e funcionais, com braços e lâmpadas, na entrada e no entorno da capela do bairro Rafael, em Pouso Alto/MG.",
+    "justificativa": "A melhoria da iluminação pública no bairro Rafael busca proporcionar mais conforto e segurança aos moradores.",
+    "assunto": "Obras e Infraestrutura",
+    "beneficiarioFinal": "Moradores do bairro Rafael e usuários da área da entrada e do entorno da capela, em Pouso Alto/MG.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1583/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-21T15:49:43.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 21/10/2026, sob o nº 502/2026, como parte da [Emenda Impositiva Individual nº 09/2026](https://sapl.pousoalto.mg.leg.br/materia/1583) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 09-C",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe82877193194a"
+    },
+    "valorEmCentavos": 800000,
+    "finalidade": "Serviço de iluminação pública com aquisição e instalação, quando necessário, de postes completos e funcionais, com braços e lâmpadas, no bairro Florentino, em Pouso Alto/MG, no trecho das primeiras casas até a entrada da vila de moradores.",
+    "justificativa": "A melhoria da iluminação pública no bairro Florentino busca proporcionar mais conforto e segurança aos moradores.",
+    "assunto": "Obras e Infraestrutura",
+    "beneficiarioFinal": "Moradores do bairro Florentino e usuários do trecho das primeiras casas até a entrada da vila de moradores, em Pouso Alto/MG.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1583/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-21T15:49:43.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 21/10/2026, sob o nº 502/2026, como parte da [Emenda Impositiva Individual nº 09/2026](https://sapl.pousoalto.mg.leg.br/materia/1583) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 09-D",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe82877193194a"
+    },
+    "valorEmCentavos": 529943,
+    "finalidade": "Repasse financeiro à Associação de Pais e Amigos dos Excepcionais — APAE de Pouso Alto/MG.",
+    "justificativa": "A destinação busca apoiar a APAE de Pouso Alto por meio de repasse financeiro, reconhecendo a importância da instituição para o Município.",
+    "assunto": "Assistência Social",
+    "beneficiarioFinal": "Associação de Pais e Amigos dos Excepcionais — APAE de Pouso Alto/MG e pessoas atendidas pela instituição.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1583/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-21T15:49:43.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 21/10/2026, sob o nº 502/2026, como parte da [Emenda Impositiva Individual nº 09/2026](https://sapl.pousoalto.mg.leg.br/materia/1583) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 09-E",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe82877193194a"
+    },
+    "valorEmCentavos": 400000,
+    "finalidade": "Repasse financeiro ao Centro de Atendimento ao Adolescente Carente — CEAAPA de Pouso Alto/MG.",
+    "justificativa": "O repasse busca apoiar o CEAAPA, instituição que atua no acompanhamento e na inserção social de crianças e adolescentes carentes no Município.",
+    "assunto": "Assistência Social",
+    "beneficiarioFinal": "Centro de Atendimento ao Adolescente Carente — CEAAPA de Pouso Alto/MG e crianças e adolescentes acompanhados pela instituição.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1583/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-21T15:49:43.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 21/10/2026, sob o nº 502/2026, como parte da [Emenda Impositiva Individual nº 09/2026](https://sapl.pousoalto.mg.leg.br/materia/1583) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 09-F",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe82877193194a"
+    },
+    "valorEmCentavos": 1200000,
+    "finalidade": "Repasse financeiro ao Lar dos Velhinhos — Asilo de Pouso Alto/MG.",
+    "justificativa": "O repasse busca garantir uma assistência mais adequada e digna à população idosa institucionalizada no Lar dos Velhinhos de Pouso Alto.",
+    "assunto": "Assistência Social",
+    "beneficiarioFinal": "Lar dos Velhinhos — Asilo de Pouso Alto/MG e pessoas idosas acolhidas pela instituição.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1583/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-21T15:49:43.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 21/10/2026, sob o nº 502/2026, como parte da [Emenda Impositiva Individual nº 09/2026](https://sapl.pousoalto.mg.leg.br/materia/1583) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 09-G",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe82877193194a"
+    },
+    "valorEmCentavos": 500000,
+    "finalidade": "Repasse financeiro ao Centro Habitacional de Idosos de Santana de Capivari, em Pouso Alto/MG.",
+    "justificativa": "O repasse busca garantir uma assistência mais adequada e digna à população idosa institucionalizada em Santana do Capivari.",
+    "assunto": "Assistência Social",
+    "beneficiarioFinal": "Centro Habitacional de Idosos de Santana de Capivari, em Pouso Alto/MG, e pessoas idosas acolhidas pela instituição.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1583/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-21T15:49:43.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 21/10/2026, sob o nº 502/2026, como parte da [Emenda Impositiva Individual nº 09/2026](https://sapl.pousoalto.mg.leg.br/materia/1583) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 09-H",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe82877193194a"
+    },
+    "valorEmCentavos": 400000,
+    "finalidade": "Repasse financeiro à Associação Pouso-Altense de Incentivo ao Esporte — APOIE, em Pouso Alto/MG.",
+    "justificativa": "O repasse à APOIE busca incentivar a expansão e o fortalecimento da prática esportiva e das políticas públicas de esporte no Município.",
+    "assunto": "Esporte e Lazer",
+    "beneficiarioFinal": "Associação Pouso-Altense de Incentivo ao Esporte — APOIE e participantes das atividades esportivas promovidas pela instituição.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1583/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-21T15:49:43.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 21/10/2026, sob o nº 502/2026, como parte da [Emenda Impositiva Individual nº 09/2026](https://sapl.pousoalto.mg.leg.br/materia/1583) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 09-I",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe82877193194a"
+    },
+    "valorEmCentavos": 100000,
+    "finalidade": "Repasse financeiro à Associação Comunitária Artística e Cultural Rádio Anchieta FM de Pouso Alto/MG.",
+    "justificativa": "O repasse busca incentivar a produção cultural e comunitária da Rádio Anchieta, reconhecendo sua importância como instrumento de comunicação da comunidade pouso-altense.",
+    "assunto": "Turismo e Cultura",
+    "beneficiarioFinal": "Associação Comunitária Artística e Cultural Rádio Anchieta FM e comunidade atendida pela emissora em Pouso Alto/MG.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1583/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-21T15:49:43.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 21/10/2026, sob o nº 502/2026, como parte da [Emenda Impositiva Individual nº 09/2026](https://sapl.pousoalto.mg.leg.br/materia/1583) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 09-J",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe82877193194a"
+    },
+    "valorEmCentavos": 250000,
+    "finalidade": "Repasse financeiro ao Grupo Teatral São Francisco de Assis de Pouso Alto/MG.",
+    "justificativa": "O apoio ao Grupo Teatral São Francisco de Assis busca promover a difusão da arte cênica, a formação cultural e o acesso da comunidade às expressões artísticas locais.",
+    "assunto": "Turismo e Cultura",
+    "beneficiarioFinal": "Grupo Teatral São Francisco de Assis e comunidade beneficiada por suas atividades artísticas em Pouso Alto/MG.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1583/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-21T15:49:43.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 21/10/2026, sob o nº 502/2026, como parte da [Emenda Impositiva Individual nº 09/2026](https://sapl.pousoalto.mg.leg.br/materia/1583) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  },
+  {
+    "titulo": "Emenda Impositiva 09-K",
+    "vereadorId": {
+      "$oid": "6a8c8c4b36fe82877193194a"
+    },
+    "valorEmCentavos": 250000,
+    "finalidade": "Repasse financeiro à Associação Recreativa e Cultural Bloco Carnavalesco Galinhas com Dentes.",
+    "justificativa": "A proposta destina recursos à Associação Recreativa e Cultural Bloco Carnavalesco Galinhas com Dentes, como investimento na área cultural do Município.",
+    "assunto": "Turismo e Cultura",
+    "beneficiarioFinal": "Associação Recreativa e Cultural Bloco Carnavalesco Galinhas com Dentes e comunidade beneficiada por suas atividades culturais.",
+    "orgaoExecutor": "Executivo",
+    "periodoExecucao": 2027,
+    "planoDeTrabalho": [
+      "https://sapl.pousoalto.mg.leg.br/materia/1583/documentoacessorio"
+    ],
+    "pareceresJuridicos": [],
+    "dataProtocolo": {
+      "$date": "2026-10-21T15:49:43.000Z"
+    },
+    "tramitacaoLegislativa": "Protocolada em 21/10/2026, sob o nº 502/2026, como parte da [Emenda Impositiva Individual nº 09/2026](https://sapl.pousoalto.mg.leg.br/materia/1583) ao [Projeto de Lei Ordinária nº 58/2026](https://sapl.pousoalto.mg.leg.br/materia/1552), que orça a receita e fixa a despesa do Município de Pouso Alto para o exercício de 2027. Apresentada em 26/10/2026, na 18ª Reunião Ordinária de 2026, e encaminhada à Assessoria Legislativa para análise e providências cabíveis. Aguardando emissão de pareceres e votação.",
+    "votacao": "Ainda não submetida à votação.",
+    "resultadoDeliberacao": null,
+    "aprovada": null,
+    "alteracoes": "Não foram informadas alterações posteriores ao protocolo.",
+    "criadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizadoEm": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "legislaturaId": {
+      "$oid": "6a99945f1e3f076b2d15a50e"
+    },
+    "justificativaAusenciaPareceresJuridicos": "Parecer jurídico ainda não emitido.",
+    "justificativaAusenciaPlanoDeTrabalho": null,
+    "resultado": [],
+    "detalhesExecucao": "Execução não iniciada. Emenda em tramitação legislativa, ainda não votada.",
+    "statusExecucao": 0,
+    "resultadoTexto": null
+  }
+]
