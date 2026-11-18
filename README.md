@@ -22,6 +22,31 @@ vez por dia. As entradas tambem recebem tags (`emendas`, `vereadores` e
 `legislaturas`) para permitir invalidacao sob demanda quando houver uma rotina de
 cadastro no projeto.
 
+A conexão com o MongoDB é aberta sob demanda e compartilhada pelas consultas de
+cada instância, inclusive em produção. O pool permite até 10 conexões de consulta
+por servidor (além das conexões de monitoramento do driver), fecha conexões ociosas
+após 60 segundos e limita a espera por uma conexão do pool a 10 segundos. O tempo
+de seleção do servidor continua no padrão do driver, de 30 segundos.
+Uma falha na conexão inicial descarta a promessa rejeitada e fecha aquele cliente;
+a próxima consulta pode tentar conectar novamente. Uma conexão já estabelecida
+continua sob o gerenciamento de reconexão do driver.
+
+Em caso de `MongoServerSelectionError` na conexão inicial, procure o evento
+`[MONGODB_CONNECTION_FAILED]` nos logs da Vercel. Ele informa o endereço, o estado
+e os códigos de erro dos servidores, sem registrar a URI ou credenciais. Confirme
+também `MONGODB_URI` e `MONGODB_DB` no ambiente Production da Vercel, o acesso de
+rede da aplicação em Network Access no Atlas e as métricas de conexões/eventos do
+cluster no horário da falha. O limite do pool vale por instância e não limita o
+total de conexões de todas as funções da Vercel.
+
+As páginas possuem uma tela de erro com o botão "Tentar novamente", que solicita
+novamente o segmento ao servidor. A repetição do mesmo erro não comprova cache de
+HTML: uma promessa de conexão rejeitada também pode produzir esse comportamento.
+As alterações locais precisam de um novo deploy para afetar produção.
+
+Para verificar a recuperação de conexão sem acessar o banco, execute
+`node --test --test-isolation=none tests/mongo.test.mjs` em Node.js 22 ou superior.
+
 O seletor publico mostra apenas os anos de execucao (`periodoExecucao`) cadastrados
 nas emendas. Na pagina de um vereador, ele mostra somente os anos em que esse
 vereador possui emendas, inclusive quando a execucao ocorre depois do fim do
